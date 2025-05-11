@@ -1,0 +1,55 @@
+%h5 Printings
+%ul.printings_list
+  - printings.each do |(set_name, rarity), set_printings|
+    %li
+      - if set_printings.size == 1
+        - set_printings.each do |type, printing|
+          - case type
+          - when :selected
+            %span.selected
+              = printing.set_name
+          - when :matching
+            %span.matching
+              = link_to_card(printing) do
+                = printing.set_name
+          - else
+            %span.not_matching
+              = link_to_card(printing) do
+                = printing.set_name
+          %span.rarity= "(#{rarity})"
+      - else
+        - if set_printings.map(&:first).any?{|type| type == :selected}
+          %span.selected
+            = set_name
+        - elsif set_printings.map(&:first).any?{|type| type == :matching}
+          %span.matching
+            = set_name
+        - else
+          %span.not_matching
+            = set_name
+          &mdash;
+        - set_printings.each do |type, printing|
+          - case type
+          - when :selected
+            %span.selected
+              = printing.number
+          - when :matching
+            %span.matching
+              = link_to_card(printing) do
+                = printing.number
+          - else
+            %span.not_matching
+              = link_to_card(printing) do
+                = printing.number
+        %span.rarity= "(#{rarity})"
+- decks = $CardDatabase.decks_containing(card)
+- unless decks.empty?
+  %p.infolabel
+    Card is in preconstructed decks:
+  %ul.printings_list
+    - decks.each do |deck|
+      %li
+        = link_to_deck(deck) do
+          = "#{deck.name} (#{deck.set.name} #{deck.type})"
+%p.infolabel
+  = link_to "View gallery of all printings", card_gallery_path(card)

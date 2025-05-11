@@ -1,0 +1,12 @@
+# https://www.lethe.xyz/mtg/collation/leg.html
+pack:
+  common: 11
+  uncommon: 3
+  rare: 1
+sheets:
+  common:
+    code: "C"
+  uncommon:
+    code: "U"
+  rare:
+    code: "R"

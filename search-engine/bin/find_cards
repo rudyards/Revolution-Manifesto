@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/cli_frontend"
+
+# If it gets any more complex than this, just use trollop
+if ARGV[0] == "-v"
+  ARGV.shift
+  verbose = true
+else
+  verbose = false
+end
+
+if ARGV.size == 0
+  STDERR.puts "Usage: #{$0} [-v] <query>"
+  exit 1
+end
+
+CLIFrontend.new.call(verbose, ARGV.join(" "))

@@ -1,0 +1,634 @@
+.row
+  .col-12
+    %h3 Search Help
+
+    %div
+      Here are some examples.
+      Everything is case insensitive.
+      All Unicode characters like "Æ" can be spelled with their plain equivalents like "Ae" as well.
+
+    %div
+      Most syntax from other search engines works here.
+      If you have any suggestions for new useful syntax, feel free to contact me.
+
+    %h4 Search by name
+    %ul
+      = search_help "channel", %[cards with "channel" in name]
+      = search_help "!channel", %[cards with name exactly "channel" (only works as complete query)]
+      = search_help %["sword of"], %[cards with "sword of" in name]
+
+    %h4 Search by type
+    %div All cards including non-Standard cards (planes, vanguard, conspiracies etc.) and un-cards are searched. Tokens are not included.
+    %div You can also use comparison. <code>t:</code> is the same as <code>t>=</code>
+    %ul
+      = search_help "t:goblin", "search for Goblin cards"
+      = search_help 't:"goblin warrior"', "search for Goblin Warrior cards"
+      = search_help 't:"legendary land"', "search for Legendary Land cards"
+      = search_help 't=creature', "search for cards that are Creature with no other types, supertypes, or subtypes"
+      = search_help 't="land forest"', "search for cards that are Land Forest with no other types, supertypes, or subtypes"
+      = search_help 't>"land forest"', "search for cards that are Land Forest and have some additional type, supertype, or subtype"
+      = search_help "is:permanent", "search for permanent cards (creatures, artifacts, enchantments, lands, and planeswalkers)"
+      = search_help "is:spell", "search for spell cards (that is not lands)"
+      = search_help "t:plane", "search Plane cards"
+      = search_help "t:vryn", "search Plane cards with type Vryn"
+      = search_help "is:commander", "search cards you can play as commanders (legendary creatures or planeswalkers with ability saying so)"
+      = search_help "is:brawler", "search cards you can play as Brawl commanders (legendary creatures or planeswalkers)"
+      = search_help "is:historic", "search for historic cards (legendary, artifact, and/or Saga)"
+      = search_help "is:modal", "search modal cards"
+      = search_help "is:vanilla", "search vanilla cards"
+      = search_help "is:basictype", "search for cards with Plains, Island, Swamp, Mountain, or Forest types (both basic and nonbasic)"
+
+    %h4 Search by Oracle text
+    %div Reminder text is not included in Oracle search with <code>o:</code>, but is with <code>fo:</code>
+    %div Reminder text is always kept on uncards, as it's meaningful there
+    %ul
+      = search_help "o:delve", %[search cards with "delve" in Oracle text]
+      = search_help %[o:"destroy target creature"], %[search cards with "destroy target creature" in Oracle text]
+      = search_help "o:flying", %[search cards with "flying" in Oracle text - without cards with rearch simply in reminder text like ones with reach ability]
+      = search_help "fo:flying", %[search cards with "flying" in Oracle text - including cards with rearch that mention flying in remainder text]
+      = search_help %[o:"when ~ enters the battlefield"], %[You can use ~ as placeholder for name of the card]
+      = search_help 'o:"{t}: add {w}"', 'Cards that say "{t}: Add {w}"'
+      = search_help 'o:"[-x]"', 'Planeswalker cards with ability that costs "[-x]"'
+
+    %h4 Search by edition
+    %div You can search by set with <code>e:</code>, using either its code or its name.
+    %div Secret Lair Drop also has "subsets" which you can search with <code>subset:</code>
+    %ul
+      = search_help "e:bfz", %[cards from "Battle for Zendikar" set]
+      = search_help %[e:"scars of mirrodin"], %[cards from "Scars of Mirrodin" set]
+      = search_help %[e:ascension], %[cards from all sets including "ascension" in name (only if there's no exact match)]
+      = search_help "e:isd,dka", %[cards from "Innistrad" and "Dark Ascension" sets]
+      = search_help %[subset:"Happy Little Gathering"], %[Secret Lair Drop cards from "Happy Little Gathering" subset]
+
+    %h4 Search by block
+    %ul
+      = search_help "b:zendikar", "cards from Zendikar block"
+      = search_help "b:isd", "cards from Innistrad block"
+      = search_help %[b:"return to ravnica"], %[cards from "Return to Ravnica" block]
+      = search_help "b:isd,soi", "cards from Innistrad and Shadow of Innistrad blocks"
+
+    %h4 Search by color
+    %div
+      Color expressions are supported, with either list of colors, number of colors, or common aliases
+    %ul
+      = search_help "c=w", "cards which are exactly white"
+      = search_help "c=gr", "cards which are exactly green and red"
+      = search_help "c>=gr", "cards which are at least green and red"
+      = search_help "c<=gr", "cards which are at most green and red"
+      = search_help "c=4", "cards which are exactly 4 colors"
+      = search_help "c=boros", "cards which are exactly red and white (Boros), same as <code>c=rw</code>"
+      = search_help "c=abzan", "cards which are exactly white, black, and green (Abzan), same as <code>c=wbg</code>"
+      = search_help "c=indatha", "you can also use Ikoria triome names in color queries, same as <code>c=wbg</code>"
+
+    %div
+      In addition to these, there are special color queries. <code>c:</code> and <code>ci:</code> with a colon follow traditional system from MCI - they're still supported, but not recommended. I recommend using <code>=</code>, <code>&gt;=</code> instead, as they're much more consistent.
+    %ul
+      = search_help "c:c", "colorless cards, same as <code>c=0</code>"
+      = search_help "c:m", "multicolored cards, same as <code>c>1</code>"
+      = search_help "c=ally", "cards which are exactly 2 allied colors"
+      = search_help "c=enemy", "cards which are exactly 2 enemy colors"
+      = search_help "c=shard", "cards which are exactly 3 shard colors"
+      = search_help "c=wedge", "cards which are exactly 3 wedge colors"
+      = search_help "ci=ally", "cards whose color identity is exactly 2 allied colors"
+      = search_help "ind=ally", "cards whose color indicator is exactly 2 allied colors"
+
+    %h4 Search by color identity
+    %div
+      You can search by color identity same way you can search by color.
+      If you want to find cards legal in your Commander deck, you usually want <code>ci<=temur</code> style query.
+      If you want a Commander of specific identity, you usually want <code>ci=temur</code> style query.
+    %ul
+      = search_help "ci=w", "cards whose identity is exactly white"
+      = search_help "ci=gr", "cards whose identity is exactly green and red"
+      = search_help "ci>=gr", "cards whose identity is at least green and red"
+      = search_help "ci<=gr", "cards whose identity is at most green and red"
+      = search_help "ci>=3", "cards whose identity is 3 or more colors"
+      = search_help "ci=temur", "cards whose identity is exactly blue, red, and green (Temur)"
+
+    %h4 Search by color indicator
+    %ul
+      = search_help "ind=rg", "cards with color indicator exactly reg/green"
+      = search_help "ind=r", "cards with color indicator exactly red"
+      = search_help "ind=wubrg", "cards with color indicator exactly wubrg"
+      = search_help "ind>=r", "cards with color indicator including red"
+      = search_help "ind:*", "cards with any color indicator"
+      = search_help "has:indicator", "cards with any color indicator"
+
+    %h4 Search by mana value / converted mana cost
+    %div It works the same with either name
+    %ul
+      = search_help "mv=3", "cards with mana value 3"
+      = search_help "mv>=3", "cards with mana value 3 or more"
+      = search_help "mv<2", "cards with mana value less than 2"
+      = search_help "cmc=3", "cards with converted mana cost 3"
+      = search_help "cmc>=3", "cards with converted mana cost 3 or more"
+      = search_help "cmc<2", "cards with converted mana cost less than 2"
+
+    %h4 Search by mana cost
+    %div For sake of this search every mana symbol is treated as non-comparable, so "{u}" is neither greater or less than "{u/b}" etc. There's a lot of flexibility, so "{up}", "{u/p}", "{P/U}" etc. all work for Phyrexian blue mana. Curly braces are only needed for non-standard mana types.
+    %ul
+      = search_help "mana=0", "cards with mana cost {0}"
+      = search_help "mana={}", "cards with no mana cost"
+      = search_help "mana!={}", "cards with some mana cost"
+      = search_help "mana<=4", "cards with mana cost {4} or less"
+      = search_help "mana=3uu", "cards with mana cost {3}{u}{u}"
+      = search_help "mana={3}{u}{u}", "cards with mana cost {3}{u}{u}"
+      = search_help "mana>={b/g}", "cards with mana cost including {b/g} hybrid mana"
+      = search_help "mana>={2/r}", "cards with mana cost including {2/r} Shadowmoor hybrid mana"
+      = search_help "mana={r/p}", "cards with mana cost equal {r/p} Phyrexian mana"
+      = search_help "mana!=2gr", "cards with mana cost different from {2}{g}{r} (or no mana cost)"
+      = search_help "mana>={x}", "cards with mana cost including {x}"
+      = search_help "mana>={s}", "cards with mana cost including {s}"
+      = search_help "mana>={c}", "cards with mana cost including {c}"
+      = search_help "is:hybrid", "has hybrid mana cost"
+      = search_help "is:phyrexian", "has Phyrexian mana cost"
+
+    %div This search supports variable symbols: "m", "n", and "o" each represent a single mana of any color but must each differ from the others; "h" represents a single hybrid mana.
+    %ul
+      = search_help "mana=m", "cards with mana cost of exactly 1 colored mana, of any color"
+      = search_help "mana>mm", "cards that cost at least two mana of any one color"
+      = search_help "mana={m}{n}", "cards that cost at exactly one mana each of any two colors"
+      = search_help "mana={m}{m}{n}{n}{n}{o}{o}", "cards that cost exactly two mana each of two colors and three of a third"
+      = search_help "mana={w}{w}{n}{n}{n}{o}{o}", "cards that cost two white mana, two of any one other color, and three of a third color"
+      = search_help "mana=hh", "cards that cost exactly two hybrid mana"
+      = search_help "mana>h", "cards with at least one hybrid mana in their mana cost"
+
+    %h4 Search by cards castable by sperific colors
+    %div Supported queries are each color, colorless, and snow.
+
+    %div Generic mana can by paid by anything so it always matches. So does Phyrexian and twobrid.
+
+    %div Hybrid will be matched by either part.
+
+    %div Lands and cards without mana costs will never be returned.
+
+    %ul
+      = search_help "cast:r", "cards you can cast if your deck contains just Mountains"
+      = search_help "cast:sb", "cards you can cast if your deck contains just Snow Swamps"
+      = search_help "cast:cu", "cards you can cast if your deck contains just Wastes and Islands"
+
+    %h4 Search by power, toughness, loyalty, and similar attributes
+    %ul
+      = search_help "pow=4", "creature cards with power 4"
+      = search_help "tou>=5", "creature cards with toughness 5 or more"
+      = search_help "pow>tou", "creature cards with power greater than toughness"
+      = search_help "tou=mv", "creature cards with toughness equal to mana value"
+      = search_help "loyalty=3", "planeswalker cards with starting loyalty 3"
+      = search_help "pow=1+*", "creature cards with power equal 1+*"
+      = search_help "tou=7-*", "creature cards with toughness equal 7-*"
+      = search_help "pow>=*", "creature cards with power equal *, 1+*, or 2+*"
+      = search_help "defense=7", "Battle cards with defense 7"
+      = search_help "hand=-2", "Vanguard cards with hand size bonus -2"
+      = search_help "hand=+1", "Vanguard cards with hand size bonus +1"
+      = search_help "life=-2", "Vanguard cards with life bonus -8"
+      = search_help "life=0", "Vanguard cards with life bonus +0"
+      = search_help "life>=+5", "Vanguard cards with life bonus +5 or higher"
+      = search_help "light:2", "Cards with attraction lights including 2"
+      = search_help "light:*", "Cards with any attraction lights"
+      = search_help "decklimit=7", "Cards you can have up to 7 of in your deck"
+      = search_help "decklimit=9", "Cards you can have up to 9 of in your deck"
+      = search_help "decklimit=any", "Cards you can have any number of in your deck"
+
+    %h4 Boolean expressions
+    %div You can use multiple conditions in the search. The result will match all conditions, so AND is implied. If you need to do a more complicated search, you can also use parentheses, OR, and - prefix.
+    %ul
+      = search_help "t:goblin AND mv=2", "cards which are Goblins and have mana value 2"
+      = search_help "t:goblin mv=2", "cards which are Goblins and have mana value 2 (AND is implied)"
+      = search_help "t:goblin OR mv=2", "cards which are Goblins or have mana value 2"
+      = search_help "c=u (t:goblin OR t:elf)", "cards which are blue Goblins or blue Elves"
+      = search_help "t:goblin -mv=2", "cards which are Goblins but do not have mana value 2"
+
+    %h4 Search by rarity
+    %div Search engine recognizes 6 rarities - basic, common, uncommon, rare, mythic, and special.
+    %ul
+      = search_help "r:common", "common cards"
+      = search_help "r:uncommon", "uncommon cards"
+      = search_help "r:rare", "rare cards"
+      = search_help "r:mythic", "mythic rare cards"
+      = search_help "r>=rare", "at least rare cards (rare, mythic, special)"
+      = search_help "r<=uncommon", "at most uncommon cards (basic, common, uncommon)"
+
+    %h4 Search by flavor text
+    %ul
+      = search_help "ft:chandra", %[cards with "chandra" in flavor text]
+      = search_help %[ft:"Jaya Ballard"], %[cards with "Jaya Ballard" in flavor text]
+      = search_help "lore:gideon", %[cards mentioning gideon in name, type, or flavor text]
+      = search_help "has:flavor", %[cards with any flavor text]
+
+    %h4 Search by flavor name
+    %ul
+      = search_help %[fn:*], "cards with any flavor name"
+      = search_help %[fn:mothra], "cards with flavor name including mothra (full words only)"
+
+    %h4 Search by artist
+    %ul
+      = search_help %[a:argyle], "cards with art drawn by (Steve) Argyle"
+      = search_help %[a:"rebecca guay"], "cards with art drawn by Rebecca Guay"
+
+    %h4 Search by rulings
+    %ul
+      = search_help %[rulings:"Blood Moon"], "cards mentioning Blood Moon in their rulings"
+
+    %h4 Search by format
+    %ul
+      = search_help "legal:standard", "cards legal in Standard format"
+      = search_help "restricted:vintage", "cards restricted in Vintage format"
+      = search_help "f:vintage", "cards legal (or restricted) in Vintage format"
+      = search_help %[banned:pauper], "cards banned in Pauper format (doesn't include cards which aren't in format in the first place)"
+      = search_help %[f:commander], "cards legal in Commander format"
+      = search_help %[f:edh], "cards legal in Commander format"
+      = search_help %[f:"innistrad block"], "cards legal in Innistrad Block Constructed format"
+      = search_help %[banned:*], "cards banned in any format"
+      = search_help %[banned:* time=2010-01-01], "cards banned in any format at 2010-01-01"
+      = search_help %[restricted:*], "cards restricted in any format"
+      = search_help %[legal:*], "cards legal in any format"
+      = search_help %[format:*], "cards included in any format (fully or restricted)"
+      = search_help "is:alchemy", "card is Alchemy-relabanced version, and replaces its paper verison in Alchemy formats"
+      = search_help "has:alchemy", "card has Alchemy-relabanced version, which replace it in Alchemy formats"
+
+    %h4 Search by set type
+    %div Set type includes both individual types of sets (like expansions, core sets, or duel decks) and broader categories (booster sets, multiplayer sets.)
+    %ul
+      = search_help "st:arc", "Archenemy sets"
+      = search_help "st:booster", "All sets sold in booster packs"
+      = search_help "st:box", "boxed sets like the Anthologies box"
+      = search_help "st:cmd", "Commander sets"
+      = search_help "st:cns", "Conspiracy sets"
+      = search_help "st:core", "core sets"
+      = search_help "st:deck", "All sets consisting of pre-built decks"
+      = search_help "st:ex", "cards from standard expert-level expansions"
+      = search_help "st:fixed", "Non-deck sets with predetermined contents"
+      = search_help "st:ftv", "From The Vault sets"
+      = search_help "st:jumpstart", "Jumstart sets"
+      = search_help "st:masters", "Online Masters sets"
+      = search_help "st:multi", "All types of multiplayer sets"
+      = search_help "st:pc", "Planechase sets"
+      = search_help "st:pds", "Premium Deck Series"
+      = search_help "st:st", "Introductory/starter sets"
+      = search_help "st:standard", "Standard sets (core and expansions)"
+
+    %h4 Search by watermark or signature
+    %div Some cards have watermark or a signature in text box. You can query them with <code>watermark:</code> or <code>siganture:</code> queries.
+    %ul
+      = search_help "w:izzet", "cards with Izzet watermark (Return to Ravnica block)"
+      = search_help "watermark:phyrexian", "cards with Phyrexian watermark (Scars of Mirrodin block)"
+      = search_help "w:*", "cards with any watermark"
+      = search_help "has:watermark", "cards with any watermark"
+      = search_help "-w:*", "cards with no watermark"
+      = search_help "sig:Nuijten", "cards with Julien Nuijten's signature"
+      = search_help "signature:Šlemr", "cards with Jakub Šlemr's signature (works with or without accented characters)"
+      = search_help "sig:*", "cards with any signature"
+      = search_help "has:signature", "cards with any signature"
+      = search_help "-sig:*", "cards with no signature"
+
+    %h4 Search by card features
+    %div For each of these you can use not: as opposite of is:
+    %ul
+      = search_help "border:black", "cards with black borders"
+      = search_help "not:black-bordered", "cards with borders other than black"
+      = search_help "border:white", "cards with white borders"
+      = search_help "border:silver", "cards with silver borders"
+      = search_help "border:gold", "cards with gold borders"
+      = search_help "is:borderless", "cards without borders"
+      = search_help "is:old", "cards with old-style frames"
+      = search_help "is:new", "cards with new-style frames"
+      = search_help "is:modern", "cards with new-style frames (pre-M15 variant)"
+      = search_help "is:m15", "cards with new-style frames (M15+ variant)"
+      = search_help "is:future", "cards with future-style frames"
+      = search_help "is:holofoil", "cards with holographic foil"
+      = search_help "is:timeshifted", "timeshifted cards"
+      = search_help "is:colorshifted", "colorshifted cards"
+      = search_help "is:split", "split cards"
+      = search_help "is:flip", "flip cards (Kamigawa)"
+      = search_help "is:dfc", "double-faced cards"
+      = search_help "is:multipart", "multi-part cards (split, flip, or dfc)"
+      = search_help "stamp:acorn", "cards with acorn security stamp. Other values are <code>oval</code>, <code>triangle</code>, <code>arena</code>, <code>circle</code>, <code>heart</code>"
+      = search_help "stamp:*", "cards with any security stamp"
+      = search_help "is:funny", "cards from funny sets (including acorn-marked cards from mixed sets)"
+      = search_help "is:promo", "promotional cards"
+      = search_help "promo:fnm", "is promo type <code>fnm</code>. All values are #{$CardDatabase.promo_types.sort.map{|promo| "<code>#{promo}</code>" }.join(", ")}"
+      = search_help "promo:*", "has any promo type (this uses different system than is:promo, so there is some non-overlap)"
+      = search_help "is:meld", "meld cards"
+      = search_help "is:primary", "regular cards and directly playable parts of double-faced/meld/flip/aftermath cards"
+      = search_help "is:secondary", "parts of double-faced/meld/flip/aftermath card that's not directly playable"
+      = search_help "is:front", "cards on front face"
+      = search_help "is:back", "cards on face face of double-faced/meld cards"
+      = search_help "is:digital", "MTGO/Arena only"
+      = search_help "is:oversized", "oversized cards"
+      = search_help "is:tournament", "tournament printings (normal back, not oversized, not gold-bordered)"
+      = search_help "not:reprint", "first printings of cards (for cases like prerelease promos released one week before the set, neither regular nor promo card is considered a reprint)"
+      = search_help "is:reprint", "reprints of cards"
+      = search_help "is:unique", "cards which were never reprinted"
+      = search_help "is:booster", "cards which appear in randomized boosters"
+      = search_help "is:draft", "draft-matters cards including conspiracies"
+      = search_help "is:partner", "is a partner"
+      = search_help "has:partner", "has a partner card"
+      = search_help "frame:legendary", "has frame effect <code>legendary</code>. All values are #{$CardDatabase.frame_effects.sort.map{|promo| "<code>#{promo}</code>" }.join(", ")}"
+      = search_help "is:fullart", "is full art card"
+      = search_help "is:textless", "is textless card"
+      = search_help "is:spotlight", "is Story Spotlight"
+      = search_help "is:foil", "has foil version"
+      = search_help "is:nonfoil", "has nonfoil version"
+      = search_help "is:foilonly", "has only foil version"
+      = search_help "is:nonfoilonly", "has only nonfoil version"
+      = search_help "is:foilboth", "has both foil and nonfoil versions"
+      = search_help "has:showcase", "card has a showcase version in its set"
+      = search_help "is:horizontal", "is horizontal card (Plane, Phenomenon, or Battle)"
+      = search_help "is:vertical", "is vertical card (any other)"
+      = search_help "is:foreign", "is foreign language only card - either promo or foreign only variant"
+      = search_help "is:etched", "is etched foil card"
+      = search_help "is:hero", "is Hero's Path card"
+      = search_help "is:maindeck", "is the type of card that could go into a main deck (so not Attraction, Conspiracy, Contraption, Dungeon, Hero's Path, Phenomenon, Plane, Scheme, Stickers, Vanguard) - uncards are included"
+      = search_help "has:specialized", "card can be specialized into another card (Arena digital only cards)"
+      = search_help "is:specialized", "card is a specialized version of another card (Arena digital only cards)"
+      = search_help "has:spellbook", "card has an associated spellbook (Arena digital only cards)"
+      = search_help "is:spellbook", "card is in a spellbook (for one of Arena digital only cards)"
+      = search_help "is:token", "card is actually a token (only a few special ones like dungeons and The Ring are included in search)"
+
+    %h4 Search by booster contents
+    %div You can search all cards present in specific booster, or in specific print sheet.
+    %div Draft and Arena booster data is fairly complete, but data on nonstandard booster types such as Set and Collector boosters are very limited.
+    %ul
+      = search_help "booster:nph", "cards in draft booster for New Phyrexia"
+      = search_help "booster:war-arena", "cards in Arena booster for War of the Spark"
+      = search_help "booster:one-*", "card in any supported booster for set Phyrexia: All Will Be One"
+      = search_help "booster:*", "card in any supported booster for any set"
+      = search_help "sheet:hml/U", "cards which appear in set Homelands on print sheet U, in any number"
+      = search_help "sheet:hml/U3", "cards which appear in set Homelands on print sheet U, exactly 3 times"
+      = search_help "variant:misprint", "cards that are rare misprinted variants of other cards in the same set (not applied if every card was misprinted)"
+      = search_help "variant:foreign", "cards that are foreign version with art different from English version (other kinds of foreign cards are not in the database; this condition excludes promo cards)"
+      = search_help "is:baseset", "card number is in range 1 to base set size, and it is not foreign or misprint variant (typically these are the cards that go into draft boosters, but there are many exceptions)"
+
+    %h4 Search by card's collector number
+    %div You can search by specific card number, by number range. For some old and promo cards without printed numbers, they have been arbitrarily assiged.
+    %div You can also use special number "set" to indicate set's official card count. Most new sets have cards within official number that go into regular boosters like "1/280" to "280/280", and special cards ("281/280" etc.) for buy a box promos, showcase cards, cards for precon decks, Collector boosters exclusives etc.
+    %div In all number comparison, numbers with extra letters are considered bigger than their base number, alphabetically. For exmaple 19 < 19a < 19b < 20
+    %ul
+      = search_help "number:117", "cards with collector number 117"
+      = search_help "number>=105 and number<=110 e:m19", "cards with numbers 105 to 110 inclusive in M19 set"
+      = search_help "number<=set e:m19", "M19 cards with numbers within set's printed size (1/280 to 280/280) - these are regular cards that are in M19 draft boosters"
+      = search_help "number>set e:m19", "M19 cards with numbers over set's printed size (281/280 to 314/280) - in this case it's buy-a-box promo and precon only cards, but it varies from set to set"
+      = search_help "e:m19 number:10-20,100-200", "M19 cards with numbers 10 to 20, and 100 to 200"
+      = search_help "e:m19 number:1-set", "M19 cards with numbers from 1 to base set size"
+
+    %h4 Search by card nickname
+    %div A few common nicknames are supported as queries.
+    %ul
+      = search_help "is:shockland", "all 10 shocklands"
+      = search_help "is:shockland t:island t:mountain", "blue-red shockland"
+      = search_help "is:fetchland", "all 10 fetchlands"
+      = search_help "is:fetchland o:island", "all fetchlands which can fetch the island"
+      = search_help "is:dual", "all 10 original duals"
+      = search_help "is:dual t:swamp t:forest", "black-green dual"
+      = search_help "is:bounceland", "all 10 bounceland"
+      = search_help "is:bounceland o:{r} o:{u}", "red-blue bounceland"
+      = search_help "is:gainland", "all 15 gainlands"
+      = search_help "is:gainland o:{w}", "all white gainlands"
+      = search_help "is:fastland", "all 10 fastlands"
+      = search_help "is:fastland o:{r} o:{g}", "red-green fastland"
+      = search_help "is:checkland", "all 10 checklands"
+      = search_help "is:checkland o:{w} o:{u}", "white-blue checkland"
+      = search_help "is:filterland", "all 15 Oddysey and Shadowmoor filtrelands"
+      = search_help "is:filterland o:{b}", "all filterlands producing black"
+      = search_help "is:manland", "all manlands"
+      = search_help "is:manland o:flying", "all manlands which become flying creatures"
+      = search_help "is:scryland", "all 10 scrylands"
+      = search_help "is:scryland o:{g}", "all green scrylands"
+      = search_help "is:battleland", "all 5 battlelands"
+      = search_help "is:battleland t:island", "both blue battlelands"
+      = search_help "is:canopyland", "all 6 canopylands"
+      = search_help "is:guildgate", "all 10 guildgates"
+      = search_help "is:painland", "all 10 painlands"
+      = search_help "is:shadowland", "all 5 shadowlands"
+      = search_help "is:storageland", "all 12 storagelands"
+      = search_help "is:cycleland", "all 5 cycling dual lands"
+      = search_help "is:triland", "all 10 tri-colored lands that enter the battlefield tapped"
+      = search_help "is:triome", "all 10 triomes"
+      = search_help "is:augment", "all 13 augment cards from Unstable"
+      = search_help "is:keywordsoup", "cards that list a large number of keywords"
+      = search_help "is:ante", "cards that involve ante"
+      = search_help "is:masterpiece", "Masterpiece cards"
+      = search_help "is:stickers", "Cards that either are stickers or create stickers (banned in many formats)"
+      = search_help "is:attraction", "Cards that either are attractions or create attractions (banned in many formats)"
+
+    %h4 Search by reserved list status
+    %ul
+      = search_help "is:reserved", "cards on reserved list"
+      = search_help "not:reserved", "cards not on reserved list"
+
+    %h4 Search by card layout
+    %div Selecting non-standard layout expands search to special cards as well
+    %ul
+      = search_help "layout:adventure", "cardw with adventure layout"
+      = search_help "layout:aftermath", "cards with aftermath layout"
+      = search_help "layout:augment", "cardw with augment layout"
+      = search_help "layout:case", "cardw with case layout"
+      = search_help "layout:class", "cardw with class layout"
+      = search_help "layout:dungeon", "cardw with dungeon layout"
+      = search_help "layout:flip", "cards with flip layout"
+      = search_help "layout:host", "cardw with host layout"
+      = search_help "layout:leveler", "cards with leveler layout"
+      = search_help "layout:meld", "cardw with meld layout"
+      = search_help "layout:modaldfc", "cards with modal double-faced layout"
+      = search_help "layout:mutate", "cardw with mutate layout"
+      = search_help "layout:normal", "cards with normal layout"
+      = search_help "layout:planar", "cards with planar layout (plane or phenomenon)"
+      = search_help "layout:prototype", "cardw with prototype layout"
+      = search_help "layout:saga", "cardw with saga layout"
+      = search_help "layout:scheme", "cards with scheme layout"
+      = search_help "layout:split", "cards with split layout"
+      = search_help "layout:transform", "cards with transform double-faced layout"
+      = search_help "layout:vanguard", "cards with vanguard layout"
+      = search_help "is:dfc", "double-faced cards (transform, meld, or modal)"
+      = search_help "is:sfc", "single-faced cards"
+
+    %h4 Search by printing time
+    %div For printing time you can use set code, set name, or full date in more or less any format as long as it includes 4-digit year somewhere.
+    %div firstprint: operator can be somewhat confusing, as a lot of cards which you'd technically consider to come out in a set technically came out in a Prerelease (dated one week before) or a Duel Deck (a few weeks before) that set. Online-only sets are included too.
+    %ul
+      = search_help "year=2003", "cards printed in year 2003"
+      = search_help "year<=1995", "cards printed in year 1995 or before"
+      = search_help "print>ktk", "cards printed after release of Khans of Tarkir"
+      = search_help %[print="29 September 2012"], "cards printed on 29 September 2012 (Return to Ravnica prerelease)"
+      = search_help "firstprint=m10", "cards first printed in Magic 2010 set"
+      = search_help "lastprint=m10", "cards last printed in Magic 2010 set"
+      = search_help "lastprint<lw", "cards last printed in in Lorwyn set or earlier"
+
+    %h4 Search by number of printings
+    %div If you want to search for cards that had a lot of printings, or were printed in a lot of sets, you can use these operators
+    %div Foil and nonfoil aren't counted separately except when foil version has a different art.
+    %div Due to inclusion of some misprints and other special printings in the database, and due to different ways of interpretting what counts as a promo "set", these queries don't always have "objective" answers.
+    %ul
+      = search_help "prints=7", "cards with exactly 7 different printings"
+      = search_help "paperprints=7", "cards with exactly 7 different paper printings"
+      = search_help "sets=7", "cards which appeared in exactly 7 different sets"
+      = search_help "papersets=7", "cards which appeared in exactly 7 different paper sets"
+
+    %ul
+      = search_help "mv=2 // mv=3", "cards with mana value 2 or one side and mana value 3 on another (split spells)"
+      = search_help "t:creature // t:planeswalker", "cards where one side is a creature and the other side is a planeswalker (Magic Origins Planeswalkers)"
+      = search_help "t:creature //", "cards where one side is a creature, and there's other side"
+      = search_help "far // away", "card named Far on one side and Away on another side"
+
+    %div There's also lower level syntax if you prefer that. Unlike // it will return only specifically requested side, not both.
+    %ul
+      = search_help "mv=2 other:color:w", "cards parts with mana value 2, for which other side is white"
+      = search_help "mv=2 part:color:w", "cards parts with mana value 2, for which either side is white"
+
+    %h4 Search by related card
+    %div If a card is related to another card (e.g. the card names the other card, or vice versa), you can use that in your search.
+    %div It also matched pairs of Planar Chaos colorshifted cards like Blood Knight and Black Knight.
+    %ul
+      = search_help "related:Arrest", "cards related to card named Arrest"
+      = search_help "related:t:artifact", "cards related to artifacts"
+
+    %h4 Search by alternative printing
+    %div Every card printing is treated as separate object, so you can't search for cards which were printing in both Magic 2010 and Magic 2011 with e:m10 e:m11. There's special syntax for that.
+    %ul
+      = search_help "e:m10 alt:e:m11", "cards from Magic 2010 which were also printed in Magic 2011"
+      = search_help %[a:"Rebecca Guay" alt:(not a:"Rebecca Guay")], "cards drawn by Rebecca Guay which were also printed by someone who's not Rebecca Guay"
+
+    %h4 Search by foreign name
+    %ul
+      = search_help "cs:巨龙", %[cards with "巨龙" in Chinese Simplified name]
+      = search_help "ct:巨龍", %[cards with "巨龍" in Chinese Traditional name]
+      = search_help "fr:Intrusion", %[cards with "Intrusion" in French name]
+      = search_help "de:Wunderkind", %[cards with "Wunderkind" in German name]
+      = search_help "it:mostro", %[cards with "mostro" in Italian name]
+      = search_help "jp:エルフ", %[cards with "エルフ" in Japanese name]
+      = search_help "kr:우진", %[cards with "우진" in Korean name]
+      = search_help "pt:pesadelo", %[cards with "pesadelo" in Brazilian Portuguese name]
+      = search_help "ru:Дракон", %[cards with "Дракон" in Russian name]
+      = search_help %[sp:"Llave maestra"], %[cards with "Llave maestra" in Spanish name]
+      = search_help %[foreign:"龍"], %[cards with "龍" in any foreign name]
+      = search_help %[t:planeswalker kr:*], %[planeswalker cards with Korean version]
+      = search_help "de:/\w{20,}/", %[cards with 20+ letter word in German name]
+
+    %h4 Search by regular expression
+    %div Reglar expressions follow ruby syntax and are case insensitive by default.
+    %ul
+      = search_help 'o:/\\d{3,}/', "cards with three digit numbers in Oracle text"
+      = search_help 'ft:/\\d{3,}/', "cards with three digit numbers in flavor text"
+      = search_help 'ft:/\bice\b/', 'cards with word "ice" in flavor text'
+      = search_help 'a:/.{40}/', "cards with artist credit of 40 or more characters"
+      = search_help 'n:/.{30}/', "cards with names of 30 or more characters"
+      = search_help 'rulings:/twitter/', "cards with twitter mentioned in rulings"
+      = search_help "e:war number:/★/", "WAR cards with numbers containing ★ character (in this case, Japanese alt versions)"
+
+    %h4 Search by keyword
+    %div It will generally return creatures and vehicles who have given keyword, and skip cards which merely interact with that keyword without having it themselves.
+    %ul
+      = search_help "keyword:flying", "cards with flying keyword"
+
+    %h4 Search by game
+    %ul
+      = search_help "game:paper", "card printings available as tournament-legal paper cards (not oversized or gold-bordered)"
+      = search_help "game:mtgo", "card printings available on Magic: The Gathering Online"
+      = search_help "game:arena", "card printings available on Arena"
+      = search_help "game:shandalar", "card printings available on Shandalar"
+      = search_help "game:xmage", "card printings available on Xmage"
+      = search_help "in:paper", "card with any printing available as tournament-legal paper cards (not oversized or gold-bordered)"
+      = search_help "in:mtgo", "card with any printing available on Magic: The Gathering Online"
+      = search_help "in:arena", "card with any printing available on Arena"
+      = search_help "in:shandalar", "card with any printing available on Shandalar"
+      = search_help "in:xmage", "card with any printing available on Xmage"
+      = search_help "not:paper", "specific card printings not available as tournament-legal paper cards"
+      = search_help "not:mtgo", "specific card printings not available on Magic: The Gathering Online"
+      = search_help "not:arena", "specific card printings not available on Arena"
+      = search_help "not:shandalar", "specific card printings not available on Shandalar"
+      = search_help "not:xmage", "specific card printings not available on Xmage"
+      = search_help "-in:paper", "cards without any printing available as tournament-legal paper cards"
+      = search_help "-in:mtgo", "cards without any printing available on Magic: The Gathering Online"
+      = search_help "-in:arena", "cards without any printing available on Arena"
+      = search_help "-in:shandalar", "cards without any printing available on Shandalar"
+      = search_help "-in:xmage", "cards without any printing available on Xmage"
+
+    %h4 Search by at least one printing with given property
+    %div
+      Search engine generally operates printing by printing,
+      but sometimes you might want to search for card properties between printings.
+      <code>in:</code> operator matches any card with at least one printing of given property.
+    %ul
+      = search_help "in:m10 in:m11", "card that were in both Magic 2010 and Magic 2011"
+      = search_help "in:core in:commander", "card that were in both a core set, and in a Commander set"
+      = search_help "in:common in:mythic", "card that was printed both as a common and as a mythic rare"
+      = search_help "in:foil", "card with any foil version"
+      = search_help "in:nonfoil", "card with any non-foil version"
+      = search_help "in:booster", "card with any version in boosters"
+      = search_help "in:paper", "cards with any printing available as tournament-legal paper cards (not oversized or gold-bordered)"
+      = search_help "in:mtgo", "cards with any printing available on Magic: The Gathering Online"
+      = search_help "in:arena", "cards with any printing available on Arena"
+
+    %h4 Search in preconstructed deck
+    %ul
+      = search_help 'deck:"Feline Ferocity"', "cards in Feline Ferocity deck (Commander 2017)"
+      = search_help 'deck:"Amonkhet / Gideon"', "cards in Gideon planeswalker deck for Amonkhet"
+      = search_help 'deck:"AKH/Gideon"', "cards in Gideon planeswalker deck for Amonkhet"
+      = search_help 'deck:"Innistrad / *"', "cards in any deck for Innistrad set"
+      = search_help 'deck:"ISD/*"', "cards in any deck for Innistrad set"
+      = search_help 'deck:"Brian Selden"', "cards in Brian Selden's World Championship deck"
+      = search_help 'deck:"*"', "cards in any deck"
+
+    %h4 Time travel
+    %div You can travel to any time by specifying set code, set name, or full date (partial date like "1999" will be interpretted as "1 January 1999"). Cards printed since then won't be returned, and status of various formats will be as it was at that time. So if you want to argue about what was best Modern Pod deck back in that time just roll back the time to before the ban and enjoy.
+
+    %div Formats should generally be fully accurate from 2004 onwards (Legacy/Vintage split), information about older times might contain inaccuracies.
+
+    %div You can specify multiple time periods with use of parentheses.
+    %ul
+      = search_help "time:rtr f:standard", "all cards in Standard at time of Return to Ravnica set"
+      = search_help %[time:"1 march 2009" banned:commander], "Commander banned cards as of 1 March 2009"
+      = search_help "time:m10 t:planeswalker", "All Planeswalker cards in existence as of printing of Magic 2010 set"
+      = search_help "time:2010 restricted:commander", %[Cards restricted in Commander as of beginning of 2010 (in Commander context "restricted" means historical contept of "banned as general"]
+      = search_help "(time:OGW f:Standard) -(time:SOI f:Standard)", "Cards in Oath of Gatewatch Standard which are not in Shadows Over Innistrad Standard"
+
+    %h4 Sort results
+    %div Use sort: operator to order results in a different way. By default alphabetical sorting is used.
+    %div Results with equal sort key are then sorted by name.
+    %div Missing values (like cards with no mana value when sorting by mana value) go last.
+    %div You can use minus to reverse search order, or comma to specify multiple search keys.
+    %ul
+      = search_help "sort:name", "sort by name alphabetically (default)"
+      = search_help "sort:new", "sort results by most recent first, counting only regular sets for sake of order (other printings will go at end of results)"
+      = search_help "sort:newall", "sort results by most recent first, counting all printings"
+      = search_help "sort:old", "sort results by oldest first, counting only regular sets for sake of order"
+      = search_help "sort:oldall", "sort results by oldest first, counting all printings"
+      = search_help "sort:artist", "sort results by artist"
+      = search_help "sort:mv", "sort results by mana value (highest first)"
+      = search_help "sort:cmc", "sort results by converted mana cost (highest first; synonym of sort:mv)"
+      = search_help "sort:power", "sort results by power (highest first)"
+      = search_help "sort:pow", "sort results by power (highest first; synonym of sort:power)"
+      = search_help "sort:toughness", "sort results by toughness (highest first)"
+      = search_help "sort:tou", "sort results by toughness (highest first; synonym of toughness)"
+      = search_help "sort:set", "sort results by set code and collector number"
+      = search_help "sort:number", "sort results by set name and collector number"
+      = search_help "sort:color", "sort results by color"
+      = search_help "sort:ci", "sort results by color identity"
+      = search_help "sort:rarity", "sort results by rarity (rarest first)"
+      = search_help "sort:random", "shuffle results"
+      = search_help "sort:rand", "shuffle results (synonym of sort:random)"
+      = search_help "sort:firstprint", "sort by newest first, counting only date of original printing"
+      = search_help "sort:-firstprint", "sort by oldest first, counting only date of original printing"
+      = search_help "sort:lastprint", "sort by newest first, counting only date of most recent printing"
+      = search_help "sort:-lastprint", "sort by oldest first, counting only date of most recent printing"
+      = search_help "sort:-number", "sort results by set name and collector number, backwards"
+      = search_help "sort:pow,-tou,color", "sort results by power (highest first), then toughness (lowest first), then color"
+
+    %h4 Display all printings
+    %div If multiple printings of same card match, by default only one is shown (with most recent Standard-legal printing having priority). You can choose to see all printings with <code>++</code>:
+    %ul
+      = search_help "++ birds of paradise", "search for all printings of Birds of Paradise"
+
+    %h4 Display results
+    %div By default results are displayed in detailed format when only one card matches, or in more concise format otherwise. You can select another format.
+    %ul
+      = search_help "t:dragon view:default", "search for Dragons, display results in default mode"
+      = search_help "t:dragon view:full", "search for Dragons, display results in full detail"
+      = search_help "t:dragon view:images", "search for Dragons, display results as just images"
+      = search_help "t:dragon view:text", "search for Dragons, display results as just text"
+      = search_help "t:dragon view:checklist", "search for Dragons, display results as just checklist"
+
+    %h4 Name comparison
+    %div To help with spoiler season number crunch you can now see which cards could possibly fit in a gap.
+    %ul
+      = search_help %[f:Modern print<=M14 t:land name>"Selesnya Guildgate" name<"Simic Guildgate"], "Modern cards printed up to M14 which could fit in land slot between Selesnya Guildgate and Simic Guildgate"

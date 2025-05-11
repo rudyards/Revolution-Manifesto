@@ -1,0 +1,193 @@
+# Data from https://magic.wizards.com/en/news/feature/collecting-modern-horizons-3
+pack:
+- land_slot:
+  - land: 1
+    chance: 3
+  - foil_land: 1
+    chance: 2
+  - common: 1
+    chance: 5
+  spg_slot:
+  - common: 1
+    chance: 63
+  - special_guest: 1
+    chance: 1
+  common: 5
+  new_uncommon: 3
+  new_rare_mythic: 1
+  reprint: 1
+  wildcard: 1
+  foil_with_showcase: 1
+queries:
+  borderless: "e:{set} number:320-361,442-446"
+  profile: "e:{set} number:362-383 -number:/z/"
+  old_border: "e:{set} number:384-441"
+  any_showcase: "{borderless} or {profile} or {old_border}"
+  two_instances: "{any_showcase} ((alt:{borderless} alt:{profile}) or (alt:{borderless} alt:{old_border}) or (alt:{profile} alt:{old_border}))"
+sheets:
+  common:
+    query: "r:c"
+  land:
+    rawquery: "e:mh3 number:304-319 -number:309"
+  foil_land:
+    foil: true
+    rawquery: "e:mh3 number:304-319"
+  new_uncommon:
+    query: "r:u -is:reprint -(Snow-Covered Wastes)"
+  new_rare_mythic:
+    any:
+    - rawquery: "r:r -is:reprint -is:foilonly {two_instances}"
+      count: 36
+      rate: 2
+    - rawquery: "r:r -is:reprint -is:foilonly {any_showcase} -{two_instances}"
+      count: 18
+      rate: 4
+    - query: "r:r -is:reprint -is:foilonly alt:{any_showcase}"
+      count: 36
+      rate: 8
+    - query: "r:r -is:reprint -is:foilonly -alt:{any_showcase}"
+      count: 19
+      rate: 12
+    - rawquery: "r:m -is:reprint -is:foilonly {two_instances}"
+      count: 12
+      rate: 1
+    - rawquery: "r:m -is:reprint -is:foilonly {any_showcase} -{two_instances}"
+      count: 13
+      rate: 2
+    - query: "r:m -is:reprint -is:foilonly alt:{any_showcase}"
+      count: 19
+      rate: 4
+    - query: "r:m -is:reprint -is:foilonly -alt:{any_showcase}"
+      count: 1
+      rate: 6
+  reprint:
+    any:
+    - chance: 750
+      any:
+      - rate: 1
+        rawquery: "e:mh3 r:u number:384-441 is:reprint"
+      - rate: 2
+        query: "r:u alt:(e:mh3 number:384-441) is:reprint"
+      - rate: 3
+        query: "r:u is:reprint -alt:(e:mh3 number:384-441)"
+    - chance: 213
+      any:
+      - rawquery: "r:r is:reprint -is:foilonly {two_instances}"
+        count: 10
+        rate: 1
+      - rawquery: "r:r is:reprint -is:foilonly {any_showcase} -{two_instances}"
+        count: 10
+        rate: 2
+      - query: "r:r is:reprint -is:foilonly alt:{any_showcase}"
+        count: 15
+        rate: 4
+      - query: "r:r is:reprint -is:foilonly -alt:{any_showcase}"
+        count: 8
+        rate: 6
+    - chance: 23
+      any:
+      - rawquery: "r:m is:reprint -is:foilonly {two_instances}"
+        count: 2
+        rate: 1
+      - rawquery: "r:m is:reprint -is:foilonly {any_showcase} -{two_instances}"
+        count: 3
+        rate: 2
+      - query: "r:m is:reprint -is:foilonly alt:{any_showcase}"
+        count: 4
+        rate: 4
+  wildcard:
+    any:
+    - any:
+      - query: "r:c -alt:(number:384-441) -is:reprint"
+        rate: 3
+      - query: "r:c alt:(number:384-441) -is:reprint"
+        rate: 2
+      - rawquery: "e:mh3 r:c number:384-441"
+        rate: 1
+      - rawquery: "e:mh3 number:309"
+        rate: 3
+      chance: 700
+    - any:
+      - query: "r:u -alt:(number:384-441) -is:reprint"
+        rate: 3
+      - query: "r:u alt:(number:384-441) -is:reprint"
+        rate: 2
+      - rawquery: "e:mh3 r:u number:384-441"
+        rate: 1
+      chance: 175
+    - any:
+      - rawquery: "r:r -is:reprint -is:foilonly {two_instances}"
+        count: 36
+        rate: 2
+      - rawquery: "r:r -is:reprint -is:foilonly {any_showcase} -{two_instances}"
+        count: 18
+        rate: 4
+      - query: "r:r -is:reprint -is:foilonly alt:{any_showcase}"
+        count: 36
+        rate: 8
+      - query: "r:r -is:reprint -is:foilonly -alt:{any_showcase}"
+        count: 19
+        rate: 12
+      - rawquery: "r:m -is:reprint -is:foilonly {two_instances}"
+        count: 12
+        rate: 1
+      - rawquery: "r:m -is:reprint -is:foilonly {any_showcase} -{two_instances}"
+        count: 13
+        rate: 2
+      - rawquery: "e:m3c number:9-16"
+        rate: 2
+      - query: "r:m -is:reprint -is:foilonly alt:{any_showcase}"
+        count: 19
+        rate: 4
+      - rawquery: "e:m3c number:1-8"
+        rate: 4
+      - query: "r:m -is:reprint -is:foilonly -alt:{any_showcase}"
+        count: 1
+        rate: 6
+      chance: 125
+  foil_with_showcase:
+    foil: true
+    any:
+    - any:
+      - query: "r:c -alt:(number:384-441)"
+        rate: 3
+      - query: "r:c alt:(number:384-441)"
+        rate: 2
+      - rawquery: "e:mh3 r:c number:384-441"
+        rate: 1
+      - rawquery: "e:mh3 number:309"
+        rate: 3
+      chance: 700
+    - any:
+      - query: "r:u -alt:(number:384-441)"
+        rate: 3
+      - query: "r:u alt:(number:384-441)"
+        rate: 2
+      - rawquery: "e:mh3 r:u number:384-441"
+        rate: 1
+      chance: 175
+    - any:
+      - rawquery: "r:r -is:foilonly {two_instances}"
+        rate: 2
+      - rawquery: "r:r -is:foilonly {any_showcase} -{two_instances}"
+        rate: 4
+      - query: "r:r -is:foilonly alt:{any_showcase}"
+        rate: 8
+      - query: "r:r -is:foilonly -alt:{any_showcase}"
+        rate: 12
+      - rawquery: "r:m -is:foilonly {two_instances}"
+        rate: 1
+      - rawquery: "r:m -is:foilonly {any_showcase} -{two_instances}"
+        rate: 2
+      - rawquery: "e:m3c number:9-16"
+        rate: 2
+      - query: "r:m -is:foilonly alt:{any_showcase}"
+        rate: 4
+      - rawquery: "e:m3c number:1-8"
+        rate: 4
+      - query: "r:m -is:foilonly -alt:{any_showcase}"
+        rate: 6
+      chance: 125
+  special_guest:
+    set: spg
+    code: "MHTHREE"

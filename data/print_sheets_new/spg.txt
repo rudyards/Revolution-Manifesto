@@ -1,0 +1,108 @@
+Lord of Atlantis  1  LCI LCICOLR
+Malcolm, Keen-Eyed Navigator  2  LCI
+Bridge from Below  3  LCI LCICOLR
+Mephidross Vampire  4  LCI LCICOLR
+Pitiless Plunderer  5  LCI
+Breeches, Brazen Plunderer  6  LCI
+Dargo, the Shipwrecker  7  LCI
+Rampaging Ferocidon  8  LCI LCICOLR
+Underworld Breach  9  LCI LCICOLR
+Carnage Tyrant  10  LCI LCICOLM
+Ghalta, Primal Hunger  11  LCI LCICOLR
+Polyraptor  12  LCI LCICOLM
+Kalamax, the Stormsire  13  LCI LCICOLM
+Lord Windgrace  14  LCI LCICOLM
+Mirri, Weatherlight Duelist  15  LCI LCICOLR
+Thrasios, Triton Hero  16  LCI LCICOLR
+Mana Crypt  17  LCI LCICOLM
+Mana Crypt  17a  LCINEON1
+Mana Crypt  17c  LCINEON8
+Mana Crypt  17d  LCINEON4
+Mana Crypt  17e  LCINEON2
+Mana Crypt  17f  LCINEON16
+Star Compass  18  LCI
+Ghostly Prison  19  MKM
+Fabricate  20  MKM
+Show and Tell  21  MKM
+Tragic Slip  22  MKM
+Victimize  23  MKM
+Gamble  24  MKM
+Crashing Footfalls  25  MKM
+Tireless Tracker  26  MKM
+Drown in the Loch  27  MKM
+Field of the Dead  28  MKM
+Stoneforge Mystic  29  OTJ
+Brazen Borrower  30a  OTJ
+Desertion  31  OTJ
+Morbid Opportunist  32  OTJ
+Port Razer  33  OTJ
+Scapeshift  34  OTJ
+Mystic Snake  35  OTJ
+Notion Thief  36  OTJ
+Desert  37  OTJ
+Prismatic Vista  38  OTJ
+Thought-Knot Seer  39  MHTHREE
+Prismatic Ending  40  MHTHREE
+Dismember  41  MHTHREE
+Persist  42  MHTHREE
+Expressive Iteration  43  MHTHREE
+Solitude  44  MHTHREE
+Subtlety  45  MHTHREE
+Grief  46  MHTHREE
+Fury  47  MHTHREE
+Endurance  48  MHTHREE
+Solitude  49  MHTHREECOLLECTOR
+Subtlety  50  MHTHREECOLLECTOR
+Grief  51  MHTHREECOLLECTOR
+Fury  52  MHTHREECOLLECTOR
+Endurance  53  MHTHREECOLLECTOR
+Swords to Plowshares  54  BLB
+Ledger Shredder  55  BLB
+Rat Colony  56  BLB
+Relentless Rats  57  BLB
+Kindred Charge  58  BLB
+Sylvan Tutor  59  BLB
+Toski, Bearer of Secrets  60  BLB
+Frogmite  61  BLB
+Sword of Fire and Ice  62  BLB
+Secluded Courtyard  63  BLB
+Hallowed Haunting  64  DSK
+Soul Warden  65  DSK
+Expropriate  66  DSK
+Phantasmal Image  67  DSK
+Damnation  68  DSK
+Sacrifice  69  DSK
+Maddening Hex  70  DSK
+Unholy Heat  71  DSK
+Collected Company  72  DSK
+Noxious Revival  73  DSK
+Condemn  74  FDN
+Sphinx's Tutelage  75  FDN
+Grim Tutor  76  FDN
+Embercleave  77  FDN
+Goblin Bushwhacker  78  FDN
+Bloom Tender  79  FDN
+Paradise Druid  80  FDN
+Akroma's Memorial  81  FDN
+Temporal Manipulation  82  FDN
+Fiend Artisan  83  FDN
+Cavalier of Dawn  84  DFT
+Thoughtcast  85  DFT
+Whir of Invention  86  DFT
+Bone Miser  87  DFT
+Lord of the Undead  88  DFT
+Chandra's Ignition  89  DFT
+Galvanic Blast  90  DFT
+Pathbreaker Ibex  91  DFT
+Chrome Mox  92  DFT
+Skysovereign, Consul Flagship  93  DFT
+Eerie Ultimatum  104  TDM
+Emergent Ultimatum  105  TDM
+Genesis Ultimatum  106  TDM
+Inspired Ultimatum  107  TDM
+Ruinous Ultimatum  108  TDM
+Arid Mesa  109  TDM
+Marsh Flats  110  TDM
+Misty Rainforest  111  TDM
+Scalding Tarn  112  TDM
+Verdant Catacombs  113  TDM

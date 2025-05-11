@@ -1,0 +1,94 @@
+#!/usr/bin/env ruby
+
+require "pp"
+require_relative "../search-engine/lib/card_database"
+
+def db
+  @db ||= CardDatabase.load
+end
+
+source_base = Pathname("/Users/taw/Downloads/hq_pics/") # "Full" resolution or 200DPI
+total = Hash.new(0)
+
+db.sets.each do |set_code, set|
+  matching_dirs = source_base.children.select{|d| d.basename.to_s != "Tokens" and d.basename.to_s != "Emblems"}.select(&:directory?).select{|d|
+    codes = [set.code, set.alternative_code].compact.uniq
+    codes.any?{|code| d.basename.to_s.downcase == code.downcase }
+  }
+  if matching_dirs.size == 0
+    source_dir = nil
+    # warn "Set missing: #{set_code}"
+  elsif matching_dirs.size == 1
+    source_dir = matching_dirs[0]
+  else
+    require 'pry'; binding.pry
+  end
+
+  nth_card = Hash.new(0)
+
+  set.printings.sort_by{|c| [c.number.to_i, c.number] }.each do |card|
+    total["all"] += 1
+    if source_dir and source_dir.exist?
+      total["set_ok"] += 1
+    else
+      total["set_miss"] += 1
+      next
+    end
+
+    nth_card[card.name] += 1
+    target_path = Pathname("frontend/public/cards_hq/#{card.set_code}/#{card.number}.png")
+    next if target_path.exist?
+
+    clean_name = card.name.tr("®", "r").tr(':"?', "")
+                     .sub(" (Big Furry Monster)", " ")
+                     .sub(" Shows That Players Like Really Long Card Names So We Made this Card to Have the Absolute Longest Card Name Ever Elemental", "")
+
+    index = nth_card[card.name]
+
+    candidate_names = [
+      "#{clean_name}.jpg",
+      "#{clean_name}.full.jpg",
+      "#{clean_name}#{index}.jpg",
+      "#{clean_name}#{index}.full.jpg",
+      "#{clean_name} [#{index}].jpg",
+      "#{clean_name} [#{index}].full.jpg"
+    ]
+    if card.names
+      card_names = card.names.map{|x| x.sub(" (CMB1)", "") }
+      candidate_names += [
+        "#{card_names.join(" - ")}.full.jpg",
+        "#{card_names.reverse.join(" - ")}.full.jpg",
+        "#{card_names.join(" -- ")}.full.jpg",
+        "#{card_names.reverse.join(" -- ")}.full.jpg",
+        "#{card_names.join("_")}.full.jpg",
+        "#{card_names.reverse.join("_")}.full.jpg",
+        "#{card_names.join("-+")}.full.jpg",
+        "#{card_names.reverse.join("-+")}.full.jpg",
+        "#{card_names.join("»")}.full.jpg",
+        "#{card_names.reverse.join("»")}.full.jpg",
+        "#{card_names.join("»")}#{index}.full.jpg",
+        "#{card_names.reverse.join("»")}#{index}.full.jpg",
+      ]
+    end
+    candidate_names << "Who What When Where Why.full.jpg" if card.names and card.names.size == 5
+    candidate_names << "Smelt»Herd»Saw.full.jpg" if card.names and card.names.size == 3
+
+    match = candidate_names.find{|bn| (source_dir + bn).exist?}
+
+    if match
+      total["ok"] += 1
+      # puts "Found #{card.set.code} - #{card.name}"
+      target_path.parent.mkpath
+      FileUtils.cp((source_dir+match), target_path)
+    else
+      total["miss"] += 1
+      has_lq = Pathname("frontend/public/cards/#{card.set_code}/#{card.number}.png").exist?
+      if has_lq
+        warn "LQ only: #{card.set.code} - #{card.name}"
+      else
+        warn "No pic:  #{card.set.code} - #{card.name}"
+      end
+    end
+  end
+end
+pp total

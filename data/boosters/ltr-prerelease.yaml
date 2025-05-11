@@ -1,0 +1,13 @@
+# Data from https://magic.wizards.com/en/news/feature/collecting-the-lord-of-the-rings-tales-of-middle-earth
+pack:
+  prerelease_promo: 1
+  party_scene_promo: 1
+sheets:
+  prerelease_promo:
+    filter: "e:pltr number<=260"
+    foil: true
+    use: rare_mythic
+  party_scene_promo:
+    foil: true
+    filter: "e:pltr number:399-404"
+    use: base_1248_by_rarity

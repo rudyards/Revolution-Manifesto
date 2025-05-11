@@ -1,0 +1,75 @@
+#!/usr/bin/env ruby
+
+require "open-uri"
+require "pathname"
+require "json"
+require "pry"
+
+class SplitMtgjson
+  SETS_DIR = Pathname(__dir__) + "../../data/sets"
+
+  def initialize(path, output_dir=SETS_DIR)
+    @data = JSON.parse(open(path).read)
+    @output_dir = Pathname(output_dir)
+  end
+
+  # It doesn't remove any extra files
+  def call
+    @output_dir.mkpath
+
+    # v5 specific code
+    if @data.keys.sort == ["data", "meta"]
+      meta = @data["meta"]
+      @data = @data["data"]
+      @data.each do |set_code, set|
+        set["meta"] = meta
+      end
+    end
+
+    @data.each do |set_code, set|
+      if set_code != set["code"]
+        warn "Mismatched set code: #{set_code} != #{set["code"]}"
+        set_code = set["code"]
+      end
+
+      # We provide this data, so we don't need to duplicate it
+      # well, sealedProductUuids is there, but that could be separately done somehow
+      set.delete "booster"
+      set.delete "decks"
+
+      set["cards"].each do |card|
+        # Delete this, as it changes a ton and messes up git history
+        card.delete "printings"
+        # We want it eventually, but for now it changes too much
+        card.delete "prices"
+        # This will change a lot
+        card.delete "edhrecRank"
+        # Sort this for better diffs
+        if card["foreignNames"]
+          card["foreignNames"].sort_by!{|c| [c["language"], c["multiverseid"]]}
+        end
+      end
+      set["meta"].delete "pricesDate"
+
+      if set_code == "CON"
+        fn = @output_dir + "#{set_code}_.json"
+      else
+        fn = @output_dir + "#{set_code}.json"
+      end
+
+      fn.open("w") do |fh|
+        fh.puts set.to_json
+      end
+    end
+  end
+end
+
+unless ARGV.size == 1 or ARGV.size == 2
+  STDERR.puts "Usage: #{$0} /path/to/AllSets.json"
+  STDERR.puts "   or: #{$0} http://url.to/AllSets.json"
+  STDERR.puts "   or: #{$0} /path/to/AllSets.json /output/directory"
+  STDERR.puts "   or: #{$0} http://url.to/AllSets.json /output/directory"
+  exit 1
+end
+
+SplitMtgjson.new(*ARGV).call

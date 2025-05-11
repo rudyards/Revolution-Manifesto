@@ -1,0 +1,35 @@
+.row
+  .col-12
+    %h3 Contact
+
+    %div
+      Site by Tomasz Wegrzanowski (taw).
+      You can contact me by
+      = succeed "," do
+        %a{href: "mailto:Tomasz.Wegrzanowski@gmail.com"} email
+      or by creating an issue on
+      = succeed "." do
+        %a{href: "https://github.com/taw/magic-search-engine/issues"} project's github page
+
+    %div
+      I invite you to check out my
+      %a{href: "http://t-a-w.blogspot.com/"}
+        blog
+      and
+      %a{href: "https://dev.to/taw"}
+        my dev.to blog
+      but they're more about programming and video games than Magic: the Gathering.
+
+    %div
+      Special thanks to Anthony Low for help with testing and to
+      %a{href: "http://mtgjson.com/"} mtgjson
+      for primary source of data used.
+
+    %div
+      Code is all on
+      = succeed "." do
+        %a{href: "https://github.com/taw/magic-search-engine"} github
+      If you want API access I'd recommend getting code from there instead of hammering the poor servers.
+
+    %div
+      Card text and pictures are all copyright Wizards of the Coast.

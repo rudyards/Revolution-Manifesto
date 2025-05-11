@@ -1,0 +1,165 @@
+#!/usr/bin/env ruby
+
+require_relative "../search-engine/lib/card_database"
+require "memoist"
+
+class ReportMtgjsonDifferences
+  extend Memoist
+
+  def initialize
+    @db = CardDatabase.load
+    @mtgjson = JSON.parse(Pathname("#{__dir__}/../tmp/AllSets.json").read)
+    # v4 / v5
+    @mtgjson = @mtgjson["data"] if @mtgjson["data"]
+  end
+
+  def sets_base_path
+    Pathname(__dir__) + "../data/sets"
+  end
+
+  memoize def mtgjson_set_codes
+    @mtgjson.keys.map(&:downcase).to_set
+  end
+
+  memoize def db_set_codes
+    @db.sets.keys.to_set
+  end
+
+  memoize def shared_set_codes
+    db_set_codes & mtgjson_set_codes
+  end
+
+  memoize def db_set_only_codes
+    db_set_codes - mtgjson_set_codes
+  end
+
+  memoize def mtgjson_only_set_codes
+    mtgjson_set_codes - db_set_codes
+  end
+
+  def verify_match(code)
+    db_set = @db.sets[code]
+    mtgjson_set = @mtgjson[code.upcase]
+    if db_set.name != mtgjson_set["name"]
+      puts "#{code} - name - #{db_set.name.inspect} vs #{mtgjson_set["name"].inspect}"
+    end
+
+    mtgjson_cards = mtgjson_set["cards"]
+    db_names = db_set.printings.map(&:name).to_set
+
+    mtgjson_names = mtgjson_cards.map{|c| alchemy_name_fix(c["faceName"] || c["name"]) }.to_set
+    if db_names != mtgjson_names
+      if db_names.size == mtgjson_names.size
+        puts "#{code} - card names (count same) - #{db_names.size} vs #{mtgjson_names.size}"
+      else
+        puts "#{code} - card names - #{db_names.size} vs #{mtgjson_names.size}"
+      end
+      (db_names - mtgjson_names).each do |n|
+        puts "  db: #{n}"
+      end
+      (mtgjson_names - db_names).each do |n|
+        puts "  mj: #{n}"
+      end
+      return
+    end
+
+    db_count = db_set.printings.size
+    mtgjson_count = mtgjson_cards.size
+    if db_count != mtgjson_count
+      puts "#{code} - printing count - #{db_count} vs #{mtgjson_count}"
+      return
+    end
+
+    db_numbers = db_set.printings.map{|c| [c.number, c.name] }.to_set
+    mtgjson_numbers = mtgjson_cards.map{|c| [c["number"], alchemy_name_fix(c["faceName"] || c["name"])] }.to_set
+
+    # Most common problem is mtgjson having non-unique numbers for multipart cards
+    if db_numbers != mtgjson_numbers
+      db_numbers_i = db_set.printings.map{|c| [c.number.to_i, c.name] }.to_set
+      mtgjson_numbers_i = mtgjson_cards.map{|c| [c["number"].to_i, alchemy_name_fix(c["faceName"] || c["name"])] }.to_set
+
+      if db_numbers_i == mtgjson_numbers_i
+        # Suffix issues _generally_ get autocorrected by indexer
+        # puts "#{code} - card numbers (suffix issues only)"
+      else
+        matching = (mtgjson_numbers & db_numbers).size
+        puts "#{code} - card numbers (#{matching}/#{db_numbers.size} match)"
+      end
+    end
+
+    # If these are all OK, it's probably fine
+  end
+
+  memoize def sets_version
+    result = {}
+    sets_base_path.glob("*.json").sort.each do |path|
+      set_code = path.basename(".json").to_s
+      set_data = JSON.parse(path.read)
+      if set_data["meta"] and set_data["meta"]["version"]
+        version = set_data["meta"]["version"]
+      else
+        version = "3.x"
+      end
+      result[version] ||= []
+      result[version] << set_code
+    end
+    result
+  end
+
+  memoize def most_recent_mtgjson_version
+    sets_version.keys.max
+  end
+
+  def call
+    # First, deal with trivial matches
+    shared_set_codes.each do |code|
+      verify_match(code)
+    end
+
+    unless db_set_only_codes.empty?
+      puts ""
+      db_set_only_codes.sort.each do |code|
+        set = @db.sets[code]
+        puts "#{code} - db only - #{set.name.inspect} - #{set.printings.size} cards"
+      end
+    end
+
+    puts ""
+    mtgjson_only_set_codes.sort.each do |code|
+      set = @mtgjson[code.upcase]
+
+      # Token only sets are currently excluded from the index
+      # We might revisit this someday
+      if set["cards"].size == 0
+        set_path = sets_base_path + "#{code}.json"
+        next if set_path.exist?
+      end
+
+      # Foreign only sets are maybe interesting if they're Japanese promos
+      if set["isForeignOnly"] and %W[4bb fbb ren rin].include?(code)
+        next
+      end
+
+      puts "#{code} - mtgjson only -  #{set["name"].inspect} - #{set["cards"].size} cards"
+    end
+
+    puts ""
+    sets_version.sort.each do |version, sets|
+      next if version == most_recent_mtgjson_version
+      puts "mtgjson #{version}: #{sets.join(" ")}"
+    end
+  end
+
+  def alchemy_name_fix(name)
+    return unless name
+    name.split(" // ").map{|s|
+      if s =~ /\AA-(.*)/
+        "#{$1} (Alchemy)"
+      else
+        s
+      end
+    }.join(" // ")
+  end
+end
+
+ReportMtgjsonDifferences.new.call

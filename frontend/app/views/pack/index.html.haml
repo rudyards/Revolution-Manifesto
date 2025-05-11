@@ -1,0 +1,11 @@
+.row
+  .col-12
+    %h3 Magic Boosters
+    %ul
+      - @booster_types.each do |code, pack|
+        - # Exclude aliases
+        - if code == pack.code
+          %li
+            = link_to_pack(pack) do
+              = pack.name
+            = "(#{code.upcase})"

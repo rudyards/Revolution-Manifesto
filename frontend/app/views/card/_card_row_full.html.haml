@@ -1,0 +1,90 @@
+.row.card_row
+  .col-5.card_picture_cell
+    = render "card/picture", card: card
+  .offset-1.col-6.cardinfo
+    = render "card", card: card
+
+.row.card_row
+  .col-6.cardinfo
+    %h5 Details
+    %ul
+      %li.infolabel
+        Artist:
+        = link_to_artist(card.artist) do
+          = card.artist.name
+      %li.infolabel
+        = "Collector Number: #{card.number}"
+      - if card.oversized
+        %li.infolabel
+          Oversized card
+      %li.infolabel
+        - if card.foilonly?
+          Available only as foil
+        - elsif card.nonfoilonly?
+          Available only as nonfoil
+        - else
+          Available foil and nonfoil
+      - if card.frame_effects.present?
+        %li.infolabel
+          = "Frame Effects: #{card.frame_effects.join(", ")}"
+      - if card.language
+        %li.infolabel
+          = "Language: #{card.language}"
+      - if card.promo_types
+        %li.infolabel
+          = "Promo: #{card.promo_types.sort.join(", ")}"
+      %li.infolabel
+        = "Rarity: #{card.ui_rarity}"
+      - if card.reserved
+        %li.infolabel
+          = "#{card.name} is on the Reserved List."
+      %li.infolabel
+        = "Released: #{card.release_date}"
+      %li.infolabel
+        Set:
+        = link_to_set(card.set) do
+          = card.set.name
+      - if card.signature
+        %li.infolabel
+          = "Signature: #{card.signature}"
+      - if card.spotlight
+        %li.infolabel
+          Story Spotlight
+      - if card.stamp
+        %li.infolabel
+          = "Stamp: #{card.stamp}"
+      - if card.subsets
+        %li.infolabel
+          = "Subsets: #{card.subsets.join(", ")}"
+      - if card.watermark
+        %li.infolabel
+          = "Watermark: #{card.watermark}"
+
+    = render "legality", card: card
+
+    - if card.rulings.present?
+      %h5 Rulings
+      %ul.rulings
+        - card.rulings.each do |ruling|
+          %li
+            = ruling["date"]
+            = format_oracle_text(ruling["text"])
+
+    - if card.gatherer_link.present?
+      %h5 Links
+      %ul
+        - if card.gatherer_link.present?
+          %li.infolabel
+            %a{href: card.gatherer_link}
+              Gatherer
+  .col-6
+    = render "printings_full", card: card, printings: printings_view_full(card, printings)
+
+    - if card.foreign_names
+      %h5 Foreign names
+      %ul.foreign_names
+        - card.foreign_names.sort.each do |language_code, foreign_names|
+          - foreign_names.each do |foreign_name|
+            %li
+              %i{class: "famfamfam-flag-#{language_flag(language_code)}", title: language_name(language_code), lang: official_language_code(language_code)}
+              = foreign_name

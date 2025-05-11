@@ -1,0 +1,60 @@
+.row
+  .col-12
+    %h3 Formats &mdash; #{@format.format_pretty_name}
+
+    = render partial: "#{@format.format_pretty_name.parameterize.underscore}"
+
+    - if @format.included_sets
+      %h4 Included sets
+      %p
+        Format includes cards from the following sets:
+      %ul
+        - @included_sets.each do |set|
+          %li
+            = link_to set.name, controller: "set", action: "show", id: set.code
+
+    %h4 Banned cards
+    - if @banned.present?
+      %ul
+        - @banned.sort.each do |card|
+          %li
+            = link_to_card(card) do
+              = card.name
+    - else
+      %p There are no banned cards.
+
+    %h4 Restricted cards
+    - if @restricted.present?
+      %ul
+        - @restricted.sort.each do |card|
+          %li
+            = link_to_card(card) do
+              = card.name
+    - else
+      %p There are no restricted cards.
+
+    - if @events.present?
+      %h4 Ban history
+      - @events.each do |date, url, events|
+        - if date
+          %h6= date
+          - if url
+            %div= link_to "Announcement", url
+          %ul
+            - events.each do |event|
+              %li
+                = surround "", ":" do
+                  = link_to event[:name], controller: "card", q: "!#{event[:name]}"
+                = event[:old]
+                &rarr;
+                = event[:new]
+        - else
+          %h6 Format start
+          - if url
+            %div= link_to "Announcement", url
+          %ul
+            - events.each do |event|
+              %li
+                = surround "", ":" do
+                  = link_to event[:name], controller: "card", q: "!#{event[:name]}"
+                = event[:new]

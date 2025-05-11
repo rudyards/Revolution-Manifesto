@@ -1,0 +1,141 @@
+#!/usr/bin/env ruby
+
+require "fastimage"
+require "pathname-glob"
+require "pry"
+require_relative "../search-engine/lib/card_database"
+
+class CardPrinting
+  def path_lq
+    Pathname("frontend/public/cards/#{set_code}/#{number}.png")
+  end
+
+  def path_hq
+    Pathname("frontend/public/cards_hq/#{set_code}/#{number}.png")
+  end
+end
+
+class Pathname
+  def sha1
+    Digest::SHA1.hexdigest(read)
+  end
+end
+
+class CheckCardOrientation
+  def initialize(card, path)
+    @card = card
+    @path = path
+  end
+
+  def aspect_ratio
+    @aspect_ratio ||= begin
+      width, height = FastImage.size(@path)
+      width.to_f / height.to_f
+    end
+  end
+
+  def orientation
+    @orientation ||= begin
+      if aspect_ratio >= 1.2
+        :horizontal
+      elsif aspect_ratio <= 0.8
+        :vertical
+      else
+        :unknown
+      end
+    end
+  end
+
+  def expected_orientation
+    @expected_orientation ||= begin
+      if (@card.types & ["plane", "phenomenon", "battle", "phenome-nom"]).empty?
+        :vertical
+      else
+        :horizontal
+      end
+    end
+  end
+
+  def card_name_and_number
+    "#{@card.set_code}/#{@card.number} #{@card.name}"
+  end
+
+  def rotate(deg=90)
+    system "jpegtran -rotate #{deg} -copy all #{@path} > #{@path}-out" or raise "Failed to rotate #{@path}"
+    FileUtils.mv("#{@path}-out", "#{@path}")
+  end
+
+  def open
+    system "open", @path.to_s
+  end
+
+  def print_warning
+    warn "Bad orientation for #{card_name_and_number} (#{@card.typeline}) #{@path} expected:#{expected_orientation} actual:#{orientation}"
+  end
+
+  def call(fix)
+    # Stupid 180 degree rotated version for a gimmick
+    if @card.flavor_name == "Mind Flayer, the Shadow"
+      case @path.sha1
+      when "c0edb34c4aa1ff0b2b56108b60cb3d1a3cd896b2"
+        # known bad
+        if fix
+          warn "Fixing #{card_name_and_number} #{@path} by rotating it 180 degrees"
+          rotate(180)
+        else
+          warn "Upside down #{card_name_and_number} #{@path}"
+        end
+      when "34985f1d4c9f484a08cefb17b06f00df24cac106"
+        # known good, we're done
+      else
+        puts "Unknown hash #{@path.sha1}, please verify"
+        open
+        binding.pry
+      end
+    end
+
+    return if orientation == expected_orientation
+
+    if fix
+      if orientation == :vertical and expected_orientation == :horizontal
+        warn "Fixing #{card_name_and_number} (#{@card.typeline}) #{@path} by rotating it 90 degrees"
+        rotate
+        # open
+      else
+        print_warning
+      end
+    else
+      print_warning
+      # binding.pry
+    end
+  end
+end
+
+class CardsWithWrongOrientation
+  attr_reader :db
+
+  def initialize(*args)
+    if args == []
+      @fix = false
+    elsif args == ["--fix"]
+      @fix = true
+    else
+      STDERR.puts "Usage: #{$0} [--fix]"
+      exit 1
+    end
+    @db = CardDatabase.load
+  end
+
+  def call
+    db.printings.each do |card|
+      next if card.set_code == "da1" # these are playtest cards without fancy orientations
+      [card.path_hq, card.path_lq].each do |path|
+        next unless path.exist?
+        CheckCardOrientation.new(card, path).call(@fix)
+      end
+    end
+  end
+end
+
+STDOUT.sync = true
+CardsWithWrongOrientation.new(*ARGV).call

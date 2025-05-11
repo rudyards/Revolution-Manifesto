@@ -1,0 +1,49 @@
+# Data from https://magic.wizards.com/en/news/feature/commander-legends-battle-for-baldurs-gate-product-overview
+pack:
+  foil_basic: 1
+  foil_common: 3
+  foil_uncommon: 2
+  foil_common_uncommon_showcase: 1
+  foil_common_uncommon_legendary: 1
+  foil_rare_mythic: 1
+  extended_commander: 1
+  extended_rare_mythic: 1
+  rare_mythic_showcase: 1
+  etched_common_uncommon: 1
+  etched_rare_mythic: 1
+  foil_showcase_rare_mythic: 1
+sheets:
+  foil_basic:
+    foil: true
+    rawquery: "e:clb t:basic"
+    count: 20
+  foil_common_uncommon_legendary:
+    foil: true
+    filter: "e:clb t:legendary is:baseset"
+    use: common_uncommon
+    count: 50
+  extended_commander:
+    filter: "e:clb number:607-645 -alt:(e:clb number:646-657)"
+    use: rare_mythic
+    count: 27
+  extended_rare_mythic:
+    filter: "e:clb number:553-606"
+    use: rare_mythic
+    count: 93-39
+  etched_common_uncommon:
+    foil: true
+    filter: "e:clb is:etched"
+    use: common_uncommon
+    count: 50
+  etched_rare_mythic:
+    foil: true
+    filter: "e:clb is:etched"
+    use: rare_mythic
+    count: 36
+  foil_showcase_rare_mythic:
+    foil: true
+    filter: "e:clb promo:boosterfun -is:foilonly"
+    use: rare_mythic
+  foil_rare_mythic:
+    foil: true
+    use: rare_mythic

@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+ruby ">= 2.5"
+gem "rake"
+gem "damerau-levenshtein"
+gem "nokogiri"
+gem "pry"
+gem "rspec", require: false, group: :test
+gem "simplecov", require: false, group: :test
+gem "pathname-glob"
+gem "memory_profiler", require: false, group: :test
+gem "fastimage"
+gem "calc"
+gem "optimist"

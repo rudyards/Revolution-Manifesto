@@ -1,0 +1,182 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "json"
+require "memoist"
+require "pathname-glob"
+require "pathname"
+require "pry"
+
+class SingleSetUpdater
+  extend Memoist
+
+  attr_reader :incoming_path, :current_path
+
+  def initialize(incoming_path, current_path)
+    @incoming_path = incoming_path
+    @current_path = current_path
+  end
+
+  memoize def name
+    incoming_path.basename(".json").to_s
+  end
+
+  memoize def incoming_data
+    JSON.parse(@incoming_path.read)
+  end
+
+  memoize def current_data
+    JSON.parse(@current_path.read)
+  end
+
+  memoize def incoming_name
+    incoming_data["name"]
+  end
+
+  memoize def current_name
+    current_data["name"]
+  end
+
+  memoize def incoming_code
+    incoming_data["code"]
+  end
+
+  memoize def current_code
+    current_data["code"]
+  end
+
+  memoize def incoming_cards
+    incoming_data["cards"].map{|c| [c["faceName"] || c["name"], c["number"]] }.sort
+  end
+
+  memoize def current_cards
+    current_data["cards"].map{|c| [c["faceName"] || c["name"], c["number"]] }.sort
+  end
+
+  memoize def current_base_set_size
+    current_data["baseSetSize"]
+  end
+
+  memoize def incoming_base_set_size
+    incoming_data["baseSetSize"]
+  end
+
+  def bad_foregin_only_sets
+    %W[FBB 4BB REN RIN BCHR]
+  end
+
+  def call
+    if current_path.exist?
+      handle_update
+    else
+      handle_new
+    end
+  end
+
+  def handle_new
+    if incoming_data["isPartialPreview"]
+      command_spoiler
+    elsif incoming_data["isForeignOnly"] and bad_foregin_only_sets.include?(incoming_code)
+      # We're actually OK with foreign promo sets
+      command_drop
+    elsif %W[SUM FJMP BCHR].include?(incoming_code)
+      # Just ignore it
+      command_drop
+    else
+      # Any more reasons to delete ?
+      command_new
+    end
+  end
+
+  def handle_update
+    issues = []
+    issues << :name if incoming_name != current_name
+    issues << :code if incoming_code != current_code
+    issues << :base_set_size if incoming_base_set_size != current_base_set_size
+    if incoming_cards != current_cards
+      if current_cards.map(&:first) != incoming_cards.map(&:first)
+        issues << :card_names
+      else
+        issues << :card_numbers
+      end
+    end
+
+    if issues.empty?
+      command_update
+    else
+      command_conflict
+    end
+  end
+
+  def command_drop
+    FileUtils.rm incoming_path, force: true #, verbose: true
+  end
+
+  def command_update
+    FileUtils.mv incoming_path, current_path, force: true #, verbose: true
+  end
+
+  def command_new
+    puts "#{name} - new set [ADD]"
+  end
+
+  def command_spoiler
+    return if incoming_data["cards"].size == 0 # no point reporting that
+    comment = "#{incoming_data["cards"].size} / #{incoming_data["baseSetSize"]}"
+    puts "#{name} - spoiler set (#{comment}) [IGNORE]"
+  end
+
+  def command_conflict
+    puts "#{name} - conflicting update [UPDATE]"
+
+    # Inserted here for plist migration time
+    if name == "MB1"
+      puts "  (too many conflicts)"
+      return
+    end
+
+    # Print all issues
+    if incoming_name != current_name
+      puts "  NAME: #{current_name} -> #{incoming_name}"
+    end
+
+    if incoming_base_set_size != current_base_set_size
+      puts "  BASE SET SIZE: #{current_base_set_size} -> #{incoming_base_set_size}"
+    end
+
+    if incoming_name != current_name
+      puts "  CODE: #{current_code} -> #{incoming_code}"
+    end
+
+    (current_cards - incoming_cards).sort.each do |card, num|
+      puts "  CARD DEL: #{num} #{card}"
+    end
+
+    (incoming_cards - current_cards).sort.each do |card, num|
+      puts "  CARD ADD: #{num} #{card}"
+    end
+  end
+end
+
+class UpdateMtgjsonSets
+  def current_dir
+    Pathname(__dir__) + "../../data/sets"
+  end
+
+  def incoming_dir
+    Pathname(__dir__) + "../../tmp/sets-incoming"
+  end
+
+  def incoming_files
+    incoming_dir.glob("*.json")
+  end
+
+  def call
+    incoming_files.each do |incoming_path|
+      current_path = current_dir + incoming_path.basename
+      SingleSetUpdater.new(incoming_path, current_path).call
+    end
+  end
+end
+
+UpdateMtgjsonSets.new.call

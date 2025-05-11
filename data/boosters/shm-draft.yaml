@@ -1,0 +1,15 @@
+pack:
+- common: 11
+  uncommon: 3
+  rare: 1
+  chance: 31
+- common: 10
+  uncommon: 3
+  rare: 1
+  foil: 1
+  chance: 9
+sheets:
+  common:
+    # balancing algorithm doesn't support heavily multicolor sets
+    balanced: false
+    query: "r:c"

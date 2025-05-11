@@ -1,0 +1,85 @@
+# Data from https://magic.wizards.com/en/news/feature/dominaria-united-product-overview-2022-08-18
+# Lost Legends rate set at 3%, exact rate is unknown
+# Assume that etched cards appear at same rate as nonfoil cards:
+# uncommon foil etched count: 5
+# retold uncommon count: 5
+# rare mythic foil etched count: 2*10 + 7 = 47
+# showcase rare mythic count: (2*10 + 5) + 2*20 + 16 = 81
+pack:
+  foil_fullart_land: 1
+  lost_legends_slot:
+  - foil_common: 4
+    chance: 97
+  - foil_common: 3
+    lost_legends: 1
+    chance: 3
+  foil_uncommon: 2
+  foil_rare_mythic: 1
+  extended_rare_mythic: 1
+  foil_uncommon_showcase: 1
+  foil_alt_border_rare_mythic: 1
+  etched_cards:
+  - retold_uncommon: 1
+    showcase_rare_mythic: 2
+    chance: 5 + 2*81
+  - etched_retold_uncommon: 1
+    showcase_rare_mythic: 2
+    chance: 5 + 2*81
+  - retold_uncommon: 1
+    etched_retold_rare_mythic: 1
+    showcase_rare_mythic: 1
+    chance: 5 + 81 + 47
+  - etched_retold_uncommon: 1
+    etched_retold_rare_mythic: 1
+    showcase_rare_mythic: 1
+    chance: 5 + 81 + 47
+  - retold_uncommon: 1
+    etched_retold_rare_mythic: 2
+    chance: 5 + 2*47
+  textured_foil: 1
+sheets:
+  foil_fullart_land:
+    foil: true
+    query: "r:b is:fullart"
+    count: 5
+  foil_rare_mythic:
+    foil: true
+    use: rare_mythic
+    count: 80
+  foil_uncommon_showcase:
+    foil: true
+    use: uncommon_showcase
+    count: 20
+  extended_rare_mythic:
+    filter: "(e:dmu or e:dmc) frame:extendedart -promo:buyabox"
+    use: rare_mythic
+    count: 71
+  lost_legends:
+    set: leg
+    code: "LL"
+  foil_alt_border_rare_mythic:
+    foil: true
+    filter: "e:dmu promo:boosterfun -is:foilonly number<=430"
+    use: rare_mythic
+    count: 80
+  retold_uncommon:
+    rawquery: "e:dmc number:29-48 r:u"
+    count: 5
+  etched_retold_uncommon:
+    foil: true
+    rawquery: "e:dmc is:etched r:u"
+    count: 5
+  etched_retold_rare_mythic:
+    foil: true
+    filter: "e:dmc is:etched alt:(number:29-48)"
+    use: rare_mythic
+    count: 15
+  showcase_rare_mythic:
+    filter: "(e:dmu promo:boosterfun -is:foilonly -frame:extendedart number<=430) or (e:dmc number:29-48)"
+    use: rare_mythic
+    count: 50
+  textured_foil:
+    foil: true
+    filter: "e:dmu promo:textured"
+    use: base_1248_by_rarity
+    count: 41

@@ -1,0 +1,62 @@
+name: "Mystery Booster Pack Convention 2021 Edition"
+pack:
+  white_a: 1
+  white_b: 1
+  blue_a: 1
+  blue_b: 1
+  black_a: 1
+  black_b: 1
+  red_a: 1
+  red_b: 1
+  green_a: 1
+  green_b: 1
+  multicolor: 1
+  colorless: 1
+  old_frame: 1
+  rare: 1
+  playtest2: 1
+sheets:
+  white_a:
+    set: plst
+    code: "WHITEA"
+  white_b:
+    set: plst
+    code: "WHITEB"
+  blue_a:
+    set: plst
+    code: "BLUEA"
+  blue_b:
+    set: plst
+    code: "BLUEB"
+  black_a:
+    set: plst
+    code: "BLACKA"
+  black_b:
+    set: plst
+    code: "BLACKB"
+  red_a:
+    set: plst
+    code: "REDA"
+  red_b:
+    set: plst
+    code: "REDB"
+  green_a:
+    set: plst
+    code: "GREENA"
+  green_b:
+    set: plst
+    code: "GREENB"
+  multicolor:
+    set: plst
+    code: "MULTICOLOR"
+  colorless:
+    set: plst
+    code: "COLORLESS"
+  old_frame:
+    set: plst
+    code: "OLDFRAME"
+  rare:
+    set: plst
+    code: "RARE"
+  playtest2:
+    rawquery: "e:cmb2"

@@ -1,0 +1,500 @@
+// Custom bootstrap variables must be set or imported before bootstrap itself.
+@import "bootstrap";
+@import "famfamfam-flags";
+@import "mana";
+@import "select2";
+@import "dark";
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.navbar {
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin-top: auto;
+}
+.empty_page .logo_row {
+  margin-top: 30vh;
+}
+a.site_logo {
+  color: black;
+  @media (prefers-color-scheme: dark) {
+    color: #dedad6;
+  }
+}
+ul {
+  padding: 0px 0px 0px 20px;
+}
+.warnings {
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  .warning {}
+}
+
+.results_summary {
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+div.pagination {
+  text-align: center;
+}
+.pagination {
+  color: #888;
+  font-size: small;
+  display: block;
+  a {
+    color: #88f;
+  }
+  margin-bottom: 0.5em;
+}
+
+form.search {
+  input[type="text"] {
+    width: 100%;
+  }
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+
+.search_form_row {
+  margin-bottom: 1em;
+}
+
+.glossary_entry {
+  margin-bottom: 0.5em;
+  .glossary_term {
+    font-weight: bold;
+  }
+}
+
+.rule {
+  margin-bottom: 0.5em;
+  .rule_id {
+    font-weight: bold;
+  }
+}
+
+.infolabel {
+  color: #444;
+  @media (prefers-color-scheme: dark) {
+    color: #bbb;
+  }
+  font-size: small;
+}
+
+.cardinfo {
+  margin-bottom: 0.5em;
+  h3.card_title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  .flavor_name {
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+  }
+  h5 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  ul {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  .reminder_text {
+    font-style: italic;
+    margin-bottom: 0.25em;
+  }
+  .color_indicator {
+    font-style: italic;
+    margin-bottom: 0.25em;
+  }
+  .flavor {
+    font-style: italic;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  .infolabel {
+    color: #444;
+    @media (prefers-color-scheme: dark) {
+      color: #bbb;
+    }
+    font-size: small;
+  }
+  .typeline {
+    margin-bottom: 0.25em;
+    font-weight: bold;
+  }
+  .power_toughness {
+    font-weight: bold;
+  }
+  .oracle {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    br {
+      content: "";
+      display: block;
+      margin-bottom: 0.25em;
+    }
+  }
+  .rulings {
+    font-size: small;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .legalities {
+    font-size: small;
+  }
+  .legality-legal, .legality-banned, .legality-restricted {
+    display: inline-block;
+    width: 7em;
+    text-align: center;
+    margin: 1px;
+  }
+  .legality-legal {
+    background-color: #8f8;
+    @media (prefers-color-scheme: dark) {
+      background-color: #080;
+    }
+  }
+  .legality-banned {
+    background-color: #f88;
+    @media (prefers-color-scheme: dark) {
+      background-color: #800;
+    }
+  }
+  .legality-restricted {
+    background-color: #fa4;
+    @media (prefers-color-scheme: dark) {
+      background-color: #880;
+    }
+  }
+}
+.foreign_names {
+  font-size: small;
+}
+
+.printings_list {
+  color: #888;
+  @media (prefers-color-scheme: dark) {
+    color: #bbb;
+  }
+  font-size: small;
+  .selected {
+    font-weight: bold;
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: #dedad6;
+    }
+  }
+  .matching {
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: #dedad6;
+    }
+  }
+  .not_matching a {
+    color: inherit;
+  }
+  .rarity {
+  }
+}
+
+.printings_box {
+  color: #888;
+  @media (prefers-color-scheme: dark) {
+    color: #bbb;
+  }
+  max-width: 200px;
+  font-size: xx-small;
+  .selected {
+    font-weight: bold;
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: #dedad6;
+    }
+  }
+  .matching {
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: #dedad6;
+    }
+  }
+  .not_matching a {
+    color: inherit;
+  }
+}
+.card_row {
+  position: relative;
+}
+.card_picture_cell {
+  padding: 0% 2% 2% 2%;
+}
+/* meld and split only enabled on sm+ devices */
+
+@keyframes foil_layer_animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card_picture_container {
+  position: relative;
+  perspective: 1000px;
+  z-index: 0;
+
+  .foil_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0) 60%);
+    background-size: 400% 400%;
+    animation: foil_layer_animation 4s ease infinite;
+    pointer-events: none;
+  }
+
+  .card_picture {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    transition: 0.5s ease;
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition-duration: 0.001ms;
+    }
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    &.flip_secondary {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  &:hover {
+    .card_picture.flip {
+      transform: rotateZ(180deg);
+    }
+    .card_picture.flip_secondary {
+      transform: rotateZ(0deg);
+    }
+    .decklist & .card_picture.split {
+      transform: translateX(-20%) rotateZ(90deg);
+    }
+    .decklist & .card_picture.aftermath {
+      transform: translateX(-20%) rotateZ(-90deg);
+    }
+    /* xs */
+    .card_picture.split {
+      transform: translateX(20%) rotateZ(90deg);
+    }
+    .card_0_of_2 & .card_picture.split {
+      transform: translateX(20%) rotateZ(90deg);
+    }
+    .card_1_of_2 & .card_picture.split {
+      transform: translateX(-20%) rotateZ(90deg);
+    }
+    .card_picture.aftermath {
+      transform: translateX(20%) rotateZ(-90deg);
+    }
+    .card_0_of_2 & .card_picture.aftermath {
+      transform: translateX(20%) rotateZ(-90deg);
+    }
+    .card_1_of_2 & .card_picture.aftermath {
+      transform: translateX(-20%) rotateZ(-90deg);
+    }
+    /* sm+ */
+    @media (min-width: 576px) {
+      .card_0_of_3 & .card_picture.split {
+        transform: translateX(20%) rotateZ(90deg);
+      }
+      .card_1_of_3 & .card_picture.split {
+        transform: translateX(0%) rotateZ(90deg);
+      }
+      .card_2_of_3 & .card_picture.split {
+        transform: translateX(-20%) rotateZ(90deg);
+      }
+      .card_0_of_3 & .card_picture.aftermath {
+        transform: translateX(20%) rotateZ(-90deg);
+      }
+      .card_1_of_3 & .card_picture.aftermath {
+        transform: translateX(0%) rotateZ(-90deg);
+      }
+      .card_2_of_3 & .card_picture.aftermath {
+        transform: translateX(-20%) rotateZ(-90deg);
+      }
+    }
+  }
+  &:hover {
+    z-index: 1;
+  }
+  & .dfc,
+  & .dfc_back {
+  }
+  &:hover .dfc {
+    transform: rotateY(-180deg);
+  }
+  &:hover .dfc_back {
+    transform: rotateY(180deg);
+  }
+  & .dfc_reverse {
+    position: absolute;
+    transform: rotateY(-180deg);
+  }
+  & .dfc_back_reverse {
+    position: absolute;
+    transform: rotateY(180deg);
+  }
+  &:hover .dfc_reverse {
+    transform: rotateY(-360deg);
+  }
+  &:hover .dfc_back_reverse {
+    transform: rotateY(360deg);
+  }
+  & .melded {
+  }
+  & .meld0 {
+    position: absolute;
+    transform: translateY(0) rotateY(180deg); // the translateY(0) is a workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=1499862
+  }
+  & .meld1 {
+    position: absolute;
+    transform: translateY(0) rotateY(180deg); // the translateY(0) is a workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=1499862
+  }
+  &:hover .melded {
+    transform: rotateY(180deg);
+  }
+  &:hover .meld0 {
+    transform: translateY(-30%) rotateY(360deg);
+  }
+  &:hover .meld1 {
+    transform: translateY(72%) rotateY(360deg);
+  }
+}
+.picture_missing {
+  padding: 1em;
+  font-style: italic;
+  background-color: #ccc;
+  color: black;
+  @media (prefers-color-scheme: dark) {
+    background-color: #333;
+    color: #dedad6;
+  }
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+/* Mana symbols
+ * font-size is 70% of 28 / 16
+ * but somehow 0.7em fails with hybrid symbols
+ */
+.manacost {
+  white-space: pre;
+  font-size: 11.2px;
+  vertical-align: text-top;
+}
+h3 .manacost {
+  font-size: 19.6px;
+}
+@media (prefers-color-scheme: dark) {
+  .mana-loyalty-up,
+  .mana-loyalty-down,
+  .mana-loyalty-zero,
+  .mana-loyalty-start {
+    color: #505050;
+  }
+}
+.decklist {
+  border: 1px solid black;
+  @media (prefers-color-scheme: dark) {
+    border-color: #dedad6;
+  }
+  padding: 0.5em;
+  header {
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+  h6 {
+    margin: 0;
+  }
+  .card_group {
+    margin-bottom: 0.5rem;
+  }
+  .two-columns {
+    column-count: 2;
+    column-gap: 15px;
+    column-rule: thin solid #888;
+  }
+}
+.picture_preview_column {
+  position: relative;
+  .picture_preview_box {
+    position: sticky;
+    top: 10px;
+    width: 100%;
+  }
+}
+.pack_selection {
+  input[type="number"] {
+    width: 3em;
+  }
+}
+.deck_submit {
+  textarea {
+    width: 100%;
+    min-height: 40em;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: black;
+      color: #dedad6;
+    }
+  }
+  .upload-group {
+    width: 100%;
+  }
+}
+.custom-file-label {
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    color: #dedad6;
+  }
+}
+.checklist {
+  a { color: inherit; }
+  tr:nth-child(even) {
+    background-color: #d8d8d8;
+    @media (prefers-color-scheme: dark) {
+      background-color: #272727;
+    }
+  }
+  td, th {
+    padding: 1px 2px 1px 2px;
+  }
+}
+label {
+  margin: 0;
+}
+textarea.fixed {
+  width: 100%;
+}

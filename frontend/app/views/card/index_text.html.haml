@@ -1,0 +1,12 @@
+- if @warnings.present?
+  .row
+    .col-12.warnings
+      - @warnings.each do |warning|
+        .warning= warning
+- if @search.present?
+  = render 'summary'
+  .row.multicard_row
+    - @cards.each_with_index do |(card, printings), i|
+      .col-6.col-md-4.col-lg-3.cardinfo
+        = render 'card', card: card
+  = render "pagination", cards: @cards

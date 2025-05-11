@@ -1,0 +1,11 @@
+!!!
+%html
+  = render "layouts/head"
+  %body
+    .container
+      .row.logo_row
+        .col-12
+          %h1
+            %a.site_logo{href: "/"}= APP_NAME
+      = yield
+      = render "layouts/footer"

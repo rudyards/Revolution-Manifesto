@@ -1,0 +1,13 @@
+- if @warnings.present?
+  .row
+    .col-12.warnings
+      - @warnings.each do |warning|
+        .warning= warning
+- if @search.present?
+  = render 'summary'
+  - @cards.each do |card, printings|
+    - if @cards.total_entries == 1
+      = render "card_row_full", card: card, printings: printings
+    - else
+      = render "card_row_short", card: card, printings: printings
+  = render "pagination", cards: @cards

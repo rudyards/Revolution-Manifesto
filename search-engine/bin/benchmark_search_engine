@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/card_database"
+require "benchmark"
+
+@db = CardDatabase.load
+
+queries = ARGF.readlines.map(&:chomp)
+
+puts Benchmark.measure{
+  queries.each do |query|
+    results = @db.search(query)
+    warnings = results.warnings
+    cards = results.card_groups
+  end
+}
