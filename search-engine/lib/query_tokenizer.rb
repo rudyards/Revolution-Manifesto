@@ -27,7 +27,7 @@ class QueryTokenizer
       elsif s.scan(/\)/i)
         tokens << [:close]
       elsif s.scan(%r[
-        (o|oracle|fo|fulloracle|ft|flavor|a|art|artist|n|name|number|rulings)
+        (o|oracle|fo|fulloracle|ft|flavor|a|art|artist|n|designer|champion|name|number|rulings)
         \s*[:=]\s*
         /(
           (?:[^\\/]|\\.)*
@@ -48,6 +48,8 @@ class QueryTokenizer
             "fulloracle" => ConditionFullOracleRegexp,
             "number" => ConditionNumberRegexp,
             "rulings" => ConditionRulingsRegexp,
+            "designer" => ConditionDesigner,
+            "champion" => ConditionChampion,
           }[s[1].downcase] or raise "Internal Error: #{s[0]}"
           rx = Regexp.new(s[2], Regexp::IGNORECASE | Regexp::MULTILINE)
           tokens << [:test, cond.new(rx)]

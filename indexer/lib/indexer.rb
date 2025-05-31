@@ -108,7 +108,7 @@ class Indexer
       # PatchShandalar,
       # PatchXmage,
       # PatchCommander,
-      # PatchMultipart,
+      PatchMultipart,
       # PatchSubsets,
       PatchDeckLimit,
 
@@ -119,7 +119,7 @@ class Indexer
 
       # Reconcile issues
       PatchReconcileForeignNames,
-      PatchAssignPrioritiesToSets,
+      # PatchAssignPrioritiesToSets,
       PatchReconcileOnSetPriority,
       PatchDeleteErrataSets,
 
@@ -130,7 +130,7 @@ class Indexer
       PatchNormalizeNames,
 
       # Deck Indexer
-      PatchDecks,
+      # PatchDecks,
     ]
   end
 
@@ -188,6 +188,6 @@ class Indexer
   end
 
   def load_decks
-    @decks = JSON.parse((ROOT + "decks.json").read)
+    # @decks = JSON.parse((ROOT + "decks.json").read)
   end
 end

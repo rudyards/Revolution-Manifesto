@@ -1,10 +1,13 @@
 class CardPrinting
   attr_reader(
+    :atags,
     :artist_name,
     :attraction_lights,
     :border,
     :card,
+    :champion,
     :date,
+    :designer,
     :digital,
     :etched,
     :flavor_name,
@@ -47,6 +50,9 @@ class CardPrinting
     @card = card
     @set = set
     @others = nil
+    @designer = data['designer'] || ''
+    @champion = data['champion'] || ''
+    @atags = data['atags'] || []
     @release_date = data["d"] ? Date.parse(data["d"]) : @set.release_date
     @release_date_i = @release_date.to_i_sort
     @watermark = data["w"]
@@ -201,6 +207,7 @@ class CardPrinting
     name
     name_slug
     names
+    otags
     partner?
     power
     primary?

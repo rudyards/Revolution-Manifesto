@@ -1,4 +1,4 @@
-APP_NAME = "mtg.wtf"
+APP_NAME = "Revolution Manifesto"
 
 # Load the Rails application.
 require_relative "application"

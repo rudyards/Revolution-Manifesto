@@ -138,91 +138,11 @@ class Format
 
   class << self
     def formats_index
-      # Removed spaces so you can say "lw block" lw-block lwblock lw_block or whatever
       {
-        "iablock"                    => FormatIceAgeBlock,
-        "iceageblock"                => FormatIceAgeBlock,
-        "mrblock"                    => FormatMirageBlock,
-        "mirageblock"                => FormatMirageBlock,
-        "tpblock"                    => FormatTempestBlock,
-        "tempestblock"               => FormatTempestBlock,
-        "usblock"                    => FormatUrzaBlock,
-        "urzablock"                  => FormatUrzaBlock,
-        "mmblock"                    => FormatMasquesBlock,
-        "masquesblock"               => FormatMasquesBlock,
-        "marcadianmasquesblock"      => FormatMasquesBlock,
-        "inblock"                    => FormatInvasionBlock,
-        "invasionblock"              => FormatInvasionBlock,
-        "odblock"                    => FormatOdysseyBlock,
-        "odysseyblock"               => FormatOdysseyBlock,
-        "onblock"                    => FormatOnslaughtBlock,
-        "onslaughtblock"             => FormatOnslaughtBlock,
-        "miblock"                    => FormatMirrodinBlock,
-        "mirrodinblock"              => FormatMirrodinBlock,
-        "tsblock"                    => FormatTimeSpiralBlock,
-        "timespiralblock"            => FormatTimeSpiralBlock,
-        "ravblock"                   => FormatRavinicaBlock,
-        "ravnicablock"               => FormatRavinicaBlock,
-        "kamigawablock"              => FormatKamigawaBlock,
-        "chkblock"                   => FormatKamigawaBlock,
-        "championsofkamigawablock"   => FormatKamigawaBlock,
-        "lwblock"                    => FormatLorwynBlock,
-        "lorwynblock"                => FormatLorwynBlock,
-        "lorwynshadowmoorblock"      => FormatLorwynBlock,
-        "alablock"                   => FormatShardsOfAlaraBlock,
-        "alarablock"                 => FormatShardsOfAlaraBlock,
-        "shardsofalarablock"         => FormatShardsOfAlaraBlock,
-        "zendikarblock"              => FormatZendikarBlock,
-        "zenblock"                   => FormatZendikarBlock,
-        "scarsofmirrodinblock"       => FormatScarsOfMirrodinBlock,
-        "somblock"                   => FormatScarsOfMirrodinBlock,
-        "innistradblock"             => FormatInnistradBlock,
-        "isdblock"                   => FormatInnistradBlock,
-        "returntoravnicablock"       => FormatReturnToRavnicaBlock,
-        "rtrblock"                   => FormatReturnToRavnicaBlock,
-        "therosblock"                => FormatTherosBlock,
-        "thsblock"                   => FormatTherosBlock,
-        "tarkirblock"                => FormatTarkirBlock,
-        "ktkblock"                   => FormatTarkirBlock,
-        "khansoftarkirblock"         => FormatTarkirBlock,
-        "battleforzendikarblock"     => FormatBattleForZendikarBlock,
-        "bfzblock"                   => FormatBattleForZendikarBlock,
-        "soiblock"                   => FormatShadowsOverInnistradBlock,
-        "shadowsoverinnistradblock"  => FormatShadowsOverInnistradBlock,
-        "kldblock"                   => FormatKaladeshBlock,
-        "kaladeshblock"              => FormatKaladeshBlock,
-        "akhblock"                   => FormatAmonkhetBlock,
-        "amonkhetblock"              => FormatAmonkhetBlock,
-        "ixalanblock"                => FormatIxalanBlock,
-        "xlnblock"                   => FormatIxalanBlock,
-        "unsets"                     => FormatUnsets,
-        "un-sets"                    => FormatUnsets,
-        "standard"                   => FormatStandard,
-        # Disabled for now, as this is "Standard Brawl" and the one that's actually being played is different "Historic Brawl"
-        # at some point it might be worth resurrecting the format
-        # "brawl"                      => FormatBrawl,
-        "modern"                     => FormatModern,
-        # I think the format is just dead
-        # "frontier"                   => FormatFrontier,
-        "pioneer"                    => FormatPioneer,
-        "legacy"                     => FormatLegacy,
-        "vintage"                    => FormatVintage,
-        "pauper"                     => FormatPauper,
-        "pennydreadful"              => FormatPennyDreadful,
-        "pd"                         => FormatPennyDreadful,
-        "penny"                      => FormatPennyDreadful,
-        "commander"                  => FormatCommander,
-        "edh"                        => FormatCommander,
-        "duelcommander"              => FormatDuelCommander,
-        "dueledh"                    => FormatDuelCommander,
-        "duel"                       => FormatDuelCommander,
-        # Disabled as I don't even know where the banlist for it is and if it's still a real format
-        # This could be reverted
-        # "mtgocommander"              => FormatMTGOCommander,
-        # "mtgoedh"                    => FormatMTGOCommander,
-        "historic"                   => FormatHistoric,
-        "premodern"                  => FormatPremodern,
-        "alchemy"                    => FormatAlchemy,
+        "revolution"                   => FormatRevolution,
+        "revolutioneternal"                     => FormatRevolutionEternal,
+        "eternalbrawl"                => FormatEternalBrawl,
+        "brawl"                      => FormatBrawl,
       }
     end
 
@@ -238,7 +158,8 @@ class Format
   end
 end
 
-require_relative "format_vintage"
-require_relative "format_standard"
-require_relative "format_commander"
+require_relative "format_revolution"
+require_relative "format_revolution_eternal"
+require_relative "format_eternal_brawl"
+require_relative "format_brawl"
 Dir["#{__dir__}/format_*.rb"].each do |path| require_relative path end

@@ -98,6 +98,27 @@ class CardController < ApplicationController
     end
   end
 
+  def setsdownload
+    send_file(
+      "#{Rails.root}/public/cards/AllSets.json",
+      filename: 'AllSets.json'
+    )
+  end
+
+  def tokensdownload
+    send_file(
+      "#{Rails.root}/public/cards/tokens.xml",
+      filename: 'tokens.xml'
+    )
+  end
+
+  def eternaldownload
+    send_file(
+      "#{Rails.root}/public/cards/AllSetsEternal.json",
+      filename: 'AllSetsEternal.json'
+    )
+  end
+
   private
 
   def choose_best_printing(printings)

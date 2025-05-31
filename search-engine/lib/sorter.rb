@@ -108,6 +108,14 @@ class Sorter
         [c.artist_name.downcase]
       when "-artist"
         [reverse_string_order(c.artist_name.downcase)]
+      when "designer"
+        [c.designer.downcase]
+      when "-designer"
+        [reverse_string_order(c.designer.downcase)]
+      when "champion"
+        [c.champion.downcase]
+      when "-champion"
+        [reverse_string_order(c.champion.downcase)]
       else # unknown key, should have been caught by initializer
         raise "Invalid sort order #{part}"
       end

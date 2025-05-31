@@ -15,7 +15,7 @@ class PatchFrame < Patch
         card["frame"] = "future"
       else
         card["frame"] = "m15"
-        puts "Unknown frame version: #{fv.inspect}"
+        # puts "Unknown frame version: #{fv.inspect}"
       end
     end
   end
