@@ -308,8 +308,9 @@ ccr	280		Swamp_CCR
 ccr	281		Temple of Origins
 ccr	282		Weather Research Station
 ccr	283		Dustwing Butterfly_PRO_CCR
+ccr	284		Carefree Kappa_PRO_CCR
 ccr	285		Heartbreak_PRO_CCR
-ccr	286		Carefree Kappa_PRO_CCR
+ccr	286		Calamity Cat_PRO_CCR
 ccr	1002		Armored Raptor ★
 ccr	1005		Catch Your Breath ★
 ccr	1008		Cirriform Dragon ★
@@ -685,6 +686,7 @@ cny	277		Estrathe, Center of Civilization_PRO_CNY
 cny	278		Liquidate_PRO_CNY
 cny	279		Ignited Soul_PRO_CNY
 cny	280		Thesis on Mutation_PRO_CNY
+cny	281		Serve Again_PRO_CNY
 cyb	1		Alien Pledge
 cyb	2		Atomize
 cyb	3		Beguiling Stewards
@@ -1020,6 +1022,8 @@ cyb	316		Orbinoid_PRO_CYB
 cyb	317a		Malicious Skycleaver_PRO_CYB
 cyb	317b		Silverscale Despot_PRO_CYB
 cyb	318		Looming Cyhawk_PRO_CYB
+cyb	319		Ozan's Blessing_PRO_CYB
+cyb	321		Data Weaver_PRO_CYB
 dov	270		Traveler's Amulet_DOV
 dov	273		Evolving Wilds_DOV
 dov	277		Forest_DOV
@@ -1265,8 +1269,8 @@ err	228		Superuser
 err	229		Archival Storage
 err	230		Autonomous Apiarist
 err	231		Burgeoning Consciousness
-err	232		Common Laser Sword
-err	233		EXPLODE()
+err	232		CLICK()
+err	233		Common Laser Sword
 err	234		Geometry Stabilizer
 err	235		Helen's Failsafe
 err	236		MAP()
@@ -1316,17 +1320,24 @@ err	275		Windbeaten Stones
 err	275		Windbeaten Stones
 err	276		Zealous Soulspace
 err	277		Plains_ERR
-err	278		Plains_ERR
-err	279		Island_ERR
-err	280		Island_ERR
-err	281		Swamp_ERR
-err	282		Swamp_ERR
-err	283		Mountain_ERR
-err	284		Mountain_ERR
-err	285		Forest_ERR
-err	286		Forest_ERR
+err	278		Island_ERR
+err	279		Swamp_ERR
+err	280		Mountain_ERR
+err	281		Forest_ERR
+err	282		Plains (Pixel)
+err	283		Island (Pixel)
+err	284		Swamp (Pixel)
+err	285		Mountain (Pixel)
+err	286		Forest (Pixel)
 err	287		Fabricated Anomaly
 err	288		Offset Daemon
+err	290		Futurist Ideal_PRO_ERR
+err	294		Cache Thrasher_PRO_ERR
+err	295		Cyberzoologist_PRO_ERR
+err	299		Complementarity_PRO_ERR
+err	301		Exorcist of Errors_PRO_ERR
+err	302		Red-Hot Rider_PRO_ERR
+err	303		Masksmith_PRO_ERR
 gqc	248		Evolving Wilds_GQC
 gqc	250		Plains_GQC
 gqc	251		Island_GQC
@@ -1634,6 +1645,16 @@ kdt	297		Island_KDT
 kdt	298		Swamp_KDT
 kdt	299		Mountain_KDT
 kdt	300		Forest_KDT
+kdt	301		The Dutiful Wanderer_PRO_KDT
+kdt	302		Perils of Eternity_PRO_KDT
+kdt	306		Spirit Realm Phoenix_PRO_KDT
+kdt	308		The Ancestral Legion_PRO_KDT
+kdt	312		Koraja, the Broken Blade_PRO_KDT
+kdt	313		Shiori, the Trickster_PRO_KDT
+kdt	314		Stratostorm_PRO_KDT
+kdt	316		Butchery_PRO_KDT
+kdt	319		Mastery_PRO_KDT
+kdt	324		Attuned Acolyte_PRO_KDT
 krs	192		Return to Nature_KRS
 krs	257		Evolving Wilds_KRS
 krs	270		Plains_KRS
@@ -1961,6 +1982,7 @@ old	292		Final Fate_PRO_OLD
 old	293		Chronicle of Extinction_PRO_OLD
 old	294		Raboorah's Appetite_PRO_OLD
 old	295		Abominable Avalanche_PRO_OLD
+old	297		Summoning Swords_PRO_OLD
 play	1		Playtest Card A1
 play	1s		Playtest Card A1
 play	2		Playtest Card A2
@@ -2067,6 +2089,7 @@ rev	84		Warden of Tremors_REV
 rev	85		Severin, Sparkmind_REV
 rev	86		Fabricated Anomaly_REV
 rev	87		Offset Daemon_REV
+rev	88		Foreign Encounter_REV
 src	91		Duress_SRC
 src	255		Plains_SRC
 src	256		Island_SRC

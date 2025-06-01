@@ -214,6 +214,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Emulation Expert</reverse-related>
  <reverse-related>Fluid Formation</reverse-related>
  <reverse-related>Gilded Death</reverse-related>
+ <reverse-related>High Teqien</reverse-related>
  <reverse-related>Neotech Replicant</reverse-related>
  <reverse-related>Qimis, Central Intelligence</reverse-related>
  <reverse-related>Replicrawler</reverse-related>
@@ -249,6 +250,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>As'Ahai, the Warsong_PRO_KSV</reverse-related>
  <reverse-related>Koios, Spear of Karda_PRO_TRX</reverse-related>
  <reverse-related>Qimis, Central Intelligence_PRO_CYB</reverse-related>
+ <reverse-related>Serve Again_PRO_CNY</reverse-related>
  <reverse-related>Dustwing Butterfly_PRO_CCR</reverse-related>
  <set num="MSEMAR11" rarity="token">tokens</set>
 </card>
@@ -321,6 +323,8 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Ruins of Missing Notes</reverse-related>
  <reverse-related>The Five-Thorn Maw</reverse-related>
  <reverse-related>The Ozanwood</reverse-related>
+ <reverse-related>Claim What Remains_VST</reverse-related>
+ <reverse-related>Grin's Reaver_VST</reverse-related>
  <reverse-related>Nivia, Last of the Aethanis_VST</reverse-related>
  <reverse-related>Quintessence Manta_VST</reverse-related>
  <reverse-related>Abrupt Possession_SRC</reverse-related>
@@ -364,7 +368,10 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Titanic Fossil_MON</reverse-related>
  <reverse-related>Arisen Tyrant_MON</reverse-related>
  <reverse-related>Trainee Karina Oblay_MON</reverse-related>
+ <reverse-related>Aglu, Tugit Chieftain</reverse-related>
+ <reverse-related>Guru of Tumbling Stone</reverse-related>
  <reverse-related>Samaka's Charm</reverse-related>
+ <reverse-related>Solara's Machinations</reverse-related>
  <reverse-related>Kr'tah, Corporeal Sculptor_GQC</reverse-related>
  <reverse-related>Nightmare Feaster_GQC</reverse-related>
  <reverse-related>Realize the Delicate Ideal_GQC</reverse-related>
@@ -374,12 +381,16 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Legend of Rasnif_SVG</reverse-related>
  <reverse-related>Calamity's Cohort_VRD</reverse-related>
  <reverse-related>Crackling Watcher_VRD</reverse-related>
+ <reverse-related>Freezefire Corps_VRD</reverse-related>
  <reverse-related>Grimblood's Mastermind_VRD</reverse-related>
  <reverse-related>Mission Briefing_VRD</reverse-related>
+ <reverse-related>Monument to Vanity_VRD</reverse-related>
  <reverse-related>The World Is Not Enough_VRD</reverse-related>
  <reverse-related>Elseworld Oracle_KRS</reverse-related>
  <reverse-related>Elsewurm_KRS</reverse-related>
  <reverse-related>Frenzied Pair_KRS</reverse-related>
+ <reverse-related>Overflow Hellkite_KRS</reverse-related>
+ <reverse-related>Overflight Scourge_KRS</reverse-related>
  <reverse-related>Rift Cartographers_KRS</reverse-related>
  <reverse-related>Waning Window_KRS</reverse-related>
  <reverse-related>At the Walls_KSV</reverse-related>
@@ -394,35 +405,46 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Sword of Rage and Tranquility_BLR</reverse-related>
  <reverse-related>Toil in Strife_BLR</reverse-related>
  <reverse-related>Alehana the Persuader_DOV</reverse-related>
+ <reverse-related>Bourgeois Class_DOV</reverse-related>
  <reverse-related>Cabal Class_DOV</reverse-related>
+ <reverse-related>Campaign of Retribution_DOV</reverse-related>
+ <reverse-related>Juana, Telhedo's Last Master_DOV</reverse-related>
  <reverse-related>Witchfinder Artur_DOV</reverse-related>
  <reverse-related>Begin the Imperial Era_POP</reverse-related>
  <reverse-related>Bring the House Down_POP</reverse-related>
  <reverse-related>Digitize the Analog World_POP</reverse-related>
+ <reverse-related>Forte Feline_POP</reverse-related>
  <reverse-related>Indulge the Fifth Encore_POP</reverse-related>
  <reverse-related>Make It Personal_POP</reverse-related>
+ <reverse-related>Midnight Burner_POP</reverse-related>
  <reverse-related>Nekaru the Showstealer_POP</reverse-related>
  <reverse-related>Phototactic Sensing_POP</reverse-related>
  <reverse-related>Release the Unchained Melody_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive (A.G. Cook)_POP</reverse-related>
+ <reverse-related>Koios, Spear of Karda</reverse-related>
  <reverse-related>Life Begins Anew</reverse-related>
  <reverse-related>Molpadia, the Last Acephali</reverse-related>
  <reverse-related>Shrine to Purphoros</reverse-related>
  <reverse-related>The Path of Phenax</reverse-related>
+ <reverse-related>Zakros Stompers</reverse-related>
  <reverse-related>Crux, Chainer of Titans</reverse-related>
  <reverse-related>Face of the Phoenix</reverse-related>
  <reverse-related>Fumebloom</reverse-related>
  <reverse-related>Grasping Ancient</reverse-related>
  <reverse-related>Harvesting Blade</reverse-related>
+ <reverse-related>Igneous Visions</reverse-related>
  <reverse-related>Rano's Slopeguard</reverse-related>
  <reverse-related>Sporeback Jargah</reverse-related>
+ <reverse-related>Traverse the Ley-Runes</reverse-related>
+ <reverse-related>Callisto, the Teqiarch</reverse-related>
  <reverse-related>Callisto's Confiscation</reverse-related>
  <reverse-related>Dawn of Peace</reverse-related>
  <reverse-related>Embrace the Unnatural</reverse-related>
  <reverse-related>Gentle Grasp</reverse-related>
  <reverse-related>Gericho, Ageless Wanderer</reverse-related>
  <reverse-related>Gift of Inspiration</reverse-related>
+ <reverse-related>Highseas Renegade</reverse-related>
  <reverse-related>Resign to Progress</reverse-related>
  <reverse-related>Stolen Secrets</reverse-related>
  <reverse-related>Zhovala, Silver Monarch</reverse-related>
@@ -432,39 +454,56 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Meeting of the Elites</reverse-related>
  <reverse-related>Aristocracy</reverse-related>
  <reverse-related>Vishanki Agenda</reverse-related>
+ <reverse-related>Crumbling Tower</reverse-related>
+ <reverse-related>Exotic Transformer</reverse-related>
  <reverse-related>Harbor Mail</reverse-related>
  <reverse-related>Streaking Sunrise</reverse-related>
  <reverse-related>Warden of Tremors</reverse-related>
  <reverse-related>Warden of Tremors ★</reverse-related>
  <reverse-related>Weaver of Fates</reverse-related>
  <reverse-related>Electronic Countermeasures</reverse-related>
+ <reverse-related>Eviviva, Grip Exec</reverse-related>
+ <reverse-related>LOOP()</reverse-related>
  <reverse-related>Overwhelming Upload</reverse-related>
+ <reverse-related>Red-Hot Rider</reverse-related>
  <reverse-related>Schematic Archer </reverse-related>
  <reverse-related>The Weftheart</reverse-related>
  <reverse-related>Ayeshi, Time's Jailer</reverse-related>
  <reverse-related>Ayeshi's Agent</reverse-related>
+ <reverse-related>Deepborn Calamity</reverse-related>
+ <reverse-related>Devouring Seishin</reverse-related>
  <reverse-related>Giyama, Scion of Kage</reverse-related>
  <reverse-related>Godslaughter Titan</reverse-related>
+ <reverse-related>Hellfire Crafting</reverse-related>
  <reverse-related>Imperial Dragon</reverse-related>
+ <reverse-related>Imperial Production</reverse-related>
  <reverse-related>Koi Float</reverse-related>
  <reverse-related>Koraja, the Broken Blade</reverse-related>
+ <reverse-related>Scouring the Riverbed</reverse-related>
  <reverse-related>Seishin of Sun's Radiance</reverse-related>
  <reverse-related>Shigane Manor Burns</reverse-related>
  <reverse-related>Alehana the Persuader_REV</reverse-related>
+ <reverse-related>Igneous Visions_REV</reverse-related>
  <reverse-related>Rano's Slopeguard_REV</reverse-related>
  <reverse-related>Resign to Progress_REV</reverse-related>
  <reverse-related>The Weftheart_REV</reverse-related>
  <reverse-related>Warden of Tremors_REV</reverse-related>
+ <reverse-related>Guru of Tumbling Stone (Toph, Blind Bender)</reverse-related>
  <reverse-related>Engines of War_PRO_KSV</reverse-related>
+ <reverse-related>Koios, Spear of Karda_PRO_TRX</reverse-related>
  <reverse-related>Gift of Inspiration_PRO_CYB</reverse-related>
  <reverse-related>Resign to Progress_PRO_CYB</reverse-related>
+ <reverse-related>Red-Hot Rider_PRO_ERR</reverse-related>
+ <reverse-related>Koraja, the Broken Blade_PRO_KDT</reverse-related>
  <reverse-related>Emblem KDT</reverse-related>
  <reverse-related>Evil Plan VRD</reverse-related>
  <reverse-related>On An Adventure KDT</reverse-related>
  <reverse-related>On an Adventure MSEMAR</reverse-related>
+ <reverse-related>SAVE() ERR</reverse-related>
  <reverse-related>colorless Saga KDT</reverse-related>
  <reverse-related>Stolen ERR</reverse-related>
  <reverse-related>Undercover SRC</reverse-related>
+ <reverse-related>red Warrior 22ERR</reverse-related>
  <set num="MSEMAR7" rarity="token">tokens</set>
 </card>
 <card>
@@ -2502,6 +2541,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Efimia of the Horse</reverse-related>
  <reverse-related>Harmony with Nature</reverse-related>
+ <reverse-related count="2">Harmony with Nature</reverse-related>
  <reverse-related>Implacable Shrine-Guard</reverse-related>
  <reverse-related count="3">Iroas's Judgment</reverse-related>
  <reverse-related>Shrine to Heliod</reverse-related>
@@ -3675,7 +3715,6 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Just-In-Time Interpreter</reverse-related>
  <reverse-related>Lavis' Hydroponicist</reverse-related>
  <reverse-related>Lost Connection</reverse-related>
- <reverse-related>Masksmith</reverse-related>
  <reverse-related>Olis Mars, Final Archivist</reverse-related>
  <reverse-related>Reprieve from Mortality</reverse-related>
  <reverse-related>Rogue Daemon</reverse-related>
@@ -3687,7 +3726,183 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Unending Possibility</reverse-related>
  <reverse-related>Untethered Daemon</reverse-related>
  <reverse-related>Web Surfer</reverse-related>
+ <reverse-related>Cache Thrasher_PRO_ERR</reverse-related>
+ <reverse-related>Futurist Ideal_PRO_ERR</reverse-related>
  <set num="ERR2" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Program A ERR</name>
+ <text>As a Subroutine you control enters, insert it into one of your programs. It does not run. 
+If you control a Subroutine, move to your next program as your first main phase begins. All Subroutines in that program run. (Start at A. After C, go back to A.)</text>
+ <colors></colors>
+ <type></type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>BEHOLD()</reverse-related>
+ <reverse-related>BORROW()</reverse-related>
+ <reverse-related>BYPASS()</reverse-related>
+ <reverse-related>CHURN()</reverse-related>
+ <reverse-related>CLICK()</reverse-related>
+ <reverse-related>COMMIT()</reverse-related>
+ <reverse-related>COPY()</reverse-related>
+ <reverse-related>EXIT()</reverse-related>
+ <reverse-related>FLOCK()</reverse-related>
+ <reverse-related>FORK()</reverse-related>
+ <reverse-related>GENERATE()</reverse-related>
+ <reverse-related>ITERATE()</reverse-related>
+ <reverse-related>JUMP()</reverse-related>
+ <reverse-related>LOOP()</reverse-related>
+ <reverse-related>MAP()</reverse-related>
+ <reverse-related>MASK()</reverse-related>
+ <reverse-related>PANIC()</reverse-related>
+ <reverse-related>RECURSE()</reverse-related>
+ <reverse-related>RECV()</reverse-related>
+ <reverse-related>RESET()</reverse-related>
+ <reverse-related>RESONATE()</reverse-related>
+ <reverse-related>RETURN()</reverse-related>
+ <reverse-related>SEEK()</reverse-related>
+ <reverse-related>SYSCALL()</reverse-related>
+ <reverse-related>UNDO()</reverse-related>
+ <reverse-related>WAIT()</reverse-related>
+ <reverse-related>ALARM() ERR</reverse-related>
+ <reverse-related>BOOST() ERR</reverse-related>
+ <reverse-related>MOUNT() ERR</reverse-related>
+ <reverse-related>OVERFLOW() ERR</reverse-related>
+ <reverse-related>OVERFLOW() REV</reverse-related>
+ <reverse-related>READ() ERR</reverse-related>
+ <reverse-related>SAVE() ERR</reverse-related>
+ <reverse-related>TICK() ERR</reverse-related>
+ <set num="ERR3" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Program B ERR</name>
+ <text></text>
+ <colors></colors>
+ <type></type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>BEHOLD()</reverse-related>
+ <reverse-related>BORROW()</reverse-related>
+ <reverse-related>BYPASS()</reverse-related>
+ <reverse-related>CHURN()</reverse-related>
+ <reverse-related>CLICK()</reverse-related>
+ <reverse-related>COMMIT()</reverse-related>
+ <reverse-related>COPY()</reverse-related>
+ <reverse-related>EXIT()</reverse-related>
+ <reverse-related>FLOCK()</reverse-related>
+ <reverse-related>FORK()</reverse-related>
+ <reverse-related>GENERATE()</reverse-related>
+ <reverse-related>ITERATE()</reverse-related>
+ <reverse-related>JUMP()</reverse-related>
+ <reverse-related>LOOP()</reverse-related>
+ <reverse-related>MAP()</reverse-related>
+ <reverse-related>MASK()</reverse-related>
+ <reverse-related>PANIC()</reverse-related>
+ <reverse-related>RECURSE()</reverse-related>
+ <reverse-related>RECV()</reverse-related>
+ <reverse-related>RESET()</reverse-related>
+ <reverse-related>RESONATE()</reverse-related>
+ <reverse-related>RETURN()</reverse-related>
+ <reverse-related>SEEK()</reverse-related>
+ <reverse-related>SYSCALL()</reverse-related>
+ <reverse-related>UNDO()</reverse-related>
+ <reverse-related>WAIT()</reverse-related>
+ <reverse-related>ALARM() ERR</reverse-related>
+ <reverse-related>BOOST() ERR</reverse-related>
+ <reverse-related>MOUNT() ERR</reverse-related>
+ <reverse-related>OVERFLOW() ERR</reverse-related>
+ <reverse-related>OVERFLOW() REV</reverse-related>
+ <reverse-related>READ() ERR</reverse-related>
+ <reverse-related>SAVE() ERR</reverse-related>
+ <reverse-related>TICK() ERR</reverse-related>
+ <set num="ERR4" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Program C ERR</name>
+ <text></text>
+ <colors></colors>
+ <type></type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>BEHOLD()</reverse-related>
+ <reverse-related>BORROW()</reverse-related>
+ <reverse-related>BYPASS()</reverse-related>
+ <reverse-related>CHURN()</reverse-related>
+ <reverse-related>CLICK()</reverse-related>
+ <reverse-related>COMMIT()</reverse-related>
+ <reverse-related>COPY()</reverse-related>
+ <reverse-related>EXIT()</reverse-related>
+ <reverse-related>FLOCK()</reverse-related>
+ <reverse-related>FORK()</reverse-related>
+ <reverse-related>GENERATE()</reverse-related>
+ <reverse-related>ITERATE()</reverse-related>
+ <reverse-related>JUMP()</reverse-related>
+ <reverse-related>LOOP()</reverse-related>
+ <reverse-related>MAP()</reverse-related>
+ <reverse-related>MASK()</reverse-related>
+ <reverse-related>PANIC()</reverse-related>
+ <reverse-related>RECURSE()</reverse-related>
+ <reverse-related>RECV()</reverse-related>
+ <reverse-related>RESET()</reverse-related>
+ <reverse-related>RESONATE()</reverse-related>
+ <reverse-related>RETURN()</reverse-related>
+ <reverse-related>SEEK()</reverse-related>
+ <reverse-related>SYSCALL()</reverse-related>
+ <reverse-related>UNDO()</reverse-related>
+ <reverse-related>WAIT()</reverse-related>
+ <reverse-related>ALARM() ERR</reverse-related>
+ <reverse-related>BOOST() ERR</reverse-related>
+ <reverse-related>MOUNT() ERR</reverse-related>
+ <reverse-related>OVERFLOW() ERR</reverse-related>
+ <reverse-related>OVERFLOW() REV</reverse-related>
+ <reverse-related>READ() ERR</reverse-related>
+ <reverse-related>SAVE() ERR</reverse-related>
+ <reverse-related>TICK() ERR</reverse-related>
+ <set num="ERR5" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Subroutines ERR</name>
+ <text>As a Subroutine you control enters, insert it into one of your programs. It does not run. 
+If you control a Subroutine, move to your next program as your first main phase begins. All Subroutines in that program run. (Start at A. After C, go back to A.)</text>
+ <colors></colors>
+ <type></type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>BEHOLD()</reverse-related>
+ <reverse-related>BORROW()</reverse-related>
+ <reverse-related>BYPASS()</reverse-related>
+ <reverse-related>CHURN()</reverse-related>
+ <reverse-related>CLICK()</reverse-related>
+ <reverse-related>COMMIT()</reverse-related>
+ <reverse-related>COPY()</reverse-related>
+ <reverse-related>EXIT()</reverse-related>
+ <reverse-related>FLOCK()</reverse-related>
+ <reverse-related>FORK()</reverse-related>
+ <reverse-related>GENERATE()</reverse-related>
+ <reverse-related>ITERATE()</reverse-related>
+ <reverse-related>JUMP()</reverse-related>
+ <reverse-related>LOOP()</reverse-related>
+ <reverse-related>MAP()</reverse-related>
+ <reverse-related>MASK()</reverse-related>
+ <reverse-related>PANIC()</reverse-related>
+ <reverse-related>RECURSE()</reverse-related>
+ <reverse-related>RECV()</reverse-related>
+ <reverse-related>RESET()</reverse-related>
+ <reverse-related>RESONATE()</reverse-related>
+ <reverse-related>RETURN()</reverse-related>
+ <reverse-related>SEEK()</reverse-related>
+ <reverse-related>SYSCALL()</reverse-related>
+ <reverse-related>UNDO()</reverse-related>
+ <reverse-related>WAIT()</reverse-related>
+ <reverse-related>ALARM() ERR</reverse-related>
+ <reverse-related>BOOST() ERR</reverse-related>
+ <reverse-related>MOUNT() ERR</reverse-related>
+ <reverse-related>OVERFLOW() ERR</reverse-related>
+ <reverse-related>OVERFLOW() REV</reverse-related>
+ <reverse-related>READ() ERR</reverse-related>
+ <reverse-related>SAVE() ERR</reverse-related>
+ <reverse-related>TICK() ERR</reverse-related>
+ <set num="ERR6" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Jellyfish 11ERR</name>
@@ -3720,6 +3935,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related count="2">Make the Last Night Count</reverse-related>
  <reverse-related count="3">Reified Borough</reverse-related>
  <reverse-related count="2">UNDO()</reverse-related>
+ <reverse-related count="x">Complementarity_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
  <set num="ERR8" rarity="token">tokens</set>
 </card>
@@ -3972,6 +4188,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Attuned Acolyte</reverse-related>
+ <reverse-related>Attuned Acolyte_PRO_KDT</reverse-related>
  <set num="KDT17" rarity="token">tokens</set>
 </card>
 <card>
@@ -4075,7 +4292,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related count="3">Monastery Teacher</reverse-related>
  <reverse-related>Nerve-Strike Disciple</reverse-related>
  <reverse-related>Ofuda Mistress</reverse-related>
- <reverse-related count="3">Teshima, Living Balance</reverse-related>
+ <reverse-related count="2">Teshima, Living Balance</reverse-related>
  <set num="KDT3" rarity="token">tokens</set>
 </card>
 <card>
@@ -4624,34 +4841,6 @@ Equip {2}</text>
  <set num="KDT14" rarity="token">tokens</set>
 </card>
 <card>
- <name>Program A ERR</name>
- <text>As a Subroutine you control enters, insert it into one of your programs. It does not run. 
-If you control a Subroutine, move to your next program as your first main phase begins. All Subroutines in that program run. (Start at A. After C, go back to A.)</text>
- <colors></colors>
- <type></type>
- <token>1</token>
- <tablerow>1</tablerow>
- <set num="ERR3" rarity="token">tokens</set>
-</card>
-<card>
- <name>Program B ERR</name>
- <text></text>
- <colors></colors>
- <type></type>
- <token>1</token>
- <tablerow>1</tablerow>
- <set num="ERR4" rarity="token">tokens</set>
-</card>
-<card>
- <name>Program C ERR</name>
- <text></text>
- <colors></colors>
- <type></type>
- <token>1</token>
- <tablerow>1</tablerow>
- <set num="ERR5" rarity="token">tokens</set>
-</card>
-<card>
  <name>Prowess Gadget VRD</name>
  <text>Equipped creature has prowess.
 Equip {2}</text>
@@ -4756,16 +4945,6 @@ III — You may cast a copy of the exiled card without paying its mana cost.</te
  <token>1</token>
  <tablerow>1</tablerow>
  <set num="MSEMAR13" rarity="token">tokens</set>
-</card>
-<card>
- <name>Subroutines ERR</name>
- <text>As a Subroutine you control enters, insert it into one of your programs. It does not run. 
-If you control a Subroutine, move to your next program as your first main phase begins. All Subroutines in that program run. (Start at A. After C, go back to A.)</text>
- <colors></colors>
- <type></type>
- <token>1</token>
- <tablerow>1</tablerow>
- <set num="ERR6" rarity="token">tokens</set>
 </card>
 <card>
  <name>The Champion TRX</name>
