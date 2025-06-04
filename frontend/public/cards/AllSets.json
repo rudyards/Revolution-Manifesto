@@ -5080,7 +5080,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nWhenever a creature dies, exile it with a coin counter on it. Each opponent loses 1 life and you gain 1 life.\nWhenever Athreos attacks, put a creature card you exiled with a coin counter on it onto the battlefield under your control.",
+     "text": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nIf a creature would die, exile it with a coin counter on it instead. When you do, each opponent loses 1 life and you gain 1 life.\nWhenever Athreos attacks, put a creature card you exiled with a coin counter on it onto the battlefield under your control.",
      "toughness": "4",
      "type": "Legendary Enchantment Creature — God",
      "types": [
@@ -37605,7 +37605,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "High Teqien enters the battlefield tapped unless you control a basic non-Island land.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice High Teqien: Gain control of target land. Its owner may create a tapped token that's a copy of that land.",
+     "text": "High Teqien enters the battlefield tapped unless you control a basic non-Island land.\n{T}: Add {U}.\n{1}{U}, {T}, Sacrifice High Teqien: Gain control of target land. Its owner may create a tapped token that's a copy of that land. Activate only as a sorcery.",
      "type": "Land",
      "types": [
       "Land"
