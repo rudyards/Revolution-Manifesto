@@ -19451,6 +19451,54 @@
      ]
     },
     {
+     "artist": "qing wen",
+     "convertedManaCost": 4,
+     "faceConvertedManaCost": 4,
+     "manaValue": 4,
+     "faceManaValue": 4,
+     "colors": [
+      "W",
+      "U"
+     ],
+     "colorIdentity": [
+      "W",
+      "U"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Builder of Monuments_PRO_TRX",
+     "imageName": "builder of monuments_pro_trx",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{2}{W}{U}",
+     "multiverseid": 5943,
+     "name": "Builder of Monuments_PRO_TRX",
+     "number": "315",
+     "power": "4",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Giant",
+      "Artificer"
+     ],
+     "text": "Vigilance\nWhenever Builder of Monuments attacks, put a build counter on it. Then you may search your library for an artifact or enchantment card with mana value less than or equal to the number of build counters on Builder of Monuments, put that card onto the battlefield, then shuffle.",
+     "toughness": "5",
+     "type": "Creature — Giant Artificer",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Builder of Monuments_PRO_TRX"
+    },
+    {
      "artist": "Tyler Miles Lockett",
      "convertedManaCost": 3,
      "faceConvertedManaCost": 3,
@@ -19810,8 +19858,8 @@
      "uuid": "Shrine to Those Forgotten_PRO_TRX"
     }
    ],
-   "baseSetSize": 342,
-   "totalSetSize": 342,
+   "baseSetSize": 343,
+   "totalSetSize": 343,
    "cardsphereSetId": 13,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -32439,6 +32487,46 @@
      "uuid": "Hearty Roughrider_PRO_OLD"
     },
     {
+     "artist": "Asur Misoa",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "R"
+     ],
+     "colorIdentity": [
+      "R"
+     ],
+     "designer": "Dodger",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Igneous Visions_PRO_OLD",
+     "imageName": "igneous visions_pro_old",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Legal"
+     },
+     "manaCost": "{R}",
+     "multiverseid": 5944,
+     "name": "Igneous Visions_PRO_OLD",
+     "number": "296",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Exile the top card of your library. You may play that card this turn.\nFlashback {R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+     "type": "Sorcery",
+     "types": [
+      "Sorcery"
+     ],
+     "uuid": "Igneous Visions_PRO_OLD"
+    },
+    {
      "artist": "Tomasz Chistowski",
      "convertedManaCost": 3,
      "faceConvertedManaCost": 3,
@@ -32698,8 +32786,8 @@
      "uuid": "Thunderous Avalanche_PRO_OLD"
     }
    ],
-   "baseSetSize": 297,
-   "totalSetSize": 297,
+   "baseSetSize": 298,
+   "totalSetSize": 298,
    "cardsphereSetId": 14,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -35006,10 +35094,10 @@
     },
     {
      "artist": "Antonio J. Manzanedo",
-     "convertedManaCost": 4,
-     "faceConvertedManaCost": 4,
-     "manaValue": 4,
-     "faceManaValue": 4,
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
      "colors": [
       "B"
      ],
@@ -35029,11 +35117,11 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
-     "manaCost": "{2}{C/B}{C/B}",
+     "manaCost": "{C/B}{C/B}",
      "multiverseid": 4275,
      "name": "Corpsepyre Fiend",
      "number": "111",
-     "power": "5",
+     "power": "3",
      "rarity": "rare",
      "relatedCards": {
       "spellbook": []
@@ -35043,7 +35131,7 @@
       "Demon"
      ],
      "text": "{C/B}: Integrate target card in a graveyard. (Exile it, then you may choose a nonland permanent it's integrated onto.)\nAs long as a creature card with flying is integrated onto Corpsepyre Fiend, it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, reach, trample, and vigilance.",
-     "toughness": "4",
+     "toughness": "2",
      "type": "Creature — Vukoroq Demon",
      "types": [
       "Creature"
@@ -37004,7 +37092,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Return target creature to its owner's hand. If you've cast another instant or sorcery spell this turn, draw a card.",
+     "text": "Return target nonland permanent to its owner's hand. If you've cast another instant or sorcery spell this turn, draw a card.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -37306,7 +37394,7 @@
      "multiverseid": 4327,
      "name": "Gi-Gecha, Tide of Victory",
      "number": "214",
-     "power": "4",
+     "power": "5",
      "rarity": "rare",
      "relatedCards": {
       "spellbook": []
@@ -37317,8 +37405,8 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Whenever you cast an instant or sorcery spell, put a counter on Gi-Gecha, Tide of Victory from among flying, vigilance, trample, and +1/+1 that it doesn't have on it.\nAs long as Gi-Gecha has four or more counters on it, it has hexproof and is an artifact creature.\nCrew 3",
-     "toughness": "4",
+     "text": "Whenever you cast an instant or sorcery spell, put a counter on Gi-Gecha, Tide of Victory from among flying, vigilance, and trample that it doesn't have on it.\nAs long as Gi-Gecha has three or more counters on it, it has hexproof and is an artifact creature.\nCrew 3",
+     "toughness": "5",
      "type": "Legendary Artifact — Vehicle",
      "types": [
       "Artifact"
@@ -38787,7 +38875,7 @@
      "pageData": {
       "name": "Freight",
       "manaCost": "{U}",
-      "type": "Instant — Discharge ",
+      "type": "Instant — Discharge",
       "text": "Exile target creature you control, then return that card to the battlefield under its owner's control. *(Remove a counter from this to cast a copy.)*"
      },
      "power": "5",
@@ -38799,7 +38887,7 @@
       "Bird",
       "Construct"
      ],
-     "text": "Flying\nDiscard a card: Put a +1/+1 counter on Jetstream Cruiser. Activate only once each turn.\n-----\nFreight {U}\nInstant — Discharge \nExile target creature you control, then return that card to the battlefield under its owner's control. *(Remove a counter from this to cast a copy.)*",
+     "text": "Flash\nFlying\nDiscard a card: Put a +1/+1 counter on Jetstream Cruiser. Activate only once each turn.\n-----\nFreight {U}\nInstant — Discharge\nExile target creature you control, then return that card to the battlefield under its owner's control. *(Remove a counter from this to cast a copy.)*",
      "toughness": "4",
      "type": "Artifact Creature — Bird Construct",
      "types": [
@@ -38837,7 +38925,7 @@
      "multiverseid": 4360,
      "name": "Lagoroth, Century's Apex",
      "number": "187",
-     "power": "5",
+     "power": "6",
      "rarity": "rare",
      "relatedCards": {
       "spellbook": []
@@ -38849,8 +38937,8 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Vigilance, trample\nAs long as there are five or more instant and/or sorcery cards in your graveyard, Lagoroth, Century's Apex has haste and ward {5}.\nAs long as there are ten or more instant and/or sorcery cards in your graveyard, Lagoroth gets +10/+10.",
-     "toughness": "5",
+     "text": "Vigilance, trample\nAs long as there are three or more instant and/or sorcery cards in your graveyard, Lagoroth, Century's Apex has haste.\nAs long as there are six or more instant and/or sorcery cards in your graveyard, Lagoroth gets +6/+6.",
+     "toughness": "6",
      "type": "Legendary Creature — Elemental Beast",
      "types": [
       "Creature"
@@ -41895,7 +41983,7 @@
       "Shapeshifter",
       "Shaman"
      ],
-     "text": "Solidarity (Whenever you attack with six or more different creature types, create a Solidarity enchantment with “Attacking creatures you control get +1/+0” if you haven't this turn.)\n{1}{R}: Choose a creature type. Ragecloak Shifter gets +2/+0 and becomes that type in addition to its other types until end of turn.",
+     "text": "Solidarity (Whenever you attack with six or more different creature types, create a Solidarity enchantment with “Attacking creatures you control get +1/+0” if you haven't this turn.)\n{R}: Choose a creature type. Ragecloak Shifter gets +1/+0 and becomes that type in addition to its other types until end of turn.",
      "toughness": "1",
      "type": "Creature — Shapeshifter Shaman",
      "types": [
@@ -41938,7 +42026,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Create a 1/1 red creature token with haste and a creature type of your choice and a 1/1 green creature token with trample and a creature type of your choice.",
+     "text": "Choose two creature types. Create a 1/1 red creature token of the first type with haste and a 1/1 green creature token of the second type with trample.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -42187,7 +42275,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Counter target spell with mana value X. If that spell is targeting you or a creature you control, you may choose new targets for it instead.",
+     "text": "Counter target spell with mana value X. If it's an instant or sorcery spell, you may instead gain control of it. If you do, you may choose new targets for it.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -43264,7 +43352,7 @@
      "multiverseid": 4452,
      "name": "Shepherd of Steel",
      "number": "246",
-     "power": "3",
+     "power": "2",
      "rarity": "uncommon",
      "relatedCards": {
       "spellbook": []
@@ -43273,8 +43361,8 @@
       "Human",
       "Artificer"
      ],
-     "text": "Vigilance\nWhenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on Shepherd of Steel.\nWhen Shepherd of Steel dies, put its counters on target creature you control.",
-     "toughness": "2",
+     "text": "Vigilance\nWhenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on target creature you control that hasn't been targeted this way this turn.",
+     "toughness": "4",
      "type": "Creature — Human Artificer",
      "types": [
       "Creature"
@@ -46605,7 +46693,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "At the beginning of combat on your turn, you may integrate another creature you control. If you don't, tap Xavvac, Corrupter Core. (To integrate a card, exile it, then you may choose a nonland permanent it's integrated onto.)\nPermanents you control with cards integrated onto them have lifelink and deathtouch.",
+     "text": "At the beginning of combat on your turn, you may integrate another nonland permanent you control. If you don't, tap Xavvac, Corrupter Core. (To integrate a card, exile it, then you may choose a nonland permanent it's integrated onto.)\nPermanents you control with cards integrated onto them have lifelink and deathtouch.",
      "toughness": "5",
      "type": "Legendary Artifact Creature — Vukoroq",
      "types": [
@@ -77438,7 +77526,7 @@
       "Golem"
      ],
      "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
-     "toughness": "4",
+     "toughness": "3",
      "type": "Creature — Golem",
      "types": [
       "Creature"
@@ -77483,7 +77571,7 @@
       "Golem"
      ],
      "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
-     "toughness": "4",
+     "toughness": "3",
      "type": "Creature — Golem",
      "types": [
       "Creature"
@@ -105981,6 +106069,52 @@
      "uuid": "Butchery_PRO_KDT"
     },
     {
+     "artist": "Elliot Birt",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "W"
+     ],
+     "colorIdentity": [
+      "W"
+     ],
+     "designer": "Schwa77",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Elder Tattooist_PRO_KDT",
+     "imageName": "elder tattooist_pro_kdt",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{2}{W}",
+     "multiverseid": 5945,
+     "name": "Elder Tattooist_PRO_KDT",
+     "number": "321",
+     "power": "3",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Human",
+      "Monk"
+     ],
+     "text": "Vigilance\nFlow — {4}{W}: Exile target permanent card with mana value 3 or less from your graveyard. Create a tapped token that's a copy of it. Activate only as a sorcery. (Each creature you tap while activating pays for {1}.)",
+     "toughness": "3",
+     "type": "Creature — Human Monk",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Elder Tattooist_PRO_KDT"
+    },
+    {
      "artist": "Quyen Pham",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -106347,8 +106481,8 @@
      "uuid": "The Dutiful Wanderer_PRO_KDT"
     }
    ],
-   "baseSetSize": 311,
-   "totalSetSize": 311,
+   "baseSetSize": 312,
+   "totalSetSize": 312,
    "cardsphereSetId": 19,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -107371,6 +107505,42 @@
      ]
     },
     {
+     "artist": "Shane-D-Solomon",
+     "convertedManaCost": 0,
+     "faceConvertedManaCost": 0,
+     "manaValue": 0,
+     "faceManaValue": 0,
+     "colors": [],
+     "colorIdentity": [],
+     "designer": "Cajun",
+     "flavor": "From the depths, everything arose.\nTo the depths, everything returns.\n",
+     "frameType": "normal-renegade",
+     "frameVersion": "2015",
+     "id": "Primal Fissure_REV",
+     "imageName": "primal fissure_rev",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "",
+     "multiverseid": 5942,
+     "name": "Primal Fissure_REV",
+     "number": "89",
+     "rarity": "mythic",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Primal Fissure enters the battlefield tapped unless you control two or fewer other lands.\n{T}, Sacrifice Primal Fissure: Search your library for a basic land card, put it onto the battlefield, then shuffle.",
+     "type": "Land",
+     "types": [
+      "Land"
+     ],
+     "uuid": "Primal Fissure_REV"
+    },
+    {
      "artist": "YongXue Hayden",
      "convertedManaCost": 3,
      "faceConvertedManaCost": 3,
@@ -108231,8 +108401,8 @@
      "uuid": "Warden of Tremors_REV"
     }
    ],
-   "baseSetSize": 38,
-   "totalSetSize": 38,
+   "baseSetSize": 39,
+   "totalSetSize": 39,
    "cardsphereSetId": 0,
    "isFoilOnly": false,
    "isOnlineOnly": false,

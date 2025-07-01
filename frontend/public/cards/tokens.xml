@@ -252,6 +252,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Qimis, Central Intelligence_PRO_CYB</reverse-related>
  <reverse-related>Serve Again_PRO_CNY</reverse-related>
  <reverse-related>Dustwing Butterfly_PRO_CCR</reverse-related>
+ <reverse-related>Elder Tattooist_PRO_KDT</reverse-related>
  <set num="MSEMAR11" rarity="token">tokens</set>
 </card>
 <card>
@@ -491,6 +492,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Guru of Tumbling Stone (Toph, Blind Bender)</reverse-related>
  <reverse-related>Engines of War_PRO_KSV</reverse-related>
  <reverse-related>Koios, Spear of Karda_PRO_TRX</reverse-related>
+ <reverse-related>Igneous Visions_PRO_OLD</reverse-related>
  <reverse-related>Gift of Inspiration_PRO_CYB</reverse-related>
  <reverse-related>Resign to Progress_PRO_CYB</reverse-related>
  <reverse-related>Red-Hot Rider_PRO_ERR</reverse-related>
