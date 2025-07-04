@@ -35130,7 +35130,7 @@
       "Vukoroq",
       "Demon"
      ],
-     "text": "{C/B}: Integrate target card in a graveyard. (Exile it, then you may choose a nonland permanent it's integrated onto.)\nAs long as a creature card with flying is integrated onto Corpsepyre Fiend, it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, reach, trample, and vigilance.",
+     "text": "{C/B}: Integrate target card in a graveyard. (Exile it, then you may choose a nonland permanent it's integrated onto.)\nAs long as a creature card with flying is integrated onto Corpsepyre Fiend, it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
      "toughness": "2",
      "type": "Creature — Vukoroq Demon",
      "types": [
