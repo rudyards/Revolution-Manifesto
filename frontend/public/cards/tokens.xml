@@ -240,7 +240,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Elder Tattooist</reverse-related>
  <reverse-related>Equanimity</reverse-related>
  <reverse-related>Hyomon, Cloud Conductor</reverse-related>
- <reverse-related>Master of the Twin Blades</reverse-related>
+ <reverse-related>Jun, Twin Blademaster</reverse-related>
  <reverse-related>Natori Skyblade</reverse-related>
  <reverse-related>Vengeful Artificer</reverse-related>
  <reverse-related>Wisping Kirin</reverse-related>
@@ -3728,6 +3728,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Unending Possibility</reverse-related>
  <reverse-related>Untethered Daemon</reverse-related>
  <reverse-related>Web Surfer</reverse-related>
+ <reverse-related>Architect of the Intangible_PRO_ERR</reverse-related>
  <reverse-related>Cache Thrasher_PRO_ERR</reverse-related>
  <reverse-related>Futurist Ideal_PRO_ERR</reverse-related>
  <set num="ERR2" rarity="token">tokens</set>

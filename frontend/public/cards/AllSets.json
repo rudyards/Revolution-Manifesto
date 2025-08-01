@@ -4255,7 +4255,7 @@
      "colorIdentity": [
       "U"
      ],
-     "designer": "Zangy",
+     "designer": "Mako",
      "flavor": "",
      "frameType": "normal",
      "frameVersion": "2015",
@@ -17538,7 +17538,7 @@
      "subtypes": [
       "Saga"
      ],
-     "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each opponent discards two cards, then mills two cards.\nII — Each opponent loses 2 life and you gain 2 life.\nIII — For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
+     "text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each opponent discards two cards, then mills two cards.\nII — Each opponent loses 2 life and you gain 2 life.\nIII — For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast it.",
      "type": "Enchantment — Saga",
      "types": [
       "Enchantment"
@@ -35589,7 +35589,7 @@
      "multiverseid": 4286,
      "name": "Data Weaver",
      "number": "114",
-     "power": "2",
+     "power": "3",
      "rarity": "rare",
      "relatedCards": {
       "spellbook": []
@@ -35598,7 +35598,7 @@
       "Azra",
       "Warlock"
      ],
-     "text": "When Data Weaver enters, integrate the top two cards of target opponent's library. (Exile them, then you may choose nonland permanents they're integrated onto.)\nOnce during each of your turns, you may play a card integrated onto a permanent you control, and mana of any type can be spent to cast it.",
+     "text": "Menace\nWhen Data Weaver enters, integrate the top two cards of target player's library. (Exile them, then you may choose nonland permanents they're integrated onto.)\nIf you would integrate one or more cards, instead integrate those cards and the top card of each opponent's library and each opponent loses 1 life.",
      "toughness": "3",
      "type": "Creature — Azra Warlock",
      "types": [
@@ -47036,7 +47036,7 @@
      "multiverseid": 5921,
      "name": "Data Weaver_PRO_CYB",
      "number": "321",
-     "power": "2",
+     "power": "3",
      "rarity": "special",
      "relatedCards": {
       "spellbook": []
@@ -47045,7 +47045,7 @@
       "Azra",
       "Warlock"
      ],
-     "text": "When Data Weaver enters, integrate the top two cards of target opponent's library. (Exile them, then you may choose nonland permanents they're integrated onto.)\nOnce during each of your turns, you may play a card integrated onto a permanent you control, and mana of any type can be spent to cast it.",
+     "text": "Menace\nWhen Data Weaver enters, integrate the top two cards of target player's library. (Exile them, then you may choose nonland permanents they're integrated onto.)\nIf you would integrate one or more cards, instead integrate those cards and the top card of each opponent's library and each opponent loses 1 life.",
      "toughness": "3",
      "type": "Creature — Azra Warlock",
      "types": [
@@ -55523,7 +55523,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Choose up to one for each color among red, green, and white among permanents you control.\n• Target player creates a 2/2 red Berserker creature token with haste and “This creature can't block.”\n• Creatures target player controls get +2/+0 until end of turn.\n• Each creature you control deals damage equal to its power to target creature.",
+     "text": "Choose up to one for each color among red, green, and white among permanents you control.\n• Target player creates a 2/2 red Berserker creature token with haste and “This creature can't block.”\n• Creatures target player controls get +1/+0 and trample until end of turn.\n• Penrath Agenda deals damage equal to the number of creatures you control to target creature.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -58836,7 +58836,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.",
+     "text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.\nThe Connaistone can be your commander.",
      "type": "Legendary Artifact",
      "types": [
       "Artifact"
@@ -60657,6 +60657,110 @@
      "uuid": "Liquidate_PRO_CNY"
     },
     {
+     "artist": "Leon Tukker",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "Terminal Recovered by DrChipmunk",
+     "flavor": "",
+     "frameType": "dfc-normal-normal",
+     "frameVersion": "2015",
+     "id": "Research Grant//Progress_PRO_CNY",
+     "imageName": "research grant_pro_cny",
+     "layout": "transform",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{1}{U}",
+     "multiverseid": 5947,
+     "name": "Research Grant_PRO_CNY // Progress_PRO_CNY",
+     "faceName": "Research Grant_PRO_CNY",
+     "names": [
+      "Research Grant_PRO_CNY",
+      "Progress_PRO_CNY"
+     ],
+     "side": "a",
+     "number": "282a",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Policy"
+     ],
+     "text": "(Once a turn, as a sorcery, mark a condition as complete. When all are complete, transform it.)\nWhen Research Grant enters, look at the top three cards of your library. Put one into your hand and the rest into your graveyard.\nI — You've cast two or more spells this turn.\nII — You've drawn two or more cards this turn.\nundefined, III — undefined",
+     "type": "Enchantment — Policy",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Research Grant//Progress_PRO_CNY-0",
+     "otherFaceIds": [
+      "Research Grant//Progress_PRO_CNY-1"
+     ]
+    },
+    {
+     "artist": "Leon Tukker",
+     "convertedManaCost": 0,
+     "faceConvertedManaCost": 0,
+     "manaValue": 0,
+     "faceManaValue": 0,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "Terminal Recovered by DrChipmunk",
+     "flavor": "",
+     "frameType": "dfc-normal-normal",
+     "frameVersion": "2015",
+     "id": "Research Grant//Progress_PRO_CNY",
+     "imageName": "progress_pro_cny",
+     "layout": "transform",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "",
+     "multiverseid": 5947,
+     "name": "Research Grant_PRO_CNY // Progress_PRO_CNY",
+     "faceName": "Progress_PRO_CNY",
+     "names": [
+      "Research Grant_PRO_CNY",
+      "Progress_PRO_CNY"
+     ],
+     "side": "b",
+     "number": "282b",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "supertypes": [
+      "Legendary"
+     ],
+     "text": "Whenever you cast a spell, you may pay {X}, where X is that spell's mana value. If you do, copy it. You may choose new targets for the copy. Do this only once each turn. (A copy of a permanent spell becomes a token.)",
+     "type": "Legendary Enchantment",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Research Grant//Progress_PRO_CNY-1",
+     "otherFaceIds": [
+      "Research Grant//Progress_PRO_CNY-0"
+     ]
+    },
+    {
      "artist": "Eddie Mendoza",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -61070,8 +61174,8 @@
      "uuid": "Work Safety Violation_PRO_CNY"
     }
    ],
-   "baseSetSize": 292,
-   "totalSetSize": 292,
+   "baseSetSize": 294,
+   "totalSetSize": 294,
    "cardsphereSetId": 16,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -87937,7 +88041,7 @@
      "subtypes": [
       "Bird"
      ],
-     "text": "Flash\nFlying\nWhen this creature enters, exile target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.",
+     "text": "Flash\nFlying\nWhen this creature enters, exile up to one target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.",
      "toughness": "2",
      "type": "Enchantment Creature — Bird",
      "types": [
@@ -92168,6 +92272,52 @@
      "uuid": "Zealous Soulspace_ERR"
     },
     {
+     "artist": "Areakst Kingglost",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "Mythmaker Found by DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Architect of the Intangible_PRO_ERR",
+     "imageName": "architect of the intangible_pro_err",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{U}{U}",
+     "multiverseid": 5948,
+     "name": "Architect of the Intangible_PRO_ERR",
+     "number": "300",
+     "power": "2",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Human",
+      "Artificer"
+     ],
+     "text": "When this creature enters, mill three cards, then you may exile an instant, sorcery, or Subroutine card from your graveyard. If you do, you may cast a copy of that card. If you don't, cache it. (You still pay its costs. To cache a card, exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)",
+     "toughness": "1",
+     "type": "Creature — Human Artificer",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Architect of the Intangible_PRO_ERR"
+    },
+    {
      "artist": "Su Ke",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -92432,6 +92582,52 @@
      "uuid": "Masksmith_PRO_ERR"
     },
     {
+     "artist": "Donglu Yu",
+     "convertedManaCost": 4,
+     "faceConvertedManaCost": 4,
+     "manaValue": 4,
+     "faceManaValue": 4,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Preemption Daemon_PRO_ERR",
+     "imageName": "preemption daemon_pro_err",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{2}{U}{U}",
+     "multiverseid": 5949,
+     "name": "Preemption Daemon_PRO_ERR",
+     "number": "291",
+     "power": "2",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Bird"
+     ],
+     "text": "Flash\nFlying\nWhen this creature enters, exile up to one target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.",
+     "toughness": "2",
+     "type": "Enchantment Creature — Bird",
+     "types": [
+      "Enchantment",
+      "Creature"
+     ],
+     "uuid": "Preemption Daemon_PRO_ERR"
+    },
+    {
      "artist": "qing wen",
      "convertedManaCost": 1,
      "faceConvertedManaCost": 1,
@@ -92479,8 +92675,8 @@
      "uuid": "Red-Hot Rider_PRO_ERR"
     }
    ],
-   "baseSetSize": 302,
-   "totalSetSize": 302,
+   "baseSetSize": 304,
+   "totalSetSize": 304,
    "cardsphereSetId": 18,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -97647,6 +97843,54 @@
      "uuid": "Illusory Savior_KDT"
     },
     {
+     "artist": "Carlos Kamyu Siaz Asenjo",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "W",
+      "B"
+     ],
+     "colorIdentity": [
+      "W",
+      "B"
+     ],
+     "designer": "Provocative",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Impenetrable Ronin_KDT",
+     "imageName": "impenetrable ronin",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{W}{B}",
+     "multiverseid": 5735,
+     "name": "Impenetrable Ronin",
+     "number": "200",
+     "power": "2",
+     "rarity": "rare",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Mutant",
+      "Samurai"
+     ],
+     "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{2}{W}: Target attacking creature gains double strike until end of turn.\n{2}{B}: Target attacking creature gains indestructible until end of turn.",
+     "toughness": "2",
+     "type": "Creature — Mutant Samurai",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Impenetrable Ronin_KDT"
+    },
+    {
      "artist": "Ognjen Sporin",
      "convertedManaCost": 6,
      "faceConvertedManaCost": 6,
@@ -98144,7 +98388,7 @@
      "manaCost": "{W}{U}",
      "multiverseid": 5684,
      "name": "Iron-Calm Acolyte",
-     "number": "200",
+     "number": "201",
      "power": "1",
      "rarity": "common",
      "relatedCards": {
@@ -98240,7 +98484,7 @@
      "manaCost": "{1}{U}{B}{R}{G}",
      "multiverseid": 5686,
      "name": "Iwai and Oda",
-     "number": "201",
+     "number": "202",
      "power": "5",
      "rarity": "mythic",
      "relatedCards": {
@@ -98339,6 +98583,57 @@
       "Sorcery"
      ],
      "uuid": "Judgment of the Seishin_KDT"
+    },
+    {
+     "artist": "K-Tea",
+     "convertedManaCost": 4,
+     "faceConvertedManaCost": 4,
+     "manaValue": 4,
+     "faceManaValue": 4,
+     "colors": [
+      "W",
+      "B"
+     ],
+     "colorIdentity": [
+      "W",
+      "B"
+     ],
+     "designer": "Provocative",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Jun, Twin Blademaster_KDT",
+     "imageName": "jun, twin blademaster",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{2}{W}{B}",
+     "multiverseid": 5718,
+     "name": "Jun, Twin Blademaster",
+     "number": "203",
+     "power": "2",
+     "rarity": "rare",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Avatar",
+      "Samurai"
+     ],
+     "supertypes": [
+      "Legendary"
+     ],
+     "text": "Double strike\nWhenever an enchantment you control enters, you may create a token that's a copy of it, except the token isn't legendary and has exalted. Do this only once each turn. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
+     "toughness": "3",
+     "type": "Legendary Creature — Avatar Samurai",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Jun, Twin Blademaster_KDT"
     },
     {
      "artist": "Nathaniel Himawan",
@@ -98511,7 +98806,7 @@
      "manaCost": "{1}{W}{B}",
      "multiverseid": 5692,
      "name": "Kei, Exiled Survivor",
-     "number": "202",
+     "number": "204",
      "power": "3",
      "rarity": "uncommon",
      "relatedCards": {
@@ -98699,7 +98994,7 @@
      "manaCost": "{2}{W}{B}",
      "multiverseid": 5696,
      "name": "Kimja Steelshaper",
-     "number": "203",
+     "number": "205",
      "power": "2",
      "rarity": "common",
      "relatedCards": {
@@ -98798,7 +99093,7 @@
      "manaCost": "{3}{G}{U}",
      "multiverseid": 5798,
      "name": "Kinscale Reckoner",
-     "number": "204",
+     "number": "206",
      "power": "4",
      "rarity": "mythic",
      "relatedCards": {
@@ -99123,7 +99418,7 @@
      "manaCost": "{B}{R}",
      "multiverseid": 5704,
      "name": "Koraja, the Broken Blade",
-     "number": "205",
+     "number": "207",
      "power": "2",
      "rarity": "rare",
      "relatedCards": {
@@ -99174,7 +99469,7 @@
      "manaCost": "{1}{B}{R}",
      "multiverseid": 5705,
      "name": "Koraja's Centipede",
-     "number": "206",
+     "number": "208",
      "power": "2",
      "rarity": "uncommon",
      "relatedCards": {
@@ -99228,7 +99523,7 @@
      "manaCost": "{W}{U}{B}{R}{G}",
      "multiverseid": 5706,
      "name": "Lantern Festival",
-     "number": "207",
+     "number": "209",
      "rarity": "uncommon",
      "relatedCards": {
       "spellbook": []
@@ -99735,54 +100030,6 @@
      "uuid": "Master of the Peaks_KDT"
     },
     {
-     "artist": "K-Tea",
-     "convertedManaCost": 4,
-     "faceConvertedManaCost": 4,
-     "manaValue": 4,
-     "faceManaValue": 4,
-     "colors": [
-      "W",
-      "B"
-     ],
-     "colorIdentity": [
-      "W",
-      "B"
-     ],
-     "designer": "Provocative",
-     "flavor": "",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Master of the Twin Blades_KDT",
-     "imageName": "master of the twin blades",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "{2}{W}{B}",
-     "multiverseid": 5718,
-     "name": "Master of the Twin Blades",
-     "number": "208",
-     "power": "2",
-     "rarity": "rare",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "subtypes": [
-      "Avatar",
-      "Samurai"
-     ],
-     "text": "Double strike\nWhenever an enchantment you control enters, you may create a token that's a copy of it, except the token isn't legendary and has exalted. Do this only once each turn. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)",
-     "toughness": "3",
-     "type": "Creature — Avatar Samurai",
-     "types": [
-      "Creature"
-     ],
-     "uuid": "Master of the Twin Blades_KDT"
-    },
-    {
      "artist": "Uriah Voth",
      "convertedManaCost": 3,
      "faceConvertedManaCost": 3,
@@ -99893,7 +100140,7 @@
      "manaCost": "{2}{W}{U}",
      "multiverseid": 5721,
      "name": "Meditation",
-     "number": "209",
+     "number": "210",
      "rarity": "common",
      "relatedCards": {
       "spellbook": []
@@ -99935,7 +100182,7 @@
      "manaCost": "{1}{R}{G}",
      "multiverseid": 5722,
      "name": "Menreiki, the Resplendent",
-     "number": "210",
+     "number": "211",
      "power": "3",
      "rarity": "uncommon",
      "relatedCards": {
@@ -100125,7 +100372,7 @@
      "manaCost": "{1}{G}{U}",
      "multiverseid": 5726,
      "name": "Mist-Draped Delver",
-     "number": "211",
+     "number": "212",
      "power": "3",
      "rarity": "common",
      "relatedCards": {
@@ -100213,7 +100460,7 @@
      "manaCost": "{W}{W}{U}{U}",
      "multiverseid": 5728,
      "name": "Monastery Teacher",
-     "number": "212",
+     "number": "213",
      "power": "2",
      "rarity": "uncommon",
      "relatedCards": {
@@ -100480,57 +100727,6 @@
       "Land"
      ],
      "uuid": "Murky Path_KDT"
-    },
-    {
-     "artist": "Carlos Kamyu Siaz Asenjo",
-     "convertedManaCost": 2,
-     "faceConvertedManaCost": 2,
-     "manaValue": 2,
-     "faceManaValue": 2,
-     "colors": [
-      "W",
-      "B"
-     ],
-     "colorIdentity": [
-      "W",
-      "B"
-     ],
-     "designer": "Provocative",
-     "flavor": "",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Nao, the Impenetrable_KDT",
-     "imageName": "nao, the impenetrable",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "{W}{B}",
-     "multiverseid": 5735,
-     "name": "Nao, the Impenetrable",
-     "number": "213",
-     "power": "2",
-     "rarity": "rare",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "subtypes": [
-      "Mutant",
-      "Samurai"
-     ],
-     "supertypes": [
-      "Legendary"
-     ],
-     "text": "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{2}{W}: Target attacking creature gains double strike until end of turn.\n{2}{B}: Target attacking creature gains indestructible until end of turn.",
-     "toughness": "2",
-     "type": "Legendary Creature — Mutant Samurai",
-     "types": [
-      "Creature"
-     ],
-     "uuid": "Nao, the Impenetrable_KDT"
     },
     {
      "artist": "Diana Martinez",
@@ -108171,6 +108367,42 @@
      "uuid": "Sustainable Investments_REV"
     },
     {
+     "artist": "Leon Tukker",
+     "convertedManaCost": 0,
+     "faceConvertedManaCost": 0,
+     "manaValue": 0,
+     "faceManaValue": 0,
+     "colors": [],
+     "colorIdentity": [],
+     "designer": "Cajun",
+     "flavor": "",
+     "frameType": "normal-renegade",
+     "frameVersion": "2015",
+     "id": "Temple of Origins_REV",
+     "imageName": "temple of origins_rev",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "",
+     "multiverseid": 5946,
+     "name": "Temple of Origins_REV",
+     "number": "90",
+     "rarity": "mythic",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Temple of Origins enters the battlefield tapped unless you control two or fewer other lands.\nAs Temple of Origins enters, choose two colors.\n{T}: Add one mana of one of the chosen colors.\nIf you would add mana of a color that wasn't chosen, add {C} instead.",
+     "type": "Land",
+     "types": [
+      "Land"
+     ],
+     "uuid": "Temple of Origins_REV"
+    },
+    {
      "artist": "Ryan Etter",
      "convertedManaCost": 4,
      "faceConvertedManaCost": 4,
@@ -108210,7 +108442,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.",
+     "text": "If you would draw a card while your library has no cards in it, instead you may put a card you own from outside the game into your hand.\n{T}: Draw two cards, then discard a card.\nThe Connaistone can be your commander.",
      "type": "Legendary Artifact",
      "types": [
       "Artifact"
@@ -108401,8 +108633,8 @@
      "uuid": "Warden of Tremors_REV"
     }
    ],
-   "baseSetSize": 39,
-   "totalSetSize": 39,
+   "baseSetSize": 40,
+   "totalSetSize": 40,
    "cardsphereSetId": 0,
    "isFoilOnly": false,
    "isOnlineOnly": false,
