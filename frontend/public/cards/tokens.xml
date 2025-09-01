@@ -199,12 +199,12 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Sinister Sampler_POP</reverse-related>
  <reverse-related>Yaeji, Resplendent Idol_POP</reverse-related>
  <reverse-related>Yaeji, Resplendent Idol (Yaeji)_POP</reverse-related>
- <reverse-related>Audience at Zakros</reverse-related>
- <reverse-related>Karametra's Judgment</reverse-related>
- <reverse-related>Koios, Spear of Karda</reverse-related>
- <reverse-related>Skophos Conjuror</reverse-related>
- <reverse-related>Slighos the Body-Binder</reverse-related>
- <reverse-related>Stormscraper of Ketaphos</reverse-related>
+ <reverse-related>Audience at Zakros_TRX</reverse-related>
+ <reverse-related>Karametra's Judgment_TRX</reverse-related>
+ <reverse-related>Koios, Spear of Karda_TRX</reverse-related>
+ <reverse-related>Skophos Conjuror_TRX</reverse-related>
+ <reverse-related>Slighos the Body-Binder_TRX</reverse-related>
+ <reverse-related>Stormscraper of Ketaphos_TRX</reverse-related>
  <reverse-related>Chronicle of Precedence</reverse-related>
  <reverse-related>Cradle of Rebirth</reverse-related>
  <reverse-related>Join the Forebears</reverse-related>
@@ -240,10 +240,30 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Elder Tattooist</reverse-related>
  <reverse-related>Equanimity</reverse-related>
  <reverse-related>Hyomon, Cloud Conductor</reverse-related>
- <reverse-related>Jun, Twin Blademaster</reverse-related>
+ <reverse-related>Jun, Twinblade Master</reverse-related>
  <reverse-related>Natori Skyblade</reverse-related>
  <reverse-related>Vengeful Artificer</reverse-related>
  <reverse-related>Wisping Kirin</reverse-related>
+ <reverse-related>Ambassador of Unseen Edges</reverse-related>
+ <reverse-related>Aspen's Oathguard</reverse-related>
+ <reverse-related>Blooming Wing</reverse-related>
+ <reverse-related>Cloudveil Reshaper</reverse-related>
+ <reverse-related>Gilded Noon Runner</reverse-related>
+ <reverse-related>Gossamer Dreamer</reverse-related>
+ <reverse-related>Gracebound Noble</reverse-related>
+ <reverse-related>Mass Conjuration</reverse-related>
+ <reverse-related>Mistwrit Archivist</reverse-related>
+ <reverse-related>Proclaimer of Blooming Wing</reverse-related>
+ <reverse-related>Reflected Echo</reverse-related>
+ <reverse-related>Seed of the Golden Sun</reverse-related>
+ <reverse-related>Silken Tactician</reverse-related>
+ <reverse-related>Snow on Petals</reverse-related>
+ <reverse-related>Thistrel Ascendant</reverse-related>
+ <reverse-related>Thistrel Charm</reverse-related>
+ <reverse-related>Towering Aspen</reverse-related>
+ <reverse-related>Trickery</reverse-related>
+ <reverse-related>Undertide Scout</reverse-related>
+ <reverse-related>Whisperthorn Weaver</reverse-related>
  <reverse-related>Yaeji, Resplendent Idol_REV</reverse-related>
  <reverse-related>Doppelgang_PRO_KRS</reverse-related>
  <reverse-related>Variant Handler (Mobius M. Mobius)_KRS</reverse-related>
@@ -252,7 +272,9 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Qimis, Central Intelligence_PRO_CYB</reverse-related>
  <reverse-related>Serve Again_PRO_CNY</reverse-related>
  <reverse-related>Dustwing Butterfly_PRO_CCR</reverse-related>
+ <reverse-related>Aonuma, Princely Traveler_PRO_KDT</reverse-related>
  <reverse-related>Elder Tattooist_PRO_KDT</reverse-related>
+ <reverse-related>Equanimity_PRO_KDT</reverse-related>
  <set num="MSEMAR11" rarity="token">tokens</set>
 </card>
 <card>
@@ -369,10 +391,10 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Titanic Fossil_MON</reverse-related>
  <reverse-related>Arisen Tyrant_MON</reverse-related>
  <reverse-related>Trainee Karina Oblay_MON</reverse-related>
- <reverse-related>Aglu, Tugit Chieftain</reverse-related>
- <reverse-related>Guru of Tumbling Stone</reverse-related>
- <reverse-related>Samaka's Charm</reverse-related>
- <reverse-related>Solara's Machinations</reverse-related>
+ <reverse-related>Aglu, Tugit Chieftain_KUT</reverse-related>
+ <reverse-related>Guru of Tumbling Stone_KUT</reverse-related>
+ <reverse-related>Samaka's Charm_KUT</reverse-related>
+ <reverse-related>Solara's Machinations_KUT</reverse-related>
  <reverse-related>Kr'tah, Corporeal Sculptor_GQC</reverse-related>
  <reverse-related>Nightmare Feaster_GQC</reverse-related>
  <reverse-related>Realize the Delicate Ideal_GQC</reverse-related>
@@ -423,12 +445,12 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Release the Unchained Melody_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive (A.G. Cook)_POP</reverse-related>
- <reverse-related>Koios, Spear of Karda</reverse-related>
- <reverse-related>Life Begins Anew</reverse-related>
- <reverse-related>Molpadia, the Last Acephali</reverse-related>
- <reverse-related>Shrine to Purphoros</reverse-related>
- <reverse-related>The Path of Phenax</reverse-related>
- <reverse-related>Zakros Stompers</reverse-related>
+ <reverse-related>Koios, Spear of Karda_TRX</reverse-related>
+ <reverse-related>Life Begins Anew_TRX</reverse-related>
+ <reverse-related>Molpadia, the Last Acephali_TRX</reverse-related>
+ <reverse-related>Shrine to Purphoros_TRX</reverse-related>
+ <reverse-related>The Path of Phenax_TRX</reverse-related>
+ <reverse-related>Zakros Stompers_TRX</reverse-related>
  <reverse-related>Crux, Chainer of Titans</reverse-related>
  <reverse-related>Face of the Phoenix</reverse-related>
  <reverse-related>Fumebloom</reverse-related>
@@ -483,19 +505,42 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Scouring the Riverbed</reverse-related>
  <reverse-related>Seishin of Sun's Radiance</reverse-related>
  <reverse-related>Shigane Manor Burns</reverse-related>
+ <reverse-related>Angler of the Crushing Sea</reverse-related>
+ <reverse-related>Ashes of the Self</reverse-related>
+ <reverse-related>Drowntide Exhumer</reverse-related>
+ <reverse-related>Eclipse of the Divine</reverse-related>
+ <reverse-related>Fang of the Pale Thorn</reverse-related>
+ <reverse-related>Fiend of the Crimson Pact</reverse-related>
+ <reverse-related>Gospel of Dominion</reverse-related>
+ <reverse-related>Graveborn Confidant</reverse-related>
+ <reverse-related>Raven of Onyx Wing</reverse-related>
+ <reverse-related>Recital of the First Echo</reverse-related>
+ <reverse-related>Sacrament Tactician</reverse-related>
+ <reverse-related>Sealed-Sigil Adept</reverse-related>
+ <reverse-related>Seer of Shackled Breath</reverse-related>
+ <reverse-related>Skytide Piercer</reverse-related>
+ <reverse-related>Stag of the Broken Crown</reverse-related>
+ <reverse-related>Tendervow Witch</reverse-related>
+ <reverse-related>The Ever-Gnashing Dark</reverse-related>
+ <reverse-related>Unmaker of Thought</reverse-related>
+ <reverse-related>Uplifting Chorus</reverse-related>
+ <reverse-related>Weaver of Brooding Threads</reverse-related>
  <reverse-related>Alehana the Persuader_REV</reverse-related>
  <reverse-related>Igneous Visions_REV</reverse-related>
  <reverse-related>Rano's Slopeguard_REV</reverse-related>
  <reverse-related>Resign to Progress_REV</reverse-related>
+ <reverse-related>Shigane Manor Burns_REV</reverse-related>
  <reverse-related>The Weftheart_REV</reverse-related>
  <reverse-related>Warden of Tremors_REV</reverse-related>
- <reverse-related>Guru of Tumbling Stone (Toph, Blind Bender)</reverse-related>
+ <reverse-related>Guru of Tumbling Stone (Toph, Blind Bender)_KUT</reverse-related>
  <reverse-related>Engines of War_PRO_KSV</reverse-related>
  <reverse-related>Koios, Spear of Karda_PRO_TRX</reverse-related>
  <reverse-related>Igneous Visions_PRO_OLD</reverse-related>
  <reverse-related>Gift of Inspiration_PRO_CYB</reverse-related>
  <reverse-related>Resign to Progress_PRO_CYB</reverse-related>
  <reverse-related>Red-Hot Rider_PRO_ERR</reverse-related>
+ <reverse-related>Ayeshi, Time's Jailer_PRO_KDT</reverse-related>
+ <reverse-related>Giyama, Scion of Kage_PRO_KDT</reverse-related>
  <reverse-related>Koraja, the Broken Blade_PRO_KDT</reverse-related>
  <reverse-related>Emblem KDT</reverse-related>
  <reverse-related>Evil Plan VRD</reverse-related>
@@ -517,7 +562,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Ruins of Olantin</reverse-related>
- <reverse-related>Petros, Purphoros's Double</reverse-related>
+ <reverse-related>Petros, Purphoros's Double_TRX</reverse-related>
  <set num="TRX17" rarity="token">tokens</set>
 </card>
 <card>
@@ -1024,13 +1069,13 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Alonzo, Departed Detective</reverse-related>
- <reverse-related>Devouring Amautalik</reverse-related>
- <reverse-related count="2">Solara's Machinations</reverse-related>
- <reverse-related>Souldrain</reverse-related>
- <reverse-related>Spectral Throatsinger</reverse-related>
- <reverse-related>Tartok Wanderer</reverse-related>
- <reverse-related>Veiltouched Soulbinder</reverse-related>
+ <reverse-related>Alonzo, Departed Detective_KUT</reverse-related>
+ <reverse-related>Devouring Amautalik_KUT</reverse-related>
+ <reverse-related count="2">Solara's Machinations_KUT</reverse-related>
+ <reverse-related>Souldrain_KUT</reverse-related>
+ <reverse-related>Spectral Throatsinger_KUT</reverse-related>
+ <reverse-related>Tartok Wanderer_KUT</reverse-related>
+ <reverse-related>Veiltouched Soulbinder_KUT</reverse-related>
  <set num="KUT4" rarity="token">tokens</set>
 </card>
 <card>
@@ -1041,52 +1086,52 @@ Equip {2}</text>
  <pt>0/0</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Arctic Tenacity</reverse-related>
- <reverse-related>Frostback Totem</reverse-related>
- <reverse-related>Auroric Span</reverse-related>
- <reverse-related>Worldspan Totem</reverse-related>
- <reverse-related>Baleful Gaze</reverse-related>
- <reverse-related>Hooting Totem</reverse-related>
- <reverse-related>Blaze of Seqineq</reverse-related>
- <reverse-related>Sunhart Totem</reverse-related>
- <reverse-related>Bounce Off</reverse-related>
- <reverse-related>Shellsworn Totem</reverse-related>
- <reverse-related>Burning Dawn</reverse-related>
- <reverse-related>Sunscale Totem</reverse-related>
- <reverse-related>Follow the Herd</reverse-related>
- <reverse-related>Trumpeting Totem</reverse-related>
- <reverse-related>Grasping Tentacles</reverse-related>
- <reverse-related>Octopoid Totem</reverse-related>
- <reverse-related>Hornrush</reverse-related>
- <reverse-related>Woolly Totem</reverse-related>
- <reverse-related>Hunker Down</reverse-related>
- <reverse-related>Herding Totem</reverse-related>
- <reverse-related>Keen-Eyed Dive</reverse-related>
- <reverse-related>Pamiuqtuuq Totem</reverse-related>
- <reverse-related>Maddening Roar</reverse-related>
- <reverse-related>Migu's Totem</reverse-related>
- <reverse-related>Patriarch's Challenge</reverse-related>
- <reverse-related>Antler Totem</reverse-related>
- <reverse-related>Peaceful Journey</reverse-related>
- <reverse-related>Auroric Totem</reverse-related>
- <reverse-related>Primal Genesis</reverse-related>
- <reverse-related>Genesis Totem</reverse-related>
- <reverse-related>Seal in Blood</reverse-related>
- <reverse-related>Forbidden Totem</reverse-related>
- <reverse-related>Solar Meditation</reverse-related>
- <reverse-related>Sunhorn Totem</reverse-related>
- <reverse-related>Splashback</reverse-related>
- <reverse-related>Deepdrift Totem</reverse-related>
- <reverse-related>Stand Guard</reverse-related>
- <reverse-related>Protector's Totem</reverse-related>
- <reverse-related>Tambara's Growth</reverse-related>
- <reverse-related>Barkbound Totem</reverse-related>
- <reverse-related>Tusker's Rage</reverse-related>
- <reverse-related>Bloodtusk Totem</reverse-related>
- <reverse-related>Unending Hunger</reverse-related>
- <reverse-related>Bloodsoaked Totem</reverse-related>
- <reverse-related>Unnatural Rebirth</reverse-related>
- <reverse-related>Carrion Totem</reverse-related>
+ <reverse-related>Arctic Tenacity_KUT</reverse-related>
+ <reverse-related>Frostback Totem_KUT</reverse-related>
+ <reverse-related>Auroric Span_KUT</reverse-related>
+ <reverse-related>Worldspan Totem_KUT</reverse-related>
+ <reverse-related>Baleful Gaze_KUT</reverse-related>
+ <reverse-related>Hooting Totem_KUT</reverse-related>
+ <reverse-related>Blaze of Seqineq_KUT</reverse-related>
+ <reverse-related>Sunhart Totem_KUT</reverse-related>
+ <reverse-related>Bounce Off_KUT</reverse-related>
+ <reverse-related>Shellsworn Totem_KUT</reverse-related>
+ <reverse-related>Burning Dawn_KUT</reverse-related>
+ <reverse-related>Sunscale Totem_KUT</reverse-related>
+ <reverse-related>Follow the Herd_KUT</reverse-related>
+ <reverse-related>Trumpeting Totem_KUT</reverse-related>
+ <reverse-related>Grasping Tentacles_KUT</reverse-related>
+ <reverse-related>Octopoid Totem_KUT</reverse-related>
+ <reverse-related>Hornrush_KUT</reverse-related>
+ <reverse-related>Woolly Totem_KUT</reverse-related>
+ <reverse-related>Hunker Down_KUT</reverse-related>
+ <reverse-related>Herding Totem_KUT</reverse-related>
+ <reverse-related>Keen-Eyed Dive_KUT</reverse-related>
+ <reverse-related>Pamiuqtuuq Totem_KUT</reverse-related>
+ <reverse-related>Maddening Roar_KUT</reverse-related>
+ <reverse-related>Migu's Totem_KUT</reverse-related>
+ <reverse-related>Patriarch's Challenge_KUT</reverse-related>
+ <reverse-related>Antler Totem_KUT</reverse-related>
+ <reverse-related>Peaceful Journey_KUT</reverse-related>
+ <reverse-related>Auroric Totem_KUT</reverse-related>
+ <reverse-related>Primal Genesis_KUT</reverse-related>
+ <reverse-related>Genesis Totem_KUT</reverse-related>
+ <reverse-related>Seal in Blood_KUT</reverse-related>
+ <reverse-related>Forbidden Totem_KUT</reverse-related>
+ <reverse-related>Solar Meditation_KUT</reverse-related>
+ <reverse-related>Sunhorn Totem_KUT</reverse-related>
+ <reverse-related>Splashback_KUT</reverse-related>
+ <reverse-related>Deepdrift Totem_KUT</reverse-related>
+ <reverse-related>Stand Guard_KUT</reverse-related>
+ <reverse-related>Protector's Totem_KUT</reverse-related>
+ <reverse-related>Tambara's Growth_KUT</reverse-related>
+ <reverse-related>Barkbound Totem_KUT</reverse-related>
+ <reverse-related>Tusker's Rage_KUT</reverse-related>
+ <reverse-related>Bloodtusk Totem_KUT</reverse-related>
+ <reverse-related>Unending Hunger_KUT</reverse-related>
+ <reverse-related>Bloodsoaked Totem_KUT</reverse-related>
+ <reverse-related>Unnatural Rebirth_KUT</reverse-related>
+ <reverse-related>Carrion Totem_KUT</reverse-related>
  <reverse-related>Burning Dawn_PRO_KUT</reverse-related>
  <reverse-related>Sunscale Totem_PRO_KUT</reverse-related>
  <set num="KUT1" rarity="token">tokens</set>
@@ -1099,13 +1144,13 @@ Equip {2}</text>
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Bellowing Takin</reverse-related>
- <reverse-related>Jirrisa's Charm</reverse-related>
- <reverse-related>Primal Genesis</reverse-related>
- <reverse-related>Genesis Totem</reverse-related>
- <reverse-related>Primal Genesis</reverse-related>
- <reverse-related>Genesis Totem</reverse-related>
- <reverse-related>Waystone Herder</reverse-related>
+ <reverse-related>Bellowing Takin_KUT</reverse-related>
+ <reverse-related>Jirrisa's Charm_KUT</reverse-related>
+ <reverse-related>Primal Genesis_KUT</reverse-related>
+ <reverse-related>Genesis Totem_KUT</reverse-related>
+ <reverse-related>Primal Genesis_KUT</reverse-related>
+ <reverse-related>Genesis Totem_KUT</reverse-related>
+ <reverse-related>Waystone Herder_KUT</reverse-related>
  <set num="KUT7" rarity="token">tokens</set>
 </card>
 <card>
@@ -1116,7 +1161,7 @@ Equip {2}</text>
  <pt>★/★</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Caller of the Great Bears</reverse-related>
+ <reverse-related>Caller of the Great Bears_KUT</reverse-related>
  <set num="KUT6" rarity="token">tokens</set>
 </card>
 <card>
@@ -1127,8 +1172,8 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Dawnchime, Lhosei's Staff</reverse-related>
- <reverse-related>Lhosei the Determined</reverse-related>
+ <reverse-related>Dawnchime, Lhosei's Staff_KUT</reverse-related>
+ <reverse-related>Lhosei the Determined_KUT</reverse-related>
  <set num="KUT3" rarity="token">tokens</set>
 </card>
 <card>
@@ -1139,11 +1184,11 @@ Equip {2}</text>
  <pt>0/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related count="2">Dhagiri Style</reverse-related>
- <reverse-related count="2">Evening Meditation</reverse-related>
- <reverse-related>Monastery Ibex</reverse-related>
- <reverse-related>Overseer of Forms</reverse-related>
- <reverse-related count="3">Suntouched Ascension</reverse-related>
+ <reverse-related count="2">Dhagiri Style_KUT</reverse-related>
+ <reverse-related count="2">Evening Meditation_KUT</reverse-related>
+ <reverse-related>Monastery Ibex_KUT</reverse-related>
+ <reverse-related>Overseer of Forms_KUT</reverse-related>
+ <reverse-related count="3">Suntouched Ascension_KUT</reverse-related>
  <set num="KUT2" rarity="token">tokens</set>
 </card>
 <card>
@@ -1154,7 +1199,7 @@ Equip {2}</text>
  <pt>3/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Heartsong Invoker</reverse-related>
+ <reverse-related>Heartsong Invoker_KUT</reverse-related>
  <set num="KUT9" rarity="token">tokens</set>
 </card>
 <card>
@@ -1165,12 +1210,12 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Lakhey Guardian</reverse-related>
- <reverse-related>Patriarch of Spring</reverse-related>
- <reverse-related>Peaceful Journey</reverse-related>
- <reverse-related>Auroric Totem</reverse-related>
- <reverse-related>Peaceful Journey</reverse-related>
- <reverse-related>Auroric Totem</reverse-related>
+ <reverse-related>Lakhey Guardian_KUT</reverse-related>
+ <reverse-related>Patriarch of Spring_KUT</reverse-related>
+ <reverse-related>Peaceful Journey_KUT</reverse-related>
+ <reverse-related>Auroric Totem_KUT</reverse-related>
+ <reverse-related>Peaceful Journey_KUT</reverse-related>
+ <reverse-related>Auroric Totem_KUT</reverse-related>
  <set num="KUT8" rarity="token">tokens</set>
 </card>
 <card>
@@ -1181,7 +1226,7 @@ Equip {2}</text>
  <pt>4/4</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>One with the Storm</reverse-related>
+ <reverse-related>One with the Storm_KUT</reverse-related>
  <set num="KUT5" rarity="token">tokens</set>
 </card>
 <card>
@@ -2479,14 +2524,14 @@ This creature attacks each combat if able.</text>
  <pt>0/0</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Agnomakhos, Justice</reverse-related>
- <reverse-related>Archon of the Legion</reverse-related>
- <reverse-related>Claes, Shield of Karda</reverse-related>
- <reverse-related>Claes, Melded Spark</reverse-related>
- <reverse-related>Command from the Front</reverse-related>
- <reverse-related>Omen of Victory</reverse-related>
- <reverse-related count="x">The Army of Trax</reverse-related>
- <reverse-related>Traxian General</reverse-related>
+ <reverse-related>Agnomakhos, Justice_TRX</reverse-related>
+ <reverse-related>Archon of the Legion_TRX</reverse-related>
+ <reverse-related>Claes, Shield of Karda_TRX</reverse-related>
+ <reverse-related>Claes, Melded Spark_TRX</reverse-related>
+ <reverse-related>Command from the Front_TRX</reverse-related>
+ <reverse-related>Omen of Victory_TRX</reverse-related>
+ <reverse-related count="x">The Army of Trax_TRX</reverse-related>
+ <reverse-related>Traxian General_TRX</reverse-related>
  <set num="TRX2" rarity="token">tokens</set>
 </card>
 <card>
@@ -2497,8 +2542,8 @@ Equip {2}</text>
  <type>Token Artifact — Equipment Weapon</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <reverse-related>Anvilwrought Crane</reverse-related>
- <reverse-related>Arena Champion</reverse-related>
+ <reverse-related>Anvilwrought Crane_TRX</reverse-related>
+ <reverse-related>Arena Champion_TRX</reverse-related>
  <set num="TRX20" rarity="token">tokens</set>
 </card>
 <card>
@@ -2508,17 +2553,17 @@ Equip {2}</text>
  <type>Token Artifact — Treasure</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <reverse-related count="x">Apprentice of the Forge-God</reverse-related>
- <reverse-related count="2">Behemoth of the Five Rivers</reverse-related>
- <reverse-related>Eidolon of Empty Thoughts</reverse-related>
- <reverse-related>Evridiki, Queen of Pidae</reverse-related>
- <reverse-related>Implacable Shrine-Guard</reverse-related>
- <reverse-related count="2">Mogis's Judgment</reverse-related>
- <reverse-related>Mogis's Raider</reverse-related>
- <reverse-related>Raider's Blessing</reverse-related>
- <reverse-related>Pidae Raider</reverse-related>
- <reverse-related>Raksolcs Ravage-Soul</reverse-related>
- <reverse-related>Skophos Raid-Veteran</reverse-related>
+ <reverse-related count="x">Apprentice of the Forge-God_TRX</reverse-related>
+ <reverse-related count="2">Behemoth of the Five Rivers_TRX</reverse-related>
+ <reverse-related>Eidolon of Empty Thoughts_TRX</reverse-related>
+ <reverse-related>Evridiki, Queen of Pidae_TRX</reverse-related>
+ <reverse-related>Implacable Shrine-Guard_TRX</reverse-related>
+ <reverse-related count="2">Mogis's Judgment_TRX</reverse-related>
+ <reverse-related>Mogis's Raider_TRX</reverse-related>
+ <reverse-related>Raider's Blessing_TRX</reverse-related>
+ <reverse-related>Pidae Raider_TRX</reverse-related>
+ <reverse-related>Raksolcs Ravage-Soul_TRX</reverse-related>
+ <reverse-related>Skophos Raid-Veteran_TRX</reverse-related>
  <set num="TRX19" rarity="token">tokens</set>
 </card>
 <card>
@@ -2529,8 +2574,8 @@ Equip {2}</text>
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Charging Brightmare</reverse-related>
- <reverse-related>Blessings of the Flock</reverse-related>
+ <reverse-related>Charging Brightmare_TRX</reverse-related>
+ <reverse-related>Blessings of the Flock_TRX</reverse-related>
  <set num="TRX4" rarity="token">tokens</set>
 </card>
 <card>
@@ -2541,16 +2586,16 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Efimia of the Horse</reverse-related>
- <reverse-related>Harmony with Nature</reverse-related>
- <reverse-related count="2">Harmony with Nature</reverse-related>
- <reverse-related>Implacable Shrine-Guard</reverse-related>
- <reverse-related count="3">Iroas's Judgment</reverse-related>
- <reverse-related>Shrine to Heliod</reverse-related>
- <reverse-related>Shrine to Klothys</reverse-related>
- <reverse-related>Skola Nyxweaver</reverse-related>
- <reverse-related count="2">The Fall of Trax</reverse-related>
- <reverse-related>The Founding of the Twelve</reverse-related>
+ <reverse-related>Efimia of the Horse_TRX</reverse-related>
+ <reverse-related>Harmony with Nature_TRX</reverse-related>
+ <reverse-related count="2">Harmony with Nature_TRX</reverse-related>
+ <reverse-related>Implacable Shrine-Guard_TRX</reverse-related>
+ <reverse-related count="3">Iroas's Judgment_TRX</reverse-related>
+ <reverse-related>Shrine to Heliod_TRX</reverse-related>
+ <reverse-related>Shrine to Klothys_TRX</reverse-related>
+ <reverse-related>Skola Nyxweaver_TRX</reverse-related>
+ <reverse-related count="2">The Fall of Trax_TRX</reverse-related>
+ <reverse-related>The Founding of the Twelve_TRX</reverse-related>
  <set num="TRX3" rarity="token">tokens</set>
 </card>
 <card>
@@ -2561,9 +2606,9 @@ Equip {2}</text>
  <pt>2/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Eidolon of Empty Thoughts</reverse-related>
- <reverse-related>Karda's Legacy</reverse-related>
- <reverse-related count="2">Rally the Hoplites</reverse-related>
+ <reverse-related>Eidolon of Empty Thoughts_TRX</reverse-related>
+ <reverse-related>Karda's Legacy_TRX</reverse-related>
+ <reverse-related count="2">Rally the Hoplites_TRX</reverse-related>
  <set num="TRX13" rarity="token">tokens</set>
 </card>
 <card>
@@ -2574,9 +2619,9 @@ Equip {2}</text>
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Kakomanties Circle</reverse-related>
- <reverse-related>New Recruit</reverse-related>
- <reverse-related>Rite of Venom</reverse-related>
+ <reverse-related>Kakomanties Circle_TRX</reverse-related>
+ <reverse-related>New Recruit_TRX</reverse-related>
+ <reverse-related>Rite of Venom_TRX</reverse-related>
  <set num="TRX11" rarity="token">tokens</set>
 </card>
 <card>
@@ -2586,7 +2631,7 @@ Equip {2}</text>
  <type>Token Enchantment — Shrine</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <reverse-related count="x">Lost to Memory</reverse-related>
+ <reverse-related count="x">Lost to Memory_TRX</reverse-related>
  <set num="TRX8" rarity="token">tokens</set>
 </card>
 <card>
@@ -2597,7 +2642,7 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related count="2">Meeting of the Minds</reverse-related>
+ <reverse-related count="2">Meeting of the Minds_TRX</reverse-related>
  <reverse-related count="2">Ella, Rose Court Queen_REV</reverse-related>
  <set num="TRX9" rarity="token">tokens</set>
 </card>
@@ -2609,7 +2654,7 @@ Equip {2}</text>
  <pt>0/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Patron of Ephara's Glory</reverse-related>
+ <reverse-related>Patron of Ephara's Glory_TRX</reverse-related>
  <set num="TRX18" rarity="token">tokens</set>
 </card>
 <card>
@@ -2620,7 +2665,7 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Pharika, Snake-Twined</reverse-related>
+ <reverse-related>Pharika, Snake-Twined_TRX</reverse-related>
  <set num="TRX15" rarity="token">tokens</set>
 </card>
 <card>
@@ -2631,8 +2676,8 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Pharika, Snake-Twined</reverse-related>
- <reverse-related>Pharika's Judgment</reverse-related>
+ <reverse-related>Pharika, Snake-Twined_TRX</reverse-related>
+ <reverse-related>Pharika's Judgment_TRX</reverse-related>
  <set num="TRX10" rarity="token">tokens</set>
 </card>
 <card>
@@ -2643,7 +2688,7 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related count="x">Terror of Olantin</reverse-related>
+ <reverse-related count="x">Terror of Olantin_TRX</reverse-related>
  <set num="TRX6" rarity="token">tokens</set>
 </card>
 <card>
@@ -2654,7 +2699,7 @@ Equip {2}</text>
  <pt>5/5</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Thraxes, Sire of Dragons</reverse-related>
+ <reverse-related>Thraxes, Sire of Dragons_TRX</reverse-related>
  <set num="TRX12" rarity="token">tokens</set>
 </card>
 <card>
@@ -2665,7 +2710,7 @@ Equip {2}</text>
  <pt>8/8</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Tide's Ire</reverse-related>
+ <reverse-related>Tide's Ire_TRX</reverse-related>
  <set num="TRX5" rarity="token">tokens</set>
 </card>
 <card>
@@ -2676,7 +2721,7 @@ Equip {2}</text>
  <pt>20/20</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Tide's Ire</reverse-related>
+ <reverse-related>Tide's Ire_TRX</reverse-related>
  <set num="TRX7" rarity="token">tokens</set>
 </card>
 <card>
@@ -2687,7 +2732,7 @@ Equip {2}</text>
  <pt>3/3</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related count="2">Traxian Calvary</reverse-related>
+ <reverse-related count="2">Traxian Calvary_TRX</reverse-related>
  <set num="TRX14" rarity="token">tokens</set>
 </card>
 <card>
@@ -2698,8 +2743,8 @@ Equip {2}</text>
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related count="3">Wolf-Whistle Satyr</reverse-related>
- <reverse-related count="3">Fable of Tooth and Fur</reverse-related>
+ <reverse-related count="3">Wolf-Whistle Satyr_TRX</reverse-related>
+ <reverse-related count="3">Fable of Tooth and Fur_TRX</reverse-related>
  <set num="TRX16" rarity="token">tokens</set>
 </card>
 <card>
@@ -3279,7 +3324,9 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Subsidized Market</reverse-related>
  <reverse-related>Sustainable Investments</reverse-related>
  <reverse-related count="2">Vishanki Agenda</reverse-related>
+ <reverse-related>Work Safety Violation</reverse-related>
  <reverse-related>Liquidate_PRO_CNY</reverse-related>
+ <reverse-related>Work Safety Violation_PRO_CNY</reverse-related>
  <reverse-related>Vishanki Inc. CNY</reverse-related>
  <set num="CNY14" rarity="token">tokens</set>
 </card>
@@ -3767,6 +3814,8 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>SYSCALL()</reverse-related>
  <reverse-related>UNDO()</reverse-related>
  <reverse-related>WAIT()</reverse-related>
+ <reverse-related>EXIT()_PRO_ERR</reverse-related>
+ <reverse-related>RECURSE()_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
  <reverse-related>BOOST() ERR</reverse-related>
  <reverse-related>MOUNT() ERR</reverse-related>
@@ -3810,6 +3859,8 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>SYSCALL()</reverse-related>
  <reverse-related>UNDO()</reverse-related>
  <reverse-related>WAIT()</reverse-related>
+ <reverse-related>EXIT()_PRO_ERR</reverse-related>
+ <reverse-related>RECURSE()_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
  <reverse-related>BOOST() ERR</reverse-related>
  <reverse-related>MOUNT() ERR</reverse-related>
@@ -3853,6 +3904,8 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>SYSCALL()</reverse-related>
  <reverse-related>UNDO()</reverse-related>
  <reverse-related>WAIT()</reverse-related>
+ <reverse-related>EXIT()_PRO_ERR</reverse-related>
+ <reverse-related>RECURSE()_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
  <reverse-related>BOOST() ERR</reverse-related>
  <reverse-related>MOUNT() ERR</reverse-related>
@@ -3897,6 +3950,8 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>SYSCALL()</reverse-related>
  <reverse-related>UNDO()</reverse-related>
  <reverse-related>WAIT()</reverse-related>
+ <reverse-related>EXIT()_PRO_ERR</reverse-related>
+ <reverse-related>RECURSE()_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
  <reverse-related>BOOST() ERR</reverse-related>
  <reverse-related>MOUNT() ERR</reverse-related>
@@ -4013,6 +4068,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Menagerie Mechanic</reverse-related>
  <reverse-related>RECURSE()</reverse-related>
  <reverse-related>Virtualized Onomastic</reverse-related>
+ <reverse-related>RECURSE()_PRO_ERR</reverse-related>
  <set num="ERR23" rarity="token">tokens</set>
 </card>
 <card>
@@ -4141,6 +4197,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related count="2">River Guardian</reverse-related>
  <reverse-related>Sky's Flourishing</reverse-related>
  <reverse-related>Ukina, Aethersong Basker</reverse-related>
+ <reverse-related>Equanimity_PRO_KDT</reverse-related>
  <set num="KDT6" rarity="token">tokens</set>
 </card>
 <card>
@@ -4257,6 +4314,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Majesty</reverse-related>
+ <reverse-related>Majesty_PRO_KDT</reverse-related>
  <set num="KDT15" rarity="token">tokens</set>
 </card>
 <card>
@@ -4354,6 +4412,211 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="KDT4" rarity="token">tokens</set>
 </card>
 <card>
+ <name>white Soldier 11TWI</name>
+ <text></text>
+ <colors>W</colors>
+ <type>Token Creature — Soldier</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Advance of the Empty Throne</reverse-related>
+ <reverse-related>Advance of the Quiet Moon</reverse-related>
+ <reverse-related count="2">Architect of Resolve</reverse-related>
+ <reverse-related>Bastion of Aureth</reverse-related>
+ <reverse-related>Clash at Aureth Cross</reverse-related>
+ <reverse-related>Clash at Mistwrit Vale</reverse-related>
+ <reverse-related count="2">Commander of the Vow</reverse-related>
+ <reverse-related count="2">Dawnhymn Herald</reverse-related>
+ <reverse-related>Faithline Marshal</reverse-related>
+ <reverse-related>Fort Ravellan</reverse-related>
+ <reverse-related>Redeemer of Hollowed Flesh</reverse-related>
+ <reverse-related>Resolute Reinforcements</reverse-related>
+ <set num="TWI3" rarity="token">tokens</set>
+</card>
+<card>
+ <name>black Zombie 22TWI</name>
+ <text>This creature can't block.</text>
+ <colors>B</colors>
+ <type>Token Creature — Zombie</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related count="2">Advance of the Hollow Wake</reverse-related>
+ <reverse-related>Annick, Oathbound</reverse-related>
+ <reverse-related>Devika, Severed</reverse-related>
+ <reverse-related>Bleed for the Cause</reverse-related>
+ <reverse-related count="2">Clash at Dawnbloom Grove</reverse-related>
+ <reverse-related>Dreadchant Warcaller</reverse-related>
+ <reverse-related>Guardian of Ashen Oaths</reverse-related>
+ <reverse-related>Scour the Crownlands</reverse-related>
+ <reverse-related count="2">Stride Once More</reverse-related>
+ <set num="TWI11" rarity="token">tokens</set>
+</card>
+<card>
+ <name>red Berserker 11TWI</name>
+ <text></text>
+ <colors>R</colors>
+ <type>Token Creature — Berserker</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related count="2">Advance of the Sainted March</reverse-related>
+ <reverse-related>Advance of the Sainted March</reverse-related>
+ <reverse-related>Bloodline Inciter</reverse-related>
+ <reverse-related>Divinity</reverse-related>
+ <reverse-related count="2">Doctrine of Cleansing Flames</reverse-related>
+ <reverse-related>Gospel of Dominion</reverse-related>
+ <reverse-related count="2">Mandate of Conquest</reverse-related>
+ <reverse-related count="3">Ostarian, Architect of War</reverse-related>
+ <reverse-related count="2">Righteous Evangel</reverse-related>
+ <reverse-related count="3">Siphoned Allegiance</reverse-related>
+ <reverse-related count="2">Thronehall of Reckoning</reverse-related>
+ <set num="TWI12" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Treasure TWI</name>
+ <text>{T}, Sacrifice this token: Add one mana of any color.</text>
+ <colors></colors>
+ <type>Token Artifact — Treasure</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Binder of Greed and Merit</reverse-related>
+ <reverse-related>Gleaming Barrier</reverse-related>
+ <reverse-related>Redeemer of Hollowed Flesh</reverse-related>
+ <set num="TWI14" rarity="token">tokens</set>
+</card>
+<card>
+ <name>white Angel 44TWI</name>
+ <text>Flying</text>
+ <colors>W</colors>
+ <type>Token Creature — Angel</type>
+ <pt>4/4</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Choir Ascendant</reverse-related>
+ <reverse-related>Sylvia, the Rewoven Oath</reverse-related>
+ <reverse-related>Thorn and Trial</reverse-related>
+ <set num="TWI1" rarity="token">tokens</set>
+</card>
+<card>
+ <name>blue Warlock 11TWI</name>
+ <text>Prowess</text>
+ <colors>U</colors>
+ <type>Token Creature — Warlock</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Chorus of One</reverse-related>
+ <reverse-related>Echoed Chant</reverse-related>
+ <reverse-related count="2">Shared in Shadow</reverse-related>
+ <reverse-related>Witch of the First Echoes</reverse-related>
+ <set num="TWI4" rarity="token">tokens</set>
+</card>
+<card>
+ <name>red Faerie 11TWI</name>
+ <text></text>
+ <colors>R</colors>
+ <type>Token Creature — Faerie</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Clash at Scorchroot Bluff</reverse-related>
+ <set num="TWI13" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Additional Library MSEMAR</name>
+ <text></text>
+ <colors>GW</colors>
+ <type>Reminder</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Crownfall Archive</reverse-related>
+ <set num="MSEMAR15" rarity="token">tokens</set>
+</card>
+<card>
+ <name>black Spirit 11TWI</name>
+ <text></text>
+ <colors>B</colors>
+ <type>Token Creature — Spirit</type>
+ <pt>1/1</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Cruxborn Tyrant</reverse-related>
+ <reverse-related>Grasp of the Drowned</reverse-related>
+ <set num="TWI6" rarity="token">tokens</set>
+</card>
+<card>
+ <name>white Knight 22TWI</name>
+ <text>Vigilance</text>
+ <colors>W</colors>
+ <type>Token Creature — Knight</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Diviner of the Sun</reverse-related>
+ <reverse-related count="2">Sentinel of Dawnbloom Grove</reverse-related>
+ <reverse-related>Sentinel of Dawnbloom Grove</reverse-related>
+ <reverse-related>Shaper of Luminous Will</reverse-related>
+ <set num="TWI2" rarity="token">tokens</set>
+</card>
+<card>
+ <name>ShrivelWarlock</name>
+ <text>At the beginning of your upkeep, target creature an opponent controls gets -1/-1 until end of turn.</text>
+ <colors>B</colors>
+ <type>Token Creature — Warlock</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Steep the Pactwen</reverse-related>
+ <set num="TWI10" rarity="token">tokens</set>
+</card>
+<card>
+ <name>DiscardWarlock</name>
+ <text>At the beginning of your upkeep, each opponent discards a card.</text>
+ <colors>B</colors>
+ <type>Token Creature — Warlock</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Steep the Pactwen</reverse-related>
+ <set num="TWI7" rarity="token">tokens</set>
+</card>
+<card>
+ <name>LifeWarlock</name>
+ <text>At the beginning of your upkeep, you gain 2 life.</text>
+ <colors>B</colors>
+ <type>Token Creature — Warlock</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Steep the Pactwen</reverse-related>
+ <set num="TWI8" rarity="token">tokens</set>
+</card>
+<card>
+ <name>LossWarlock</name>
+ <text>At the beginning of your upkeep, each opponent loses 2 life.</text>
+ <colors>B</colors>
+ <type>Token Creature — Warlock</type>
+ <pt>2/2</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Steep the Pactwen</reverse-related>
+ <set num="TWI9" rarity="token">tokens</set>
+</card>
+<card>
+ <name>black Horror 44TWI</name>
+ <text></text>
+ <colors>B</colors>
+ <type>Token Creature — Horror</type>
+ <pt>4/4</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Weaver of Brooding Threads</reverse-related>
+ <reverse-related>Witch of the First Echoes</reverse-related>
+ <reverse-related>Witchery</reverse-related>
+ <set num="TWI5" rarity="token">tokens</set>
+</card>
+<card>
  <name>red and white Cleric 11REV</name>
  <text>Lifelink, haste</text>
  <colors>RW</colors>
@@ -4384,6 +4647,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Emgaran Duelist_REV</reverse-related>
+ <reverse-related>Shigane Manor Burns_REV</reverse-related>
  <reverse-related>Sustainable Investments_REV</reverse-related>
  <set num="REV9" rarity="token">tokens</set>
 </card>
@@ -4397,15 +4661,6 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Unburnt Maiden_REV</reverse-related>
  <set num="REV11" rarity="token">tokens</set>
-</card>
-<card>
- <name>Additional Library MSEMAR</name>
- <text></text>
- <colors>GW</colors>
- <type>Reminder</type>
- <token>1</token>
- <tablerow>1</tablerow>
- <set num="MSEMAR15" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Aura PLANE 2</name>
@@ -4639,6 +4894,19 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <set num="VRD1" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Everywhere TWI</name>
+ <text>This land is a Plains, Island, Swamp, Mountain, and Plains. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
+ <colors></colors>
+ <type>Token Land</type>
+ <token>1</token>
+ <tablerow>0</tablerow>
+ <reverse-related>Sanctified Cartography</reverse-related>
+ <reverse-related>Groveborn Envoy</reverse-related>
+ <reverse-related>Scour the Crownlands</reverse-related>
+ <reverse-related>Faithline Marshal</reverse-related>
+ <set num="TWI15" rarity="token">tokens</set>
 </card>
 <card>
  <name>Evil Plan VRD</name>
