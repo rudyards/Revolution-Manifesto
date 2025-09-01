@@ -45855,10 +45855,10 @@
     },
     {
      "artist": "Anna Butova",
-     "convertedManaCost": 5,
-     "faceConvertedManaCost": 5,
-     "manaValue": 5,
-     "faceManaValue": 5,
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
      "colors": [
       "B",
       "R",
@@ -45882,7 +45882,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
-     "manaCost": "{2}{B}{R}{G}",
+     "manaCost": "{B}{R}{G}",
      "multiverseid": 4863,
      "name": "Work Safety Violation_PRO_CNY",
      "number": "276",
@@ -92376,7 +92376,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Dreamwoven Law enters, tap up to one target creature and put two stun counters on it.\nDefeated — Whenever you attack, tap target creature.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Dreamwoven Law enters, tap up to one target creature and put two stun counters on it.\nDefeated — Whenever you attack, tap target creature.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92419,7 +92419,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Fire and Faith enters, it deals 2 damage to each creature you don't control.\nDefeated — Creatures you control have haste.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Fire and Faith enters, it deals 2 damage to each creature you don't control.\nDefeated — Creatures you control have haste.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92462,7 +92462,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Rot and Ruin enters, mill three cards. You gain 3 life.\nDefeated — You may play land cards from your graveyard.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of Rot and Ruin enters, mill three cards. You gain 3 life.\nDefeated — You may play land cards from your graveyard.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92505,7 +92505,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nFlash\nWhen Advance of Rune and Whisper enters, return target creature to its owner's hand.\nDefeated — At the beginning of your upkeep, scry 1.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nFlash\nWhen Advance of Rune and Whisper enters, return target creature to its owner's hand.\nDefeated — At the beginning of your upkeep, scry 1.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92548,7 +92548,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Blazing Court enters, create two Blood tokens.  (They're artifacts with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)\nDefeated — Whenever you sacrifice a permanent, Advance of the Blazing Court deals 1 damage to any other noncreature permanent.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Blazing Court enters, create two Blood tokens.  (They're artifacts with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)\nDefeated — Whenever you sacrifice a permanent, Advance of the Blazing Court deals 1 damage to any other noncreature permanent.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92591,7 +92591,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Empty Throne enters, return target nonbattle permanent card from your graveyard to your hand.\nDefeated — Whenever a land you control enters, create a 1/1 white Soldier creature token.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Empty Throne enters, return target nonbattle permanent card from your graveyard to your hand.\nDefeated — Whenever a land you control enters, create a 1/1 white Soldier creature token.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92634,7 +92634,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Hollow Wake enters, create two 2/2 black Zombie creature tokens with “This creature can't block.”\nDefeated — Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Hollow Wake enters, create two 2/2 black Zombie creature tokens with “This creature can't block.”\nDefeated — Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92677,7 +92677,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Quiet Moon enters, exile target nonland permanent you don't control until Advance of the Quiet Moon leaves the battlefield.\nDefeated — Whenever a nontoken creature you control leaves the battlefield, create a 1/1 white Soldier creature token.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Quiet Moon enters, exile target nonland permanent you don't control until Advance of the Quiet Moon leaves the battlefield.\nDefeated — Whenever a nontoken creature you control leaves the battlefield, create a 1/1 white Soldier creature token.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92720,7 +92720,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Sainted March enters, create two 1/1 red Berserker creature tokens.\nDefeated — Whenever you attack, create a 1/1 red Berserker creature token that's tapped and attacking.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Sainted March enters, create two 1/1 red Berserker creature tokens.\nDefeated — Whenever you attack, create a 1/1 red Berserker creature token that's tapped and attacking.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -92763,7 +92763,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Umbral Bargain enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If they do, you lose 1 life.\nDefeated — At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 2 life.\n— ​",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Advance of the Umbral Bargain enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If they do, you lose 1 life.\nDefeated — At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 2 life.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
