@@ -3635,7 +3635,7 @@ Whenever you attack, you gain 1 life.</text>
  <set num="CCR12" rarity="token">tokens</set>
 </card>
 <card>
- <name>Bird Warrior ★ CCR</name>
+ <name>Bird Warrior ★</name>
  <text>Double strike, vigilance, haste</text>
  <colors>R</colors>
  <type>Token Creature — Bird Warrior</type>
@@ -3646,7 +3646,7 @@ Whenever you attack, you gain 1 life.</text>
  <set num="CCR20" rarity="token">tokens</set>
 </card>
 <card>
- <name>Bird ★ CCR</name>
+ <name>Bird ★</name>
  <text>Flying, vigilance, haste</text>
  <colors>WB</colors>
  <type>Token Creature — Bird</type>
@@ -3680,7 +3680,7 @@ Whenever you attack, you gain 1 life.</text>
  <set num="CCR10" rarity="token">tokens</set>
 </card>
 <card>
- <name>Seal Orb ★ CCR</name>
+ <name>Seal Orb ★</name>
  <text></text>
  <colors>WU</colors>
  <type>Token Creature — Seal Orb</type>
@@ -3716,7 +3716,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <set num="CCR18" rarity="token">tokens</set>
 </card>
 <card>
- <name>Golem ★ CCR</name>
+ <name>Golem ★</name>
  <text></text>
  <colors>W</colors>
  <type>Token Creature — Golem</type>
@@ -4094,19 +4094,6 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="REV12" rarity="token">tokens</set>
 </card>
 <card>
- <name>Error red ERR</name>
- <text>Menace</text>
- <colors>R</colors>
- <type>Token Creature — Error</type>
- <pt>4/4</pt>
- <token>1</token>
- <tablerow>2</tablerow>
- <reverse-related>Fan Favorite Daredevil</reverse-related>
- <reverse-related>Faulty Server</reverse-related>
- <reverse-related>PANIC()</reverse-related>
- <set num="ERR16" rarity="token">tokens</set>
-</card>
-<card>
  <name>BOOST() ERR</name>
  <text>Whenever this Subroutine runs, add {R}.</text>
  <colors>R</colors>
@@ -4471,6 +4458,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related count="2">Righteous Evangel</reverse-related>
  <reverse-related count="3">Siphoned Allegiance</reverse-related>
  <reverse-related count="2">Thronehall of Reckoning</reverse-related>
+ <reverse-related>Divinity_PRO_TWI</reverse-related>
  <set num="TWI12" rarity="token">tokens</set>
 </card>
 <card>
@@ -4496,6 +4484,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Choir Ascendant</reverse-related>
  <reverse-related>Sylvia, the Rewoven Oath</reverse-related>
  <reverse-related>Thorn and Trial</reverse-related>
+ <reverse-related>Choir Ascendant_PRO_TWI</reverse-related>
  <set num="TWI1" rarity="token">tokens</set>
 </card>
 <card>
@@ -4560,7 +4549,20 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="TWI2" rarity="token">tokens</set>
 </card>
 <card>
- <name>ShrivelWarlock</name>
+ <name>Everywhere</name>
+ <text>This land is a Plains, Island, Swamp, Mountain, and Plains. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
+ <colors></colors>
+ <type>Token Land</type>
+ <token>1</token>
+ <tablerow>0</tablerow>
+ <reverse-related>Faithline Marshal</reverse-related>
+ <reverse-related>Groveborn Envoy</reverse-related>
+ <reverse-related>Sanctified Cartography</reverse-related>
+ <reverse-related>Scour the Crownlands</reverse-related>
+ <set num="TWI15" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Shrivel Warlock</name>
  <text>At the beginning of your upkeep, target creature an opponent controls gets -1/-1 until end of turn.</text>
  <colors>B</colors>
  <type>Token Creature — Warlock</type>
@@ -4571,7 +4573,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="TWI10" rarity="token">tokens</set>
 </card>
 <card>
- <name>DiscardWarlock</name>
+ <name>Discard Warlock</name>
  <text>At the beginning of your upkeep, each opponent discards a card.</text>
  <colors>B</colors>
  <type>Token Creature — Warlock</type>
@@ -4582,7 +4584,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="TWI7" rarity="token">tokens</set>
 </card>
 <card>
- <name>LifeWarlock</name>
+ <name>Life Warlock</name>
  <text>At the beginning of your upkeep, you gain 2 life.</text>
  <colors>B</colors>
  <type>Token Creature — Warlock</type>
@@ -4593,7 +4595,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="TWI8" rarity="token">tokens</set>
 </card>
 <card>
- <name>LossWarlock</name>
+ <name>Loss Warlock</name>
  <text>At the beginning of your upkeep, each opponent loses 2 life.</text>
  <colors>B</colors>
  <type>Token Creature — Warlock</type>
@@ -4661,6 +4663,17 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Unburnt Maiden_REV</reverse-related>
  <set num="REV11" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Hardsuit KDT 2</name>
+ <text>Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+ <colors></colors>
+ <type>Token Artifact — Vehicle</type>
+ <pt>4/4</pt>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Attuned Acolyte_PRO_KDT</reverse-related>
+ <set num="KDT20" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Aura PLANE 2</name>
@@ -4896,17 +4909,14 @@ Equip {2}</text>
  <set num="VRD1" rarity="token">tokens</set>
 </card>
 <card>
- <name>Everywhere TWI</name>
- <text>This land is a Plains, Island, Swamp, Mountain, and Plains. ({T}: Add {W}, {U}, {B}, {R}, or {G}.)</text>
- <colors></colors>
- <type>Token Land</type>
+ <name>Error red</name>
+ <text>Menace</text>
+ <colors>R</colors>
+ <type>Token Creature — Error</type>
+ <pt>4/4</pt>
  <token>1</token>
- <tablerow>0</tablerow>
- <reverse-related>Sanctified Cartography</reverse-related>
- <reverse-related>Groveborn Envoy</reverse-related>
- <reverse-related>Scour the Crownlands</reverse-related>
- <reverse-related>Faithline Marshal</reverse-related>
- <set num="TWI15" rarity="token">tokens</set>
+ <tablerow>2</tablerow>
+ <set num="ERR16" rarity="token">tokens</set>
 </card>
 <card>
  <name>Evil Plan VRD</name>

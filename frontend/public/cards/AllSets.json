@@ -44939,7 +44939,7 @@
       "Insect",
       "Eye"
      ],
-     "text": "Flash\nFlying\nWhen Whirring Inspector enters, target player reveals their hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn. (That card returns to its owner's hand, or that permanent returns to the battlefield under its owner's control.)",
+     "text": "Flash\nFlying\nWhen Whirring Inspector enters, look at target player's hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn. (That card returns to its owner's hand, or that permanent returns to the battlefield under its owner's control.)",
      "toughness": "2",
      "type": "Artifact Creature — Insect Eye",
      "types": [
@@ -45844,7 +45844,7 @@
       "Insect",
       "Eye"
      ],
-     "text": "Flash\nFlying\nWhen Whirring Inspector enters, target player reveals their hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn.",
+     "text": "Flash\nFlying\nWhen Whirring Inspector enters, , look at target player's hand. You may exile a nonland card from among them until your next turn. When you don't, exile up to one target nonland permanent that player controls until your next turn. (That card returns to its owner's hand, or that permanent returns to the battlefield under its owner's control.)",
      "toughness": "2",
      "type": "Artifact Creature — Insect Eye",
      "types": [
@@ -63825,6 +63825,46 @@
      "uuid": "Dustwing Butterfly_PRO_CCR"
     },
     {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "G"
+     ],
+     "colorIdentity": [
+      "G"
+     ],
+     "designer": "Cajun",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Harvest Time_PRO_CCR",
+     "imageName": "harvest time_pro_ccr",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{G}",
+     "multiverseid": 6288,
+     "name": "Harvest Time_PRO_CCR",
+     "number": "287",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Search your graveyard and/or library for a basic land card, reveal it, put it into your hand, then shuffle.\nSurface {G} (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.) (You may cast a copy of this from your graveyard if there are six or more other cards there by exiling it and paying the surface cost.)",
+     "type": "Sorcery",
+     "types": [
+      "Sorcery"
+     ],
+     "uuid": "Harvest Time_PRO_CCR"
+    },
+    {
      "artist": "Luifer Black",
      "convertedManaCost": 4,
      "faceConvertedManaCost": 4,
@@ -63869,8 +63909,8 @@
      "uuid": "Heartbreak_PRO_CCR"
     }
    ],
-   "baseSetSize": 391,
-   "totalSetSize": 391,
+   "baseSetSize": 392,
+   "totalSetSize": 392,
    "cardsphereSetId": 17,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -77471,6 +77511,46 @@
      "uuid": "Masksmith_PRO_ERR"
     },
     {
+     "artist": "Art of Li",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "W"
+     ],
+     "colorIdentity": [
+      "W"
+     ],
+     "designer": "DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Plasma Strike_PRO_ERR",
+     "imageName": "plasma strike_pro_err",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Legal"
+     },
+     "manaCost": "{W}",
+     "multiverseid": 6289,
+     "name": "Plasma Strike_PRO_ERR",
+     "number": "304",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Plasma Strike deals 3 damage to target attacking, blocking, or tapped creature.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Plasma Strike_PRO_ERR"
+    },
+    {
      "artist": "Donglu Yu",
      "convertedManaCost": 4,
      "faceConvertedManaCost": 4,
@@ -77663,8 +77743,8 @@
      "uuid": "Weft Dancer_PRO_ERR"
     }
    ],
-   "baseSetSize": 310,
-   "totalSetSize": 310,
+   "baseSetSize": 311,
+   "totalSetSize": 311,
    "cardsphereSetId": 18,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -91675,6 +91755,52 @@
      "uuid": "Kage, Cursed Conqueror_PRO_KDT"
     },
     {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "W"
+     ],
+     "colorIdentity": [
+      "W"
+     ],
+     "designer": "Provocative",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Kitsune Matriarch_PRO_KDT",
+     "imageName": "kitsune matriarch_pro_kdt",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Legal"
+     },
+     "manaCost": "{W}",
+     "multiverseid": 6290,
+     "name": "Kitsune Matriarch_PRO_KDT",
+     "number": "326",
+     "power": "1",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Fox",
+      "Noble"
+     ],
+     "text": "Whenever you create one or more tokens, put a +1/+1 counter on this creature.",
+     "toughness": "1",
+     "type": "Creature — Fox Noble",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Kitsune Matriarch_PRO_KDT"
+    },
+    {
      "artist": "Quyen Pham",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -92308,8 +92434,8 @@
      "uuid": "Tsubasa Shigane_PRO_KDT"
     }
    ],
-   "baseSetSize": 326,
-   "totalSetSize": 326,
+   "baseSetSize": 327,
+   "totalSetSize": 327,
    "cardsphereSetId": 19,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -94118,52 +94244,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Blossoming Sands_TWI-0",
-     "otherFaceIds": [
-      "Blossoming Sands_TWI-1"
-     ]
-    },
-    {
-     "artist": "Arnaud",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [
-      "G",
-      "W"
-     ],
-     "designer": "Zangy",
-     "flavor": "“The Dolcairn dragged rot into the garden. We returned it to dust.”\n—Eirian, on the victory of Dawnbloom Grove\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Blossoming Sands_TWI",
-     "imageName": "blossoming sands",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 5987,
-     "name": "Blossoming Sands",
-     "number": "286",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters, you gain 1 life.\n{T}: Add {G} or {W}.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Blossoming Sands_TWI-2",
-     "otherFaceIds": [
-      "Blossoming Sands_TWI-3"
-     ]
+     "uuid": "Blossoming Sands_TWI"
     },
     {
      "artist": "Su Fu and LASSO",
@@ -94948,7 +95029,7 @@
      "subtypes": [
       "Operation"
      ],
-     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nIf a card would be put into an opponent's graveyard from anywhere, exile it instead.\n2 Defense — Whenever you attack, defending player mills two cards.\nDefeated — At the beginning of your end step, you may pay life equal to the mana value of a card exiled by Clash at the Shaded Maw. If you do, you may cast that card without paying its mana cost.",
+     "text": "(As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities while at certain stages or below.)\nWhen Clash at the Shaded Maw enters, exile each player's graveyard.\n2 Defense — If a card or token would be put into a graveyard from anywhere, exile it instead.\nDefeated — Whenever a permanent an opponent controls is exiled, that player loses 1 life.",
      "type": "Battle — Operation",
      "types": [
       "Battle"
@@ -95847,7 +95928,7 @@
       "Angel",
       "Bard"
      ],
-     "text": "Flying\nReprieve (As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)\nWhen Dawnhymn Herald enters, choose one. If it reprieved a creature, choose up two instead.\n• Create two 1/1 white Soldier creature tokens.\n• Exile target creature with power 4 or greater.\n• Target player gains 5 life.",
+     "text": "Flying\nReprieve (As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)\nWhen Dawnhymn Herald enters, choose one. If it reprieved a creature, choose up to two instead.\n• Create two 1/1 white Soldier creature tokens.\n• Exile target creature with power 4 or greater.\n• Target player gains 5 life.",
      "toughness": "4",
      "type": "Creature — Angel Bard",
      "types": [
@@ -96335,52 +96416,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Dismal Backwater_TWI-0",
-     "otherFaceIds": [
-      "Dismal Backwater_TWI-1"
-     ]
-    },
-    {
-     "artist": "Miro Petrov",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [
-      "U",
-      "B"
-     ],
-     "designer": "Zangy",
-     "flavor": "“The Thistrel mistook riddles for wisdom. We reminded them of the difference.”\n—Cerridwyn, on the victory of Mistwrit Vale\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Dismal Backwater_TWI",
-     "imageName": "dismal backwater",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6037,
-     "name": "Dismal Backwater",
-     "number": "291",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters, you gain 1 life.\n{T}: Add {U} or {B}.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Dismal Backwater_TWI-2",
-     "otherFaceIds": [
-      "Dismal Backwater_TWI-3"
-     ]
+     "uuid": "Dismal Backwater_TWI"
     },
     {
      "artist": "Thanet Thanakij",
@@ -97563,7 +97599,7 @@
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Forest_TWI",
-     "imageName": "forest_twi",
+     "imageName": "forest",
      "layout": "normal",
      "legalities": {
       "revolution": "Legal",
@@ -97573,7 +97609,7 @@
      },
      "manaCost": "",
      "multiverseid": 6064,
-     "name": "Forest_TWI",
+     "name": "Forest",
      "number": "312",
      "rarity": "basic",
      "relatedCards": {
@@ -97925,49 +97961,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Gilded Court_TWI-0",
-     "otherFaceIds": [
-      "Gilded Court_TWI-1"
-     ]
-    },
-    {
-     "artist": "CGlas",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [],
-     "designer": "Pipsqueak",
-     "flavor": "The Three Courts meet not in balance, but instead in tension. The Gilded Noon demands, Cloudveil deliberates, and the Pale Thorn remembers.\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Gilded Court_TWI",
-     "imageName": "gilded court",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Not Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6072,
-     "name": "Gilded Court",
-     "number": "294",
-     "rarity": "uncommon",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "{T}: Add {C}.\n{T}: Choose a basic land type. Gilded Court gains that type. (This effect lasts indefinitely.)",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Gilded Court_TWI-2",
-     "otherFaceIds": [
-      "Gilded Court_TWI-3"
-     ]
+     "uuid": "Gilded Court_TWI"
     },
     {
      "artist": "Tasha Samutina",
@@ -98260,7 +98254,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "As Golden Bloom of the Silenced enters, choose a nonland card name.\nOther permanents with the chosen name lose all abilities.",
+     "text": "As Golden Bloom of the Silenced enters, choose a nonland card name other than Golden Bloom of the Silenced.\nOther permanents with the chosen name lose all abilities.",
      "type": "Legendary Artifact",
      "types": [
       "Artifact"
@@ -98929,7 +98923,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Vigilance\nWhenever you cast your second spell each turn, until end of turn Henda Ravellan becomes a 4/4 Angel creature with flying. Prevent all damage that would be dealt to her this turn.",
+     "text": "Vigilance\nWhenever you cast your second spell each turn, Henda Ravellan becomes a 4/4 Angel creature with flying in addition to her other types until end of turn. Prevent all damage that would be dealt to her this turn.",
      "toughness": "2",
      "type": "Legendary Creature — Human Soldier",
      "types": [
@@ -99307,7 +99301,7 @@
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Island_TWI",
-     "imageName": "island_twi",
+     "imageName": "island",
      "layout": "normal",
      "legalities": {
       "revolution": "Legal",
@@ -99317,7 +99311,7 @@
      },
      "manaCost": "",
      "multiverseid": 6103,
-     "name": "Island_TWI",
+     "name": "Island",
      "number": "306",
      "rarity": "basic",
      "relatedCards": {
@@ -99373,52 +99367,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Jungle Hollow_TWI-0",
-     "otherFaceIds": [
-      "Jungle Hollow_TWI-1"
-     ]
-    },
-    {
-     "artist": "Florian Herold",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [
-      "B",
-      "G"
-     ],
-     "designer": "Zangy",
-     "flavor": "“What is ancient still dies. What is dead endures.”\n—Vardo, on the victory of Shaded Maw\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Jungle Hollow_TWI",
-     "imageName": "jungle hollow",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6104,
-     "name": "Jungle Hollow",
-     "number": "297",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "Jungle Hollow enters the battlefield tapped.\nWhen Jungle Hollow enters, you gain 1 life.\n{T}: Add {B} or {G}.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Jungle Hollow_TWI-2",
-     "otherFaceIds": [
-      "Jungle Hollow_TWI-3"
-     ]
+     "uuid": "Jungle Hollow_TWI"
     },
     {
      "artist": "Mateusz Michalski",
@@ -99572,7 +99521,7 @@
      "subtypes": [
       "Elemental"
      ],
-     "text": "When Law Given Form enters, exile target creature you don't control that's tapped or has power 4 or greater.",
+     "text": "When Law Given Form enters, exile target creature you don't control if it's tapped or has power 4 or greater.",
      "toughness": "6",
      "type": "Creature — Elemental",
      "types": [
@@ -100164,7 +100113,7 @@
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Mountain_TWI",
-     "imageName": "mountain_twi",
+     "imageName": "mountain",
      "layout": "normal",
      "legalities": {
       "revolution": "Legal",
@@ -100174,7 +100123,7 @@
      },
      "manaCost": "",
      "multiverseid": 6120,
-     "name": "Mountain_TWI",
+     "name": "Mountain",
      "number": "310",
      "rarity": "basic",
      "relatedCards": {
@@ -100864,7 +100813,7 @@
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Plains_TWI",
-     "imageName": "plains_twi",
+     "imageName": "plains",
      "layout": "normal",
      "legalities": {
       "revolution": "Legal",
@@ -100874,7 +100823,7 @@
      },
      "manaCost": "",
      "multiverseid": 6136,
-     "name": "Plains_TWI",
+     "name": "Plains",
      "number": "304",
      "rarity": "basic",
      "relatedCards": {
@@ -101408,7 +101357,7 @@
       "Spirit",
       "Druid"
      ],
-     "text": "At the beginning of your end step, mill three cards. Then you may pay {G}. If you do, return a land card from your graveyard to your hand. Otherwise, you gain 1 life. ",
+     "text": "At the beginning of your end step, mill three cards. Then you may pay {G}. If you do, return a land card milled this way to your hand. Otherwise, you gain 1 life. ",
      "toughness": "3",
      "type": "Creature — Spirit Druid",
      "types": [
@@ -104383,7 +104332,7 @@
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Swamp_TWI",
-     "imageName": "swamp_twi",
+     "imageName": "swamp",
      "layout": "normal",
      "legalities": {
       "revolution": "Legal",
@@ -104393,7 +104342,7 @@
      },
      "manaCost": "",
      "multiverseid": 6216,
-     "name": "Swamp_TWI",
+     "name": "Swamp",
      "number": "308",
      "rarity": "basic",
      "relatedCards": {
@@ -104535,52 +104484,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Swiftwater Cliffs_TWI-0",
-     "otherFaceIds": [
-      "Swiftwater Cliffs_TWI-1"
-     ]
-    },
-    {
-     "artist": "Leo Lasfargue",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [
-      "U",
-      "R"
-     ],
-     "designer": "Zangy",
-     "flavor": "“The Sunvrath brought fire while we brought the tide. You cannot burn what water has already claimed.”\n—Petals on Snow, on the victory of Scorchroot Bluff\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Swiftwater Cliffs_TWI",
-     "imageName": "swiftwater cliffs",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6219,
-     "name": "Swiftwater Cliffs",
-     "number": "300",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "Swiftwater Cliffs enters the battlefield tapped.\nWhen Swiftwater Cliffs enters, you gain 1 life.\n{T}: Add {U} or {R}.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Swiftwater Cliffs_TWI-2",
-     "otherFaceIds": [
-      "Swiftwater Cliffs_TWI-3"
-     ]
+     "uuid": "Swiftwater Cliffs_TWI"
     },
     {
      "artist": "y4nk Lv",
@@ -104711,49 +104615,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Terramorphic Expanse_TWI-0",
-     "otherFaceIds": [
-      "Terramorphic Expanse_TWI-1"
-     ]
-    },
-    {
-     "artist": "Anastasia Shestak",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [],
-     "designer": "Zangy",
-     "flavor": "Twiltrie is a land of splintered oaths and silent ruins, where every horizon is a question and every step stirs the ash of forgotten crowns.\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Terramorphic Expanse_TWI",
-     "imageName": "terramorphic expanse",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6222,
-     "name": "Terramorphic Expanse",
-     "number": "301",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "{T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Terramorphic Expanse_TWI-2",
-     "otherFaceIds": [
-      "Terramorphic Expanse_TWI-3"
-     ]
+     "uuid": "Terramorphic Expanse_TWI"
     },
     {
      "artist": "KILART (choe, heonhwa)",
@@ -105256,7 +105118,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "This spell costs {1} less for each token you control.\nHaste\nWhenever Towering Aspen attacks, choose one —\n• Create a token that's a copy of target token you control.\n• Target token becomes a copy of target creature you control. You may have it become attacking.",
+     "text": "This spell costs {1} less for each token you control.\nHaste\nWhenever Towering Aspen attacks, choose one —\n• Create a token that's a copy of target token you control.\n• Target token you control becomes a copy of target creature you control. You may have it become attacking.",
      "toughness": "4",
      "type": "Legendary Creature — Faerie Noble",
      "types": [
@@ -106224,52 +106086,7 @@
      "types": [
       "Land"
      ],
-     "uuid": "Wind-Scarred Crag_TWI-0",
-     "otherFaceIds": [
-      "Wind-Scarred Crag_TWI-1"
-     ]
-    },
-    {
-     "artist": "Wang yi lei",
-     "convertedManaCost": 0,
-     "faceConvertedManaCost": 0,
-     "manaValue": 0,
-     "faceManaValue": 0,
-     "colors": [],
-     "colorIdentity": [
-      "R",
-      "W"
-     ],
-     "designer": "Zangy",
-     "flavor": "“The Lunate held to oaths. We held to victory.”\n—Annan, on the victory of Aureth Cross\n",
-     "frameType": "normal",
-     "frameVersion": "2015",
-     "id": "Wind-Scarred Crag_TWI",
-     "imageName": "wind-scarred crag",
-     "layout": "normal",
-     "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
-      "revolution-eternal": "Legal",
-      "revolution-eternal-pauper": "Legal"
-     },
-     "manaCost": "",
-     "multiverseid": 6256,
-     "name": "Wind-Scarred Crag",
-     "number": "303",
-     "rarity": "common",
-     "relatedCards": {
-      "spellbook": []
-     },
-     "text": "Wind-Scarred Crag enters the battlefield tapped.\nWhen Wind-Scarred Crag enters, you gain 1 life.\n{T}: Add {R} or {W}.",
-     "type": "Land",
-     "types": [
-      "Land"
-     ],
-     "uuid": "Wind-Scarred Crag_TWI-2",
-     "otherFaceIds": [
-      "Wind-Scarred Crag_TWI-3"
-     ]
+     "uuid": "Wind-Scarred Crag_TWI"
     },
     {
      "artist": "Elenadang",
@@ -106540,6 +106357,308 @@
       "Creature"
      ],
      "uuid": "Zealforged Pathfinder_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 6,
+     "faceConvertedManaCost": 6,
+     "manaValue": 6,
+     "faceManaValue": 6,
+     "colors": [
+      "G",
+      "W"
+     ],
+     "colorIdentity": [
+      "G",
+      "W"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Choir Ascendant_PRO_TWI",
+     "imageName": "choir ascendant_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{4}{G}{W}",
+     "multiverseid": 6291,
+     "name": "Choir Ascendant_PRO_TWI",
+     "number": "321",
+     "power": "4",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Angel",
+      "Bard"
+     ],
+     "text": "Flying\nReprieve, reprieve, reprieve (As this creature enters, you may return up to three creatures you control without reprieve to their owner's hands.)\nWhen Choir Ascendant enters, for each time it reprieved a creature, create a 4/4 white Angel creature token with flying.",
+     "toughness": "4",
+     "type": "Creature — Angel Bard",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Choir Ascendant_PRO_TWI"
+    },
+    {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Discern_PRO_TWI",
+     "imageName": "discern_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{U}",
+     "multiverseid": 6292,
+     "name": "Discern_PRO_TWI",
+     "number": "315",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Draw a card.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Discern_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "R",
+      "W"
+     ],
+     "colorIdentity": [
+      "R",
+      "W"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Divinity_PRO_TWI",
+     "imageName": "divinity_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{R}{R/W}{W}",
+     "multiverseid": 6293,
+     "name": "Divinity_PRO_TWI",
+     "number": "332",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Whenever a creature you control enters, Divinity deals 1 damage to each opponent and you gain 1 life.\nAt the beginning of your end step, create a 1/1 red Berserker creature token if two or more creatures died under your control this turn.",
+     "type": "Enchantment",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Divinity_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "B",
+      "G"
+     ],
+     "colorIdentity": [
+      "B",
+      "G"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Dolcairn Charm_PRO_TWI",
+     "imageName": "dolcairn charm_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{B}{G}",
+     "multiverseid": 6294,
+     "name": "Dolcairn Charm_PRO_TWI",
+     "number": "325",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Choose one —\n• Return target creature or land card from your graveyard to your hand.\n• Exile target creature or planeswalker with mana value 2 or less.\n• Each opponent loses 3 life and you gain 3 life. ",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Dolcairn Charm_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "G",
+      "W"
+     ],
+     "colorIdentity": [
+      "G",
+      "W"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Honesty_PRO_TWI",
+     "imageName": "honesty_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{G}{G/W}{W}",
+     "multiverseid": 6295,
+     "name": "Honesty_PRO_TWI",
+     "number": "329",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Whenever a creature you control enters, put a +1/+1 counter on it. If this is the second time this ability has resolved this turn, put a +1/+1 counter on each other creature you control.\nWhenever you attack, tap up to one target creature. If you attacked with total power 8 or more, instead tap up to three target creatures.",
+     "type": "Enchantment",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Honesty_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "G",
+      "W"
+     ],
+     "colorIdentity": [
+      "G",
+      "W"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Lunate Charm_PRO_TWI",
+     "imageName": "lunate charm_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{G}{W}",
+     "multiverseid": 6296,
+     "name": "Lunate Charm_PRO_TWI",
+     "number": "322",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Choose one —\n• Permanents you control gain hexproof until end of turn.\n• Exile target creature with power 4 or greater.\n• Target player puts their graveyard on the bottom of their library in a random order.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Lunate Charm_PRO_TWI"
+    },
+    {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "G"
+     ],
+     "colorIdentity": [
+      "G"
+     ],
+     "designer": "Zangy",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Reaper of Blossoms_PRO_TWI",
+     "imageName": "reaper of blossoms_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{1}{G}",
+     "multiverseid": 6297,
+     "name": "Reaper of Blossoms_PRO_TWI",
+     "number": "319",
+     "power": "2",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Spirit",
+      "Druid"
+     ],
+     "text": "At the beginning of your end step, mill three cards. Then you may pay {G}. If you do, return a land card milled this way to your hand. Otherwise, you gain 1 life. ",
+     "toughness": "3",
+     "type": "Creature — Spirit Druid",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Reaper of Blossoms_PRO_TWI"
     }
    ],
    "baseSetSize": 322,
