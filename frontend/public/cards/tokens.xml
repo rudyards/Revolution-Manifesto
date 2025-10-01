@@ -275,6 +275,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Aonuma, Princely Traveler_PRO_KDT</reverse-related>
  <reverse-related>Elder Tattooist_PRO_KDT</reverse-related>
  <reverse-related>Equanimity_PRO_KDT</reverse-related>
+ <reverse-related>Thistrel Charm_PRO_TWI</reverse-related>
  <set num="MSEMAR11" rarity="token">tokens</set>
 </card>
 <card>
@@ -421,6 +422,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Insanara, the Deceiver_KSV</reverse-related>
  <reverse-related>Pyrefall Warcaller_KSV</reverse-related>
  <reverse-related>Raise the Iron Banner_KSV</reverse-related>
+ <reverse-related>Arcet, Life's Bane_BLR</reverse-related>
  <reverse-related>Burning Wisdom_BLR</reverse-related>
  <reverse-related>Emberwalker_BLR</reverse-related>
  <reverse-related>Keeper of Death's Mysteries_BLR</reverse-related>
@@ -1969,11 +1971,10 @@ Equip {2}</text>
  <reverse-related count="3">Impromptu Warband_BLR</reverse-related>
  <reverse-related>Pureheart Cavalier_BLR</reverse-related>
  <reverse-related count="2">Razelit Meditation_BLR</reverse-related>
- <reverse-related count="2">Revolutionary Recruiter_BLR</reverse-related>
  <reverse-related>Sparring Partner_BLR</reverse-related>
  <reverse-related count="2">Vanguard Commander_BLR</reverse-related>
  <reverse-related count="2">Assemble the Mob_PRO_BLR</reverse-related>
- <set num="BLR8" rarity="token">tokens</set>
+ <set num="BLR9" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Spirit 11MSEMAR</name>
@@ -2008,7 +2009,7 @@ Equip {2}</text>
  <reverse-related>Dabbling Dangerously_BLR</reverse-related>
  <reverse-related>Gilded Reaper_BLR</reverse-related>
  <reverse-related>Temporal Assassination_BLR</reverse-related>
- <set num="BLR12" rarity="token">tokens</set>
+ <set num="BLR13" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Wizard 11BLR</name>
@@ -2020,7 +2021,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Ella, Rose Court Queen_BLR</reverse-related>
  <reverse-related count="x">Enigmatic Mentor_BLR</reverse-related>
- <set num="BLR5" rarity="token">tokens</set>
+ <set num="BLR6" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elf 11BLR</name>
@@ -2033,7 +2034,7 @@ Equip {2}</text>
  <reverse-related count="x">Ethereal Grace_BLR</reverse-related>
  <reverse-related>Familial Roots_BLR</reverse-related>
  <reverse-related>Tugae Rallier_BLR</reverse-related>
- <set num="BLR10" rarity="token">tokens</set>
+ <set num="BLR11" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22BLR</name>
@@ -2046,7 +2047,7 @@ Equip {2}</text>
  <reverse-related>Fervent Necromancer_BLR</reverse-related>
  <reverse-related>Reapers Called to Harvest_BLR</reverse-related>
  <reverse-related>Zombie Plague_BLR</reverse-related>
- <set num="BLR7" rarity="token">tokens</set>
+ <set num="BLR8" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Demon 55BLR</name>
@@ -2058,7 +2059,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Hieronymus Scratch_BLR</reverse-related>
  <reverse-related>Reapers Called to Harvest_BLR</reverse-related>
- <set num="BLR6" rarity="token">tokens</set>
+ <set num="BLR7" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11BLR</name>
@@ -2068,9 +2069,21 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Ikel, Revered Lichlord_BLR</reverse-related>
+ <reverse-related count="2">Ikel, Revered Lichlord_BLR</reverse-related>
  <reverse-related count="2">Ikel's Legacy_BLR</reverse-related>
  <set num="BLR2" rarity="token">tokens</set>
+</card>
+<card>
+ <name>blue Drake 33BLR</name>
+ <text>Flying</text>
+ <colors>U</colors>
+ <type>Token Creature — Drake</type>
+ <pt>3/3</pt>
+ <token>1</token>
+ <tablerow>2</tablerow>
+ <reverse-related>Kywon, Nostalgic Visionary_BLR</reverse-related>
+ <reverse-related>Kywon, Nostalgic Visionary_PRO_BLR</reverse-related>
+ <set num="BLR5" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Drake BLR</name>
@@ -2080,9 +2093,7 @@ Equip {2}</text>
  <pt>X/X</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <reverse-related>Kywon, Nostalgic Visionary_BLR</reverse-related>
  <reverse-related>Kywon's Progeny_BLR</reverse-related>
- <reverse-related>Kywon, Nostalgic Visionary_PRO_BLR</reverse-related>
  <set num="BLR4" rarity="token">tokens</set>
 </card>
 <card>
@@ -2094,7 +2105,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Natural Majesty_BLR</reverse-related>
- <set num="BLR9" rarity="token">tokens</set>
+ <set num="BLR10" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Spider 12BLR</name>
@@ -2105,7 +2116,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Tugae Deathspinner_BLR</reverse-related>
- <set num="BLR11" rarity="token">tokens</set>
+ <set num="BLR12" rarity="token">tokens</set>
 </card>
 <card>
  <name>Memorial BLR</name>
@@ -3778,6 +3789,8 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Architect of the Intangible_PRO_ERR</reverse-related>
  <reverse-related>Cache Thrasher_PRO_ERR</reverse-related>
  <reverse-related>Futurist Ideal_PRO_ERR</reverse-related>
+ <reverse-related>Task Triage_PRO_ERR</reverse-related>
+ <reverse-related>Task Triage_PRO_ERR</reverse-related>
  <set num="ERR2" rarity="token">tokens</set>
 </card>
 <card>
@@ -4083,10 +4096,10 @@ If you control a Subroutine, move to your next program as your first main phase 
  <set num="ERR18" rarity="token">tokens</set>
 </card>
 <card>
- <name>Puzzlebox REV</name>
+ <name>The Puzzlebox REV</name>
  <text>{T}, Discard a card: Draw a card.</text>
  <colors></colors>
- <type>Token Artifact</type>
+ <type>Token Legendary Artifact</type>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Fabricated Anomaly</reverse-related>

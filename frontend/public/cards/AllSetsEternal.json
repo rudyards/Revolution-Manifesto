@@ -23326,7 +23326,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "This spell costs {2} less to cast if you control a transformed permanent.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+     "text": "This spell costs {2} less to cast if you control a transformed creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -112283,7 +112283,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a decay counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of decay counters on it.\nEscape—{4}{B}{B}{B}, Exile the top thirteen cards of your library.",
+     "text": "Whenever a creature dies, you draw a card and you lose 1 life.\nAt the beginning of your end step, put a doom counter on Arcet. It deals X damage to each player, planeswalker, and other creature, where X is the number of doom counters on it.\nEscape—{4}{B}{B}{B}, Exile the top thirteen cards of your library. (You may cast this card from your graveyard for its escape cost.)",
      "toughness": "5",
      "type": "Legendary Creature — Elder Skeleton Wizard",
      "types": [
@@ -112427,10 +112427,10 @@
     },
     {
      "artist": "Giovanni Fim",
-     "convertedManaCost": 2,
-     "faceConvertedManaCost": 2,
-     "manaValue": 2,
-     "faceManaValue": 2,
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
      "colors": [
       "R",
       "W"
@@ -112452,7 +112452,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
-     "manaCost": "{R}{W}",
+     "manaCost": "{1}{R}{W}",
      "multiverseid": 2681,
      "name": "Assemble the Mob_BLR",
      "number": "212",
@@ -112742,7 +112742,7 @@
      "colorIdentity": [
       "B"
      ],
-     "designer": "CanterburyEgg",
+     "designer": "Pipsqueak",
      "flavor": "“Death is a concept invented by reapers to guilt us into giving them more power.”\n—Lichlord Kywon\n",
      "frameType": "normal",
      "frameVersion": "2015",
@@ -112889,7 +112889,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Each player discards their hand, then draws seven cards. Add {R}{R}{R}.",
+     "text": "Each player discards their hand, then draws seven cards. Add {R}{R}{R}.\nYou may cast only one more spell this turn.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -113186,7 +113186,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Vigilance\nWhenever Cerys attacks, you may return a nontoken permanent you control to its owner's hand. If you do, create two 1/1 red Soldier creature tokens that are tapped and attacking.",
+     "text": "Vigilance\nWhenever you attack, you may return a nontoken permanent you control to its owner's hand. If you do, create two 1/1 red Soldier creature tokens that are tapped and attacking.",
      "toughness": "4",
      "type": "Legendary Creature — Human Knight",
      "types": [
@@ -113440,7 +113440,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Search your library for a nonblack card, reveal it, put it into your hand, then shuffle.\nCreate a Treasure token.",
+     "text": "Search your library for a nonblack card, reveal it, put it into your hand, then shuffle. If that card was multicolored, create a Treasure token.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -114387,7 +114387,7 @@
       "Human",
       "Rogue"
      ],
-     "text": "As long as Ella's Agent is attacking, it gets +2/+0 and has deathtouch.\n{1}, Sacrifice a creature: Target creature you control gains indestructible until end of turn.",
+     "text": "Prowess\nInstant and sorcery spells you control have deathtouch.",
      "toughness": "1",
      "type": "Creature — Human Rogue",
      "types": [
@@ -114611,7 +114611,7 @@
       "Elemental",
       "Elk"
      ],
-     "text": "Whenever Emberwalker enters or attacks, exile the top card of your library. You may play it until end of turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+     "text": "Whenever Emberwalker enters or attacks, exile the top two cards of your library. You may play one of those cards this turn.\nAs long as you're ancient, you may play cards exiled with Emberwalker. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
      "toughness": "4",
      "type": "Creature — Elemental Elk",
      "types": [
@@ -114621,10 +114621,10 @@
     },
     {
      "artist": "Lee B",
-     "convertedManaCost": 1,
-     "faceConvertedManaCost": 1,
-     "manaValue": 1,
-     "faceManaValue": 1,
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
      "colors": [
       "R"
      ],
@@ -114644,7 +114644,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Legal"
      },
-     "manaCost": "{R}",
+     "manaCost": "{1}{R}",
      "multiverseid": 2696,
      "name": "Embrace Hopelessness_BLR",
      "number": "135",
@@ -114653,9 +114653,9 @@
       "spellbook": []
      },
      "text": "Discard up to two cards, then draw that many cards. If you discarded two cards that share a type this way, draw a card.",
-     "type": "Sorcery",
+     "type": "Instant",
      "types": [
-      "Sorcery"
+      "Instant"
      ],
      "uuid": "Embrace Hopelessness_BLR"
     },
@@ -115003,10 +115003,10 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Create two 1/1 white Spirit creature tokens with flying.\nEscape—{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
-     "type": "Sorcery",
+     "text": "Create two 1/1 white Spirit creature tokens with flying. They can't block this turn.\nEscape—{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+     "type": "Instant",
      "types": [
-      "Sorcery"
+      "Instant"
      ],
      "uuid": "Flesh Offered to the Dead_BLR"
     },
@@ -116343,7 +116343,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Whenever Ikel attacks or blocks, tokens you control gain deathtouch until end of turn.\nAt the beginning of your upkeep, if you control no other nontoken creatures, create a 1/1 white Soldier creature token.\nEscape—{1}{W}{B}, Sacrifice three creatures.",
+     "text": "Whenever Ikel enters or attacks, you may sacrifice another nontoken creature. If you do, create two tapped 1/1 white Soldier creature tokens.\n{1}{W}{B}: Tokens you control gain deathtouch and lifelink until end of turn.\nEscape—{1}{W}{B}, Sacrifice three creatures. (You may cast this card from your graveyard for its escape cost.)",
      "toughness": "3",
      "type": "Legendary Creature — Zombie Wizard",
      "types": [
@@ -116846,7 +116846,7 @@
       "Skeleton",
       "Wizard"
      ],
-     "text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape—{4}{U}{U}, Exile six other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)",
+     "text": "Whenever Keeper of Death's Mysteries attacks, exile the top card of each player's library.\nOnce each turn, you may play a noncreature card exiled with Keeper of Death's Mysteries, and mana of any type can be spent to cast it.\nEscape—{4}{U}{U}, Exile six other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
      "toughness": "2",
      "type": "Creature — Skeleton Wizard",
      "types": [
@@ -117023,7 +117023,7 @@
      "multiverseid": 2932,
      "name": "Kywon, Nostalgic Visionary_BLR",
      "number": "229",
-     "power": "3",
+     "power": "2",
      "rarity": "mythic",
      "relatedCards": {
       "spellbook": []
@@ -117035,8 +117035,8 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Whenever Kywon attacks, create an X/X blue Drake creature token with flying, where X is the number of instant and/or sorcery cards in your graveyard.\nYou may sacrifice another creature as an additional cost to cast instant and sorcery spells. If you do, that spell costs {2} less to cast.\nEscape—{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard.",
-     "toughness": "3",
+     "text": "When Kywon, Nostalgic Visionary enters, return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a 3/3 blue Drake creature token with flying.\nEscape—{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+     "toughness": "1",
      "type": "Legendary Creature — Zombie Wizard",
      "types": [
       "Creature"
@@ -117203,7 +117203,7 @@
      "multiverseid": 2820,
      "name": "Leafshroud Hunter_BLR",
      "number": "182",
-     "power": "2",
+     "power": "3",
      "rarity": "uncommon",
      "relatedCards": {
       "spellbook": []
@@ -117212,7 +117212,7 @@
       "Elemental",
       "Warrior"
      ],
-     "text": "Whenever Leafshroud Hunter enters or attacks, you may exile up to two target cards from graveyards. Then if there are three or more card types among cards exiled with Leafshroud Hunter, put a +1/+1 counter on it.",
+     "text": "Whenever Leafshroud Hunter enters or attacks, you may exile up to two target cards from graveyards. Then if there are three or more card types among cards exiled with Leafshroud Hunter, put two +1/+1 counters on it.",
      "toughness": "2",
      "type": "Creature — Elemental Warrior",
      "types": [
@@ -119477,7 +119477,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, create a 5/5 black Demon creature token instead. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
+     "text": "Exile up to one target card from a graveyard. Create a 2/2 black Zombie creature token. If you're ancient, instead create a 5/5 black Demon creature token. (You're ancient as long as you have eight or more total lands in play or in your graveyard.)",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -119957,7 +119957,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Whenever one or more lands you control become a creature, distribute two +1/+1 counters among one or two lands you control.\n{4}{G}: Target land you control becomes a 4/4 green Elemental creature until end of turn.",
+     "text": "Whenever one or more lands you control become creatures, distribute two +1/+1 counters among one or two lands you control.\n{4}{G}: Target land you control becomes a 4/4 green Elemental creature until end of turn.",
      "type": "Enchantment",
      "types": [
       "Enchantment"
@@ -120093,7 +120093,7 @@
       "Human",
       "Soldier"
      ],
-     "text": "{2}, Sacrifice a land: Create two 1/1 red Soldier creature tokens.\nRevolt — Whenever Revolutionary Recruiter attacks, if a permanent you controlled left the battlefield this turn, other creatures you control get +1/+0 until end of turn.",
+     "text": "Revolt — When Revolutionary Recruiter enters, draw a card. If a permanent you controlled left the battlefield this turn, you may instead search your library for a creature with power or toughness 1 or less, reveal it, put it into your hand, then shuffle.",
      "toughness": "2",
      "type": "Creature — Human Soldier",
      "types": [
@@ -122468,7 +122468,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Choose one —\n• Create a token that's a copy of target token you control.\n• Create a 1/1 white Spirit creature token with flying.",
+     "text": "Choose one —\n• Create a token that's a copy of target nonland token you control.\n• Create a 1/1 white Spirit creature token with flying.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -122654,10 +122654,10 @@
     },
     {
      "artist": "John C. Newton",
-     "convertedManaCost": 1,
-     "faceConvertedManaCost": 1,
-     "manaValue": 1,
-     "faceManaValue": 1,
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
      "colors": [
       "W"
      ],
@@ -122677,7 +122677,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Legal"
      },
-     "manaCost": "{W}",
+     "manaCost": "{1}{W}",
      "multiverseid": 2714,
      "name": "Uncertainty of Fate_BLR",
      "number": "41",
@@ -122685,7 +122685,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Choose one —\n• Return target creature card with mana value 2 or less from your graveyard to the battlefield.\n• Exile target creature you control, then return it to the battlefield under your control.",
+     "text": "Choose one —\n• Return target creature card with mana value 3 or less from your graveyard to the battlefield.\n• Exile target creature you control, then return it to the battlefield under your control.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -122917,10 +122917,10 @@
     },
     {
      "artist": "Johannes Voss",
-     "convertedManaCost": 5,
-     "faceConvertedManaCost": 5,
-     "manaValue": 5,
-     "faceManaValue": 5,
+     "convertedManaCost": 4,
+     "faceConvertedManaCost": 4,
+     "manaValue": 4,
+     "faceManaValue": 4,
      "colors": [
       "W"
      ],
@@ -122940,7 +122940,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
-     "manaCost": "{3}{W}{W}",
+     "manaCost": "{2}{W}{W}",
      "multiverseid": 2875,
      "name": "Vengeful Whisper_BLR",
      "number": "42",
@@ -122953,7 +122953,7 @@
       "Spirit"
      ],
      "text": "Flying, lifelink\nWhen Vengeful Whisper dies, create a white enchantment token named Memorial with “At the beginning of your upkeep, create a 1/1 white Spirit creature token with flying.”",
-     "toughness": "4",
+     "toughness": "2",
      "type": "Creature — Spirit",
      "types": [
       "Creature"
@@ -123791,7 +123791,7 @@
       "Elf",
       "Warrior"
      ],
-     "text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, put up to one target land card from your graveyard onto the battlefield under your control.",
+     "text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, return up to one target land card from your graveyard to the battlefield tapped with a finality counter on it. (If that land would be put into a graveyard, exile it instead.)",
      "toughness": "*",
      "type": "Creature — Elf Warrior",
      "types": [
@@ -123963,7 +123963,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Destroy all creatures and all planeswalkers. Each opponent who controlled two or more permanents destroyed this way draws a card.",
+     "text": "Destroy all creatures and planeswalkers. Each opponent who controlled two or more permanents destroyed this way draws a card.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -124183,10 +124183,10 @@
     },
     {
      "artist": "Vladimir Andreevsky",
-     "convertedManaCost": 2,
-     "faceConvertedManaCost": 2,
-     "manaValue": 2,
-     "faceManaValue": 2,
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
      "colors": [
       "R",
       "W"
@@ -124208,7 +124208,7 @@
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
-     "manaCost": "{R}{W}",
+     "manaCost": "{1}{R}{W}",
      "multiverseid": 2970,
      "name": "Assemble the Mob_PRO_BLR",
      "number": "289",
@@ -124390,6 +124390,46 @@
      "uuid": "Dissolve Memory's Hold_PRO_BLR"
     },
     {
+     "artist": "Tyler Miles Lockett",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "W"
+     ],
+     "colorIdentity": [
+      "W"
+     ],
+     "designer": "Pipsqueak",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Drift Off_PRO_BLR",
+     "imageName": "drift off_pro_blr",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Rotated",
+      "revolution-brawl": "Rotated",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{1}{W}{W}",
+     "multiverseid": 6298,
+     "name": "Drift Off_PRO_BLR",
+     "number": "301",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Multitude {4}{W}{W} (You may cast this for {4}{W}{W}. When you do, copy it.)\nWhen Drift Off enters, exile target nonland permanent you don't control until Drift Off leaves the battlefield.",
+     "type": "Enchantment",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Drift Off_PRO_BLR"
+    },
+    {
      "artist": "Dominik Mayer",
      "convertedManaCost": 4,
      "faceConvertedManaCost": 4,
@@ -124463,10 +124503,10 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Create two 1/1 white Spirit creature tokens with flying.\nEscape—{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
-     "type": "Sorcery",
+     "text": "Create two 1/1 white Spirit creature tokens with flying. They can't block this turn.\nEscape—{2}{W}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+     "type": "Instant",
      "types": [
-      "Sorcery"
+      "Instant"
      ],
      "uuid": "Flesh Offered to the Dead_PRO_BLR"
     },
@@ -124541,7 +124581,7 @@
      "multiverseid": 4552,
      "name": "Kywon, Nostalgic Visionary_PRO_BLR",
      "number": "292",
-     "power": "3",
+     "power": "2",
      "rarity": "special",
      "relatedCards": {
       "spellbook": []
@@ -124553,8 +124593,8 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "Whenever Kywon attacks, create an X/X blue Drake creature token with flying, where X is the number of instant and/or sorcery cards in your graveyard.\nYou may sacrifice another creature as an additional cost to cast instant and sorcery spells. If you do, that spell costs {2} less to cast.\nEscape—{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. (You may cast this card from your graveyard for its escape cost.) (You may cast this card from your graveyard for its escape cost.)",
-     "toughness": "3",
+     "text": "When Kywon, Nostalgic Visionary enters, return target instant or sorcery card from your graveyard to your hand. If it had mana value 4 or greater, create a 3/3 blue Drake creature token with flying.\nEscape—{2}{U}{B}, Exile three instant and/or sorcery cards from your graveyard. (You may cast this card from your graveyard for its escape cost.) (You may cast this card from your graveyard for its escape cost.)",
+     "toughness": "1",
      "type": "Legendary Creature — Zombie Wizard",
      "types": [
       "Creature"
@@ -124906,8 +124946,8 @@
      "uuid": "Vibrant Vengeance_PRO_BLR"
     }
    ],
-   "baseSetSize": 300,
-   "totalSetSize": 300,
+   "baseSetSize": 301,
+   "totalSetSize": 301,
    "cardsphereSetId": 10,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -179993,6 +180033,51 @@
      "uuid": "Firebolt_PRO_OLD"
     },
     {
+     "artist": "Art of Li",
+     "convertedManaCost": 10,
+     "faceConvertedManaCost": 10,
+     "manaValue": 10,
+     "faceManaValue": 10,
+     "colors": [
+      "G"
+     ],
+     "colorIdentity": [
+      "G"
+     ],
+     "designer": "Dodger",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Glacier Guardian_PRO_OLD",
+     "imageName": "glacier guardian_pro_old",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{8}{G}{G}",
+     "multiverseid": 6299,
+     "name": "Glacier Guardian_PRO_OLD",
+     "number": "299",
+     "power": "6",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "subtypes": [
+      "Troll"
+     ],
+     "text": "If you have more life than your starting life total, this spell costs {X} less to cast, where X is equal to the difference.\nTrample\nWhen Glacier Guardian enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.)",
+     "toughness": "6",
+     "type": "Creature — Troll",
+     "types": [
+      "Creature"
+     ],
+     "uuid": "Glacier Guardian_PRO_OLD"
+    },
+    {
      "artist": "Atomhawk Design",
      "convertedManaCost": 3,
      "faceConvertedManaCost": 3,
@@ -180338,8 +180423,8 @@
      "uuid": "Thunderous Avalanche_PRO_OLD"
     }
    ],
-   "baseSetSize": 298,
-   "totalSetSize": 298,
+   "baseSetSize": 299,
+   "totalSetSize": 299,
    "cardsphereSetId": 14,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -184940,7 +185025,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle. \nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
+     "text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle.\nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -186864,7 +186949,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "At the beginning of your end step, you gain 1 life. Then if it's your first turn of the game or you discarded a card named Leystone of Being this turn, create an X/X white Avatar creature token, where X is the difference between your life total and your starting life total.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+     "text": "At the beginning of your end step, you gain 1 life. Then if it's your first turn of the game or you discarded a card named Leystone of Being this turn, create an X/X white Avatar creature token, where X is the amount of life you've gained this turn.\nCycling {W} ({W}, Discard this card: Draw a card.)",
      "type": "Legendary Enchantment Artifact",
      "types": [
       "Enchantment",
@@ -188562,7 +188647,7 @@
       "G"
      ],
      "designer": "Splitmoon",
-     "flavor": "“Your people may reside here, as long as you never break your pledge to the land and all those that inhabit it.”\n—Fahrii, Ozan elder\n",
+     "flavor": "“The Ozanwood will shelter your people, as it has ours for centuries. Now we tend it together.”\n—Fahrii, Ozan elder\n",
      "frameType": "normal",
      "frameVersion": "2015",
      "id": "Ozan's Blessing_CYB",
@@ -188582,7 +188667,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Search your library for a creature card with mana value 2 or less, put it onto the battlefield tapped, then shuffle.",
+     "text": "Look at the top six cards of your library. You may put a permanent card with mana value 2 or less from among them onto the battlefield tapped. Put the rest on the bottom of your library in any order.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -189600,7 +189685,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Choose two creature types. Create a 1/1 red creature token of the first type with haste and a 1/1 green creature token of the second type with trample.",
+     "text": "Create a 1/1 red creature token with haste and a creature type of your choice and a 1/1 green creature token with trample and a creature type of your choice.",
      "type": "Sorcery",
      "types": [
       "Sorcery"
@@ -194702,6 +194787,48 @@
      "uuid": "Extraction Ritual_PRO_CYB"
     },
     {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "U",
+      "R"
+     ],
+     "colorIdentity": [
+      "U",
+      "R"
+     ],
+     "designer": "kayiu",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Get Your Wish_PRO_CYB",
+     "imageName": "get your wish_pro_cyb",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{1}{U}{R}",
+     "multiverseid": 6300,
+     "name": "Get Your Wish_PRO_CYB",
+     "number": "324",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle.\nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Get Your Wish_PRO_CYB"
+    },
+    {
      "artist": "Pablo Munoz Gomez",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -194776,6 +194903,46 @@
       "Artifact"
      ],
      "uuid": "Gilded Font_PRO_CYB"
+    },
+    {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "R"
+     ],
+     "colorIdentity": [
+      "R"
+     ],
+     "designer": "Splitmoon",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "High Voltage_PRO_CYB",
+     "imageName": "high voltage_pro_cyb",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Legal"
+     },
+     "manaCost": "{2}{R}",
+     "multiverseid": 6301,
+     "name": "High Voltage_PRO_CYB",
+     "number": "322",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "This spell costs {2} less to cast as long as you've cast another instant or sorcery spell this turn.\nHigh Voltage deals 3 damage to any target.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "High Voltage_PRO_CYB"
     },
     {
      "artist": "Peter Fthagn",
@@ -195170,7 +195337,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Search your library for a creature card with mana value 2 or less, put it onto the battlefield tapped, then shuffle.",
+     "text": "Look at the top six cards of your library. You may put a permanent card with mana value 2 or less from among them onto the battlefield tapped. Put the rest on the bottom of your library in any order.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -195426,10 +195593,50 @@
       "Enchantment"
      ],
      "uuid": "Tense Negotiations_PRO_CYB"
+    },
+    {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 1,
+     "faceConvertedManaCost": 1,
+     "manaValue": 1,
+     "faceManaValue": 1,
+     "colors": [
+      "R"
+     ],
+     "colorIdentity": [
+      "R"
+     ],
+     "designer": "Splitmoon",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Terminal Impact_PRO_CYB",
+     "imageName": "terminal impact_pro_cyb",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{X}{R}",
+     "multiverseid": 6302,
+     "name": "Terminal Impact_PRO_CYB",
+     "number": "323",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "This spell can't be countered.\nTerminal Impact deals damage to any target equal to the amount of mana spent to cast it. If at least seven mana was spent to cast it, you may have it deal that much damage to each creature and each player instead.",
+     "type": "Sorcery",
+     "types": [
+      "Sorcery"
+     ],
+     "uuid": "Terminal Impact_PRO_CYB"
     }
    ],
-   "baseSetSize": 340,
-   "totalSetSize": 340,
+   "baseSetSize": 343,
+   "totalSetSize": 343,
    "cardsphereSetId": 15,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -199411,8 +199618,8 @@
      "imageName": "extraction mission",
      "layout": "normal",
      "legalities": {
-      "revolution": "Legal",
-      "revolution-brawl": "Legal",
+      "revolution": "Banned",
+      "revolution-brawl": "Rotated",
       "revolution-eternal": "Legal",
       "revolution-eternal-pauper": "Not Legal"
      },
@@ -208301,6 +208508,42 @@
      "uuid": "Liquidate_PRO_CNY"
     },
     {
+     "artist": "Art of Li",
+     "convertedManaCost": 0,
+     "faceConvertedManaCost": 0,
+     "manaValue": 0,
+     "faceManaValue": 0,
+     "colors": [],
+     "colorIdentity": [],
+     "designer": "Stasis",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Redeveloped Cityscape_PRO_CNY",
+     "imageName": "redeveloped cityscape_pro_cny",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "",
+     "multiverseid": 6303,
+     "name": "Redeveloped Cityscape_PRO_CNY",
+     "number": "286",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "{T}, Sacrifice Redeveloped Cityscape: Search your library for a basic land card and put it onto the battlefield tapped. Then you may exile a land card from your hand. If you do, search your library for a basic land card, reveal it, and put it into your hand. Then shuffle.",
+     "type": "Land",
+     "types": [
+      "Land"
+     ],
+     "uuid": "Redeveloped Cityscape_PRO_CNY"
+    },
+    {
      "artist": "Leon Tukker",
      "convertedManaCost": 2,
      "faceConvertedManaCost": 2,
@@ -208818,8 +209061,8 @@
      "uuid": "Work Safety Violation_PRO_CNY"
     }
    ],
-   "baseSetSize": 294,
-   "totalSetSize": 294,
+   "baseSetSize": 295,
+   "totalSetSize": 295,
    "cardsphereSetId": 16,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -225138,7 +225381,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control have trample.\nUnflinching Titan can't attack or block unless you control three or more Golems.\nWhenever Unflinching Titan enters or attacks, surveil 1. Then you may put a land card from your graveyard onto the battlefield tapped.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control have trample.\nUnflinching Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unflinching Titan enters or attacks, surveil 1. Then you may put a land card from your graveyard onto the battlefield tapped.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "5",
      "type": "Creature — Golem",
      "types": [
@@ -225183,7 +225426,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control have trample.\nUnflinching Titan can't attack or block unless you control three or more Golems.\nWhenever Unflinching Titan enters or attacks, surveil 1. Then you may put a land card from your graveyard onto the battlefield tapped.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control have trample.\nUnflinching Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unflinching Titan enters or attacks, surveil 1. Then you may put a land card from your graveyard onto the battlefield tapped.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "5",
      "type": "Creature — Golem",
      "types": [
@@ -225273,7 +225516,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "3",
      "type": "Creature — Golem",
      "types": [
@@ -225318,7 +225561,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control without ward have ward {1}.\nUnspeaking Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unspeaking Titan enters or attacks, tap up to one target creature and put a stun counter on it.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "3",
      "type": "Creature — Golem",
      "types": [
@@ -225363,7 +225606,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "3",
      "type": "Creature — Golem",
      "types": [
@@ -225408,7 +225651,7 @@
      "subtypes": [
       "Golem"
      ],
-     "text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
+     "text": "Golems you control have menace.\nUnyielding Titan can't attack or block unless you control three or more differently named Golems.\nWhenever Unyielding Titan enters or attacks, target opponent reveals their hand. Exile a nonland card from their hand or graveyard.\n{3}, {T}: Create a 1/1 white Golem creature token.",
      "toughness": "3",
      "type": "Creature — Golem",
      "types": [
@@ -230887,7 +231130,7 @@
       "Human",
       "Warlock"
      ],
-     "text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
+     "text": "When this creature enters, target opponent separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
      "toughness": "3",
      "type": "Creature — Human Warlock",
      "types": [
@@ -231018,7 +231261,7 @@
      "subtypes": [
       "Elemental"
      ],
-     "text": "When this creature enters, create a colorless artifact token named Puzzlebox with “{T}, Discard a card: Draw a card.”\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
+     "text": "When this creature enters, create The Puzzlebox, a legendary colorless artifact token with “{T}, Discard a card: Draw a card.”\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
      "toughness": "3",
      "type": "Enchantment Creature — Elemental",
      "types": [
@@ -240290,7 +240533,7 @@
       "Human",
       "Warlock"
      ],
-     "text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
+     "text": "When this creature enters, target opponent separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
      "toughness": "3",
      "type": "Creature — Human Warlock",
      "types": [
@@ -240614,6 +240857,46 @@
      "uuid": "Red-Hot Rider_PRO_ERR"
     },
     {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "U"
+     ],
+     "colorIdentity": [
+      "U"
+     ],
+     "designer": "DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Task Triage_PRO_ERR",
+     "imageName": "task triage_pro_err",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Legal"
+     },
+     "manaCost": "{1}{U}",
+     "multiverseid": 6304,
+     "name": "Task Triage_PRO_ERR",
+     "number": "307",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Look at the top two cards of your library. Put one of them into your hand and cache the other face down. (Exile it face down and create a Memory enchantment token with “, Sacrifice this: You may play the cached card this turn.”) (Exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Task Triage_PRO_ERR"
+    },
+    {
      "artist": "Chris SRM",
      "convertedManaCost": 5,
      "faceConvertedManaCost": 5,
@@ -240663,8 +240946,8 @@
      "uuid": "Weft Dancer_PRO_ERR"
     }
    ],
-   "baseSetSize": 311,
-   "totalSetSize": 311,
+   "baseSetSize": 312,
+   "totalSetSize": 312,
    "cardsphereSetId": 18,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -244504,7 +244787,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Cards can't leave the graveyards. (Including by being cast.)\nCycling {2} ({2}, Discard this card: Draw a card.)",
+     "text": "Cards can't leave graveyards. (Including by being cast.)\nCycling {2} ({2}, Discard this card: Draw a card.)",
      "type": "Artifact",
      "types": [
       "Artifact"
@@ -256258,7 +256541,7 @@
      "supertypes": [
       "Legendary"
      ],
-     "text": "If Devika would be put into a graveyard from anywhere, exile her instead.\n[+1]: Create a 2/2 black Zombie creature token with “This creature can't block.” You gain 2 life.\n[-1]: Target player sacrifices a nonland permanent. If that permanent had mana value 2 or less, Devika phases out.\n[-6]: You get an emblem with “Whenever an opponent loses life, you gain that much life.” Then each opponent loses 5 life.\n[-6]: You get an emblem with “Whenever an opponent loses life, you gain that much life.” Then each opponent loses 5 life.",
+     "text": "If Devika would be put into a graveyard from anywhere, exile her instead.\n[+1]: Create a 2/2 black Zombie creature token with “This creature can't block.” You gain 2 life.\n[-1]: Target player sacrifices a nonland permanent. If that permanent had mana value 2 or less, Devika phases out.\n[-6]: You get an emblem with “Whenever an opponent loses life, you gain that much life.” Then each opponent loses 5 life.",
      "type": "Legendary Planeswalker — Devika",
      "types": [
       "Planeswalker"
@@ -258465,7 +258748,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Crucible of Bound Flame enters the battlefield tapped unless you control a Plains.\n{T}: Add {R}.\n{1}{W}{W}: Until end of turn Crucible of Bound Flame becomes a 2/2 red and white Cleric creature until end of turn. It's still a land.\nWhenever Crucible of Bound Flame attacks, other creatures you control get +1/+0 until end of turn.",
+     "text": "Crucible of Bound Flame enters the battlefield tapped unless you control a Plains.\n{T}: Add {R}.\n{1}{W}{W}: Until end of turn Crucible of Bound Flame becomes a 2/2 red and white Cleric creature. It's still a land.\nWhenever Crucible of Bound Flame attacks, other creatures you control get +1/+0 until end of turn.",
      "type": "Land",
      "types": [
       "Land"
@@ -260797,7 +261080,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Gallowsprout Timber enters the battlefield tapped unless you control a Swamp.\n{T}: Add {G}.\n{1}{B}{B}: Until end of turn, Gallowsprout Timber becomes a 3/3 black and green Dryad Spirit creature until end of turn. It's still a land.\nWhenever Gallowsprout Timber attacks, exile target card from a graveyard. You gain 2 life.",
+     "text": "Gallowsprout Timber enters the battlefield tapped unless you control a Swamp.\n{T}: Add {G}.\n{1}{B}{B}: Until end of turn, Gallowsprout Timber becomes a 3/3 black and green Dryad Spirit creature. It's still a land.\nWhenever Gallowsprout Timber attacks, exile target card from a graveyard. You gain 2 life.",
      "type": "Land",
      "types": [
       "Land"
@@ -268123,7 +268406,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Whenever you attack, create a token that's a copy of target attacking creature, except it's 1/1 and it has “At the beginning of your end step, exile this token.”\nTriggered abilities you control can't cause you to sacrifice or exile creature tokens you control.",
+     "text": "Whenever you attack, create a tapped and attacking token that's a copy of target attacking creature, except it's 1/1 and it has “At the beginning of your end step, exile this token.”\nTriggered abilities you control can't cause you to sacrifice or exile creature tokens you control.",
      "type": "Enchantment",
      "types": [
       "Enchantment"
@@ -269280,6 +269563,48 @@
     },
     {
      "artist": "Art of Li",
+     "convertedManaCost": 3,
+     "faceConvertedManaCost": 3,
+     "manaValue": 3,
+     "faceManaValue": 3,
+     "colors": [
+      "B",
+      "G"
+     ],
+     "colorIdentity": [
+      "B",
+      "G"
+     ],
+     "designer": "Decree Signed by kumrac",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Anthropomancy_PRO_TWI",
+     "imageName": "anthropomancy_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{B}{B/G}{G}",
+     "multiverseid": 6305,
+     "name": "Anthropomancy_PRO_TWI",
+     "number": "331",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "At the beginning of your draw step, look at the top two cards of your library. For each card, you may pay 4 life. If you do, put it into your hand. Otherwise, put it into your graveyard.\nWhenever a creature you control dies, you gain 1 life.",
+     "type": "Enchantment",
+     "types": [
+      "Enchantment"
+     ],
+     "uuid": "Anthropomancy_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
      "convertedManaCost": 6,
      "faceConvertedManaCost": 6,
      "manaValue": 6,
@@ -269325,6 +269650,48 @@
       "Creature"
      ],
      "uuid": "Choir Ascendant_PRO_TWI"
+    },
+    {
+     "artist": "Ognjen Sporin",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "U",
+      "B"
+     ],
+     "colorIdentity": [
+      "U",
+      "B"
+     ],
+     "designer": "Decree Signed by DrChipmunk",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Cidraeth Charm_PRO_TWI",
+     "imageName": "cidraeth charm_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{U}{B}",
+     "multiverseid": 6306,
+     "name": "Cidraeth Charm_PRO_TWI",
+     "number": "320",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Choose one —\n• Scry 2, then draw a card.\n• Counter target instant or sorcery spell.\n• Tap target nonland permanent and put a stun counter on it.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Cidraeth Charm_PRO_TWI"
     },
     {
      "artist": "Ognjen Sporin",
@@ -269579,10 +269946,52 @@
       "Creature"
      ],
      "uuid": "Reaper of Blossoms_PRO_TWI"
+    },
+    {
+     "artist": "Art of Li",
+     "convertedManaCost": 2,
+     "faceConvertedManaCost": 2,
+     "manaValue": 2,
+     "faceManaValue": 2,
+     "colors": [
+      "U",
+      "R"
+     ],
+     "colorIdentity": [
+      "U",
+      "R"
+     ],
+     "designer": "Decree Signed by SilverParabellum",
+     "flavor": "",
+     "frameType": "normal",
+     "frameVersion": "2015",
+     "id": "Thistrel Charm_PRO_TWI",
+     "imageName": "thistrel charm_pro_twi",
+     "layout": "normal",
+     "legalities": {
+      "revolution": "Legal",
+      "revolution-brawl": "Legal",
+      "revolution-eternal": "Legal",
+      "revolution-eternal-pauper": "Not Legal"
+     },
+     "manaCost": "{U}{R}",
+     "multiverseid": 6307,
+     "name": "Thistrel Charm_PRO_TWI",
+     "number": "323",
+     "rarity": "special",
+     "relatedCards": {
+      "spellbook": []
+     },
+     "text": "Choose one —\n• Thistrel Charm deals 3 damage to target creature or battle.\n• Counter target noncreature permanent spell.\n• Create a token that's a copy of target token you control.",
+     "type": "Instant",
+     "types": [
+      "Instant"
+     ],
+     "uuid": "Thistrel Charm_PRO_TWI"
     }
    ],
-   "baseSetSize": 322,
-   "totalSetSize": 322,
+   "baseSetSize": 325,
+   "totalSetSize": 325,
    "cardsphereSetId": 20,
    "isFoilOnly": false,
    "isOnlineOnly": false,
@@ -273808,7 +274217,7 @@
      "subtypes": [
       "Elemental"
      ],
-     "text": "When this creature enters, create a colorless artifact token named Puzzlebox with “{T}, Discard a card: Draw a card.”\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
+     "text": "When this creature enters, create The Puzzlebox, a legendary colorless artifact token with “{T}, Discard a card: Draw a card.”\nWhenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.",
      "toughness": "3",
      "type": "Enchantment Creature — Elemental",
      "types": [
@@ -273975,7 +274384,7 @@
      "relatedCards": {
       "spellbook": []
      },
-     "text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle. \nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
+     "text": "Search your library for a noncreature, nonland card not named Get Your Wish, reveal it, put it into your hand, then shuffle.\nYou may cast a spell with mana value X or less from your hand without paying its mana cost, where X is the number of colors among nontoken permanents you control.",
      "type": "Instant",
      "types": [
       "Instant"
@@ -276917,7 +277326,7 @@
       "Elf",
       "Warrior"
      ],
-     "text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, put up to one target land card from your graveyard onto the battlefield under your control.",
+     "text": "Wildcourt Seeker's power and toughness are each equal to the number of land types among lands you control.\nWhenever Wildcourt Seeker enters or attacks, return up to one target land card from your graveyard to the battlefield tapped with a finality counter on it. (If that land would be put into a graveyard, exile it instead.)",
      "toughness": "*",
      "type": "Creature — Elf Warrior",
      "types": [
