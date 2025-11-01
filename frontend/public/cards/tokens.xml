@@ -30,7 +30,7 @@
  <reverse-related count="2">Supernal Host_GQC</reverse-related>
  <reverse-related count="2">Tangle Glutton_GQC</reverse-related>
  <reverse-related count="2">Vestry Ingester_GQC</reverse-related>
- <set num="GQC2" rarity="token">tokens</set>
+ <set num="GQC2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Yeti 22PLANE</name>
@@ -41,7 +41,7 @@
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Butani Pass</reverse-related>
- <set num="PLANE8" rarity="token">tokens</set>
+ <set num="PLANE8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure</name>
@@ -61,7 +61,7 @@
  <reverse-related>Marilye, Dreaming Big</reverse-related>
  <reverse-related>Rebuilding of Londel</reverse-related>
  <reverse-related>Rebuilding of Londel_PRO_CYB</reverse-related>
- <set num="CYB21" rarity="token">tokens</set>
+ <set num="CYB21" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB21.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 22SRC</name>
@@ -75,7 +75,7 @@
  <reverse-related>Abigail, Cawyer Station Chief_SRC</reverse-related>
  <reverse-related>Backup Brigade_SRC</reverse-related>
  <reverse-related>Buddy Cops_SRC</reverse-related>
- <set num="SRC2" rarity="token">tokens</set>
+ <set num="SRC2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Nomad 11KRS</name>
@@ -87,7 +87,7 @@
  <tablerow>2</tablerow>
  <reverse-related>Fragile Haven</reverse-related>
  <reverse-related>Haru, Planar Cartographer_KRS</reverse-related>
- <set num="KRS5" rarity="token">tokens</set>
+ <set num="KRS5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Journey MSEMAR</name>
@@ -97,7 +97,7 @@
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Fragile Haven</reverse-related>
- <set num="MSEMAR14" rarity="token">tokens</set>
+ <set num="MSEMAR14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Hyena 22VST</name>
@@ -109,7 +109,7 @@
  <tablerow>2</tablerow>
  <reverse-related count="2">Goresand</reverse-related>
  <reverse-related count="2">The Pack Feasts_VST</reverse-related>
- <set num="VST3" rarity="token">tokens</set>
+ <set num="VST3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Centaur 22GQC</name>
@@ -124,7 +124,7 @@
  <reverse-related count="2">Ride at Dawn_GQC</reverse-related>
  <reverse-related>Vigorous Courser_GQC</reverse-related>
  <reverse-related>War-Clan Boon_GQC</reverse-related>
- <set num="GQC4" rarity="token">tokens</set>
+ <set num="GQC4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Aura PLANE</name>
@@ -135,7 +135,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Halls of Valor</reverse-related>
- <set num="PLANE3" rarity="token">tokens</set>
+ <set num="PLANE3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Clue</name>
@@ -145,7 +145,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Jericho's Abandoned Office</reverse-related>
- <set num="PLANE12" rarity="token">tokens</set>
+ <set num="PLANE12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Toy Army 00PLANE</name>
@@ -156,7 +156,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Kaina City Market</reverse-related>
- <set num="PLANE6" rarity="token">tokens</set>
+ <set num="PLANE6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Copy MSEMAR</name>
@@ -276,7 +276,8 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Elder Tattooist_PRO_KDT</reverse-related>
  <reverse-related>Equanimity_PRO_KDT</reverse-related>
  <reverse-related>Thistrel Charm_PRO_TWI</reverse-related>
- <set num="MSEMAR11" rarity="token">tokens</set>
+ <reverse-related>Trickery_PRO_TWI</reverse-related>
+ <set num="MSEMAR11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dragon 44DOV</name>
@@ -288,7 +289,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <tablerow>2</tablerow>
  <reverse-related>Karsi's Spine</reverse-related>
  <reverse-related>Draconic Beckoning_DOV</reverse-related>
- <set num="DOV13" rarity="token">tokens</set>
+ <set num="DOV13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Drake 22PLANE</name>
@@ -301,7 +302,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Kywon's Testing Grounds</reverse-related>
  <reverse-related>Lofty Frontiers</reverse-related>
  <reverse-related>Lofty Frontiers</reverse-related>
- <set num="PLANE5" rarity="token">tokens</set>
+ <set num="PLANE5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Plant 32PLANE</name>
@@ -312,7 +313,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Professor Maple's Lab</reverse-related>
- <set num="PLANE9" rarity="token">tokens</set>
+ <set num="PLANE9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Gilded Lotus VRD</name>
@@ -323,7 +324,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <tablerow>1</tablerow>
  <reverse-related>Queen Solena's Private Collection</reverse-related>
  <reverse-related>Calamity Smith In: The Gilded Heist_VRD</reverse-related>
- <set num="VRD16" rarity="token">tokens</set>
+ <set num="VRD16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Horror KSV</name>
@@ -335,7 +336,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <tablerow>2</tablerow>
  <reverse-related>Rio Mancuna</reverse-related>
  <reverse-related>Shatter Identity // Reform Purpose_KSV</reverse-related>
- <set num="KSV7" rarity="token">tokens</set>
+ <set num="KSV7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Can Be Cast From Exile MSEMAR</name>
@@ -491,7 +492,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>LOOP()</reverse-related>
  <reverse-related>Overwhelming Upload</reverse-related>
  <reverse-related>Red-Hot Rider</reverse-related>
- <reverse-related>Schematic Archer </reverse-related>
+ <reverse-related>Schematic Archer</reverse-related>
  <reverse-related>The Weftheart</reverse-related>
  <reverse-related>Ayeshi, Time's Jailer</reverse-related>
  <reverse-related>Ayeshi's Agent</reverse-related>
@@ -528,6 +529,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Uplifting Chorus</reverse-related>
  <reverse-related>Weaver of Brooding Threads</reverse-related>
  <reverse-related>Alehana the Persuader_REV</reverse-related>
+ <reverse-related>Crumbling Tower_REV</reverse-related>
  <reverse-related>Igneous Visions_REV</reverse-related>
  <reverse-related>Rano's Slopeguard_REV</reverse-related>
  <reverse-related>Resign to Progress_REV</reverse-related>
@@ -553,7 +555,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <reverse-related>Stolen ERR</reverse-related>
  <reverse-related>Undercover SRC</reverse-related>
  <reverse-related>red Warrior 22ERR</reverse-related>
- <set num="MSEMAR7" rarity="token">tokens</set>
+ <set num="MSEMAR7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Follower TRX</name>
@@ -565,7 +567,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
  <tablerow>2</tablerow>
  <reverse-related>Ruins of Olantin</reverse-related>
  <reverse-related>Petros, Purphoros's Double_TRX</reverse-related>
- <set num="TRX17" rarity="token">tokens</set>
+ <set num="TRX17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Weapon</name>
@@ -581,7 +583,7 @@ Equip {2}</text>
  <reverse-related count="2">Plasma Elite</reverse-related>
  <reverse-related>Rebuilding of Londel</reverse-related>
  <reverse-related>Rebuilding of Londel_PRO_CYB</reverse-related>
- <set num="CYB22" rarity="token">tokens</set>
+ <set num="CYB22" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB22.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Red Ragtag CYB</name>
@@ -593,7 +595,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>The Crossroads</reverse-related>
  <reverse-related>Ragtag Squad</reverse-related>
- <set num="CYB10" rarity="token">tokens</set>
+ <set num="CYB10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Angel 33REV</name>
@@ -605,7 +607,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Thorne Chapel</reverse-related>
  <reverse-related>Rivha, Heiress of Pinions_REV</reverse-related>
- <set num="REV10" rarity="token">tokens</set>
+ <set num="REV10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Demon 55GQC</name>
@@ -617,7 +619,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Thorne Chapel</reverse-related>
  <reverse-related>Preordained Vessel_GQC</reverse-related>
- <set num="GQC5" rarity="token">tokens</set>
+ <set num="GQC5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Yeti 33OLD</name>
@@ -631,7 +633,7 @@ Equip {2}</text>
  <reverse-related>Abominable Avalanche</reverse-related>
  <reverse-related>Rano, Yeti Sovereign</reverse-related>
  <reverse-related>Abominable Avalanche_PRO_OLD</reverse-related>
- <set num="OLD13" rarity="token">tokens</set>
+ <set num="OLD13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and green Ox 33DOV</name>
@@ -644,7 +646,7 @@ Equip {2}</text>
  <reverse-related>Zolo's Ring</reverse-related>
  <reverse-related>The Running of the Bulls_DOV</reverse-related>
  <reverse-related>The Running of the Bulls_PRO_DOV</reverse-related>
- <set num="DOV17" rarity="token">tokens</set>
+ <set num="DOV17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Journey VST</name>
@@ -682,7 +684,7 @@ Equip {2}</text>
  <reverse-related>Wander the Ruins_VST</reverse-related>
  <reverse-related>Warpath Minotaur_VST</reverse-related>
  <reverse-related>Way of the Raider_VST</reverse-related>
- <set num="VST6" rarity="token">tokens</set>
+ <set num="VST6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Nomad 11VST</name>
@@ -704,7 +706,7 @@ Equip {2}</text>
  <reverse-related>Vaya's Subjugator_VST</reverse-related>
  <reverse-related count="2">Wander the Ruins_VST</reverse-related>
  <reverse-related>Wayfarer's Destination_VST</reverse-related>
- <set num="VST1" rarity="token">tokens</set>
+ <set num="VST1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie Mutant 22VST</name>
@@ -718,7 +720,7 @@ Equip {2}</text>
  <reverse-related count="2">Irradiated Amalgam_VST</reverse-related>
  <reverse-related>Pursued Eremite_VST</reverse-related>
  <reverse-related>Radaran Stirrings_VST</reverse-related>
- <set num="VST2" rarity="token">tokens</set>
+ <set num="VST2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Foug Emblem VST</name>
@@ -728,7 +730,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Foug, Indulgent Broker_VST</reverse-related>
- <set num="VST8" rarity="token">tokens</set>
+ <set num="VST8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Wurm of World's End VST</name>
@@ -739,7 +741,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Wurm's Wake_VST</reverse-related>
- <set num="VST4" rarity="token">tokens</set>
+ <set num="VST4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and white Cleric 11SRC</name>
@@ -751,7 +753,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Ameret, Hope of Night_SRC</reverse-related>
  <reverse-related>Ameret, Hope of Night_PRO_SRC</reverse-related>
- <set num="SRC11" rarity="token">tokens</set>
+ <set num="SRC11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure SRC</name>
@@ -761,7 +763,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Ameret's Sanctity_SRC</reverse-related>
- <set num="SRC16" rarity="token">tokens</set>
+ <set num="SRC16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Clue SRC</name>
@@ -797,7 +799,7 @@ Equip {2}</text>
  <reverse-related>Unlicensed Pistol_SRC</reverse-related>
  <reverse-related>Vicious Cleaner_SRC</reverse-related>
  <reverse-related>Jericho's Assistant_PRO_SRC</reverse-related>
- <set num="SRC15" rarity="token">tokens</set>
+ <set num="SRC15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Mutant 44MSEMAR</name>
@@ -810,7 +812,7 @@ Equip {2}</text>
  <reverse-related>Bizarre Menagerie_SRC</reverse-related>
  <reverse-related>Bizarre Menagerie_SRC</reverse-related>
  <reverse-related>Lamb of the Aberrant_SRC</reverse-related>
- <set num="SRC10" rarity="token">tokens</set>
+ <set num="SRC10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Human 11SRC</name>
@@ -823,7 +825,7 @@ Equip {2}</text>
  <reverse-related>Crime Spree_SRC</reverse-related>
  <reverse-related>Family Man_SRC</reverse-related>
  <reverse-related count="2">Orphanage Keeper_SRC</reverse-related>
- <set num="SRC6" rarity="token">tokens</set>
+ <set num="SRC6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Detective 11MSEMAR</name>
@@ -834,7 +836,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Fox Agency Sleuths_SRC</reverse-related>
- <set num="SRC8" rarity="token">tokens</set>
+ <set num="SRC8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Warrior 11SRC</name>
@@ -846,7 +848,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Frankie "the Spider" Lorre_SRC</reverse-related>
  <reverse-related>Mafia Capo_SRC</reverse-related>
- <set num="SRC4" rarity="token">tokens</set>
+ <set num="SRC4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Jericho Emblem SRC</name>
@@ -856,7 +858,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Jericho Hudson_SRC</reverse-related>
- <set num="SRC17" rarity="token">tokens</set>
+ <set num="SRC17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie Cat 11SRC</name>
@@ -867,7 +869,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Liliana, Femme Fatale_SRC</reverse-related>
- <set num="SRC5" rarity="token">tokens</set>
+ <set num="SRC5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Liliana Emblem SRC</name>
@@ -877,7 +879,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Liliana, Femme Fatale_SRC</reverse-related>
- <set num="SRC18" rarity="token">tokens</set>
+ <set num="SRC18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Rogue 11SRC</name>
@@ -889,7 +891,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Ne'er-do-wells_SRC</reverse-related>
  <reverse-related>Shank_SRC</reverse-related>
- <set num="SRC7" rarity="token">tokens</set>
+ <set num="SRC7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Horror 66MSEMAR</name>
@@ -900,7 +902,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Occultist's Gambit_SRC</reverse-related>
- <set num="SRC9" rarity="token">tokens</set>
+ <set num="SRC9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Horror 33SRC</name>
@@ -911,7 +913,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Painter of the Waking Dream_SRC</reverse-related>
- <set num="SRC3" rarity="token">tokens</set>
+ <set num="SRC3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Insect 11MON</name>
@@ -928,7 +930,7 @@ Equip {2}</text>
  <reverse-related count="3">Fresh Carrion_MON</reverse-related>
  <reverse-related>Patient Cocoon_MON</reverse-related>
  <reverse-related>Queen of the Hive_MON</reverse-related>
- <set num="MON9" rarity="token">tokens</set>
+ <set num="MON9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Wurm 33MON</name>
@@ -940,7 +942,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="5">Bessie_MON</reverse-related>
  <reverse-related>Brutality_MON</reverse-related>
- <set num="MON11" rarity="token">tokens</set>
+ <set num="MON11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Bird 22MON</name>
@@ -952,7 +954,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Bird Keeper_MON</reverse-related>
  <reverse-related>Experienced Team_MON</reverse-related>
- <set num="MON3" rarity="token">tokens</set>
+ <set num="MON3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Elemental Mouse 33MON</name>
@@ -963,7 +965,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON7" rarity="token">tokens</set>
+ <set num="MON7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white and blue Fox 33MON</name>
@@ -974,7 +976,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON12" rarity="token">tokens</set>
+ <set num="MON12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Plant Dinosaur 44MON</name>
@@ -985,7 +987,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON10" rarity="token">tokens</set>
+ <set num="MON10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dragon 44MON</name>
@@ -996,7 +998,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON6" rarity="token">tokens</set>
+ <set num="MON6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Turtle 44MON</name>
@@ -1007,7 +1009,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON4" rarity="token">tokens</set>
+ <set num="MON4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Bear Beast 55MON</name>
@@ -1018,7 +1020,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Chikyu Champion_MON</reverse-related>
- <set num="MON2" rarity="token">tokens</set>
+ <set num="MON2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Bear 42MON</name>
@@ -1029,7 +1031,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Experienced Team_MON</reverse-related>
- <set num="MON1" rarity="token">tokens</set>
+ <set num="MON1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Snail 24MON</name>
@@ -1040,7 +1042,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Experienced Team_MON</reverse-related>
- <set num="MON8" rarity="token">tokens</set>
+ <set num="MON8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure MON</name>
@@ -1050,7 +1052,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related count="3">Treasure Beach_MON</reverse-related>
- <set num="MON13" rarity="token">tokens</set>
+ <set num="MON13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Snake 11MON</name>
@@ -1061,7 +1063,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Viper Ambush_MON</reverse-related>
- <set num="MON5" rarity="token">tokens</set>
+ <set num="MON5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MON5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Spirit 11KUT</name>
@@ -1078,7 +1080,7 @@ Equip {2}</text>
  <reverse-related>Spectral Throatsinger_KUT</reverse-related>
  <reverse-related>Tartok Wanderer_KUT</reverse-related>
  <reverse-related>Veiltouched Soulbinder_KUT</reverse-related>
- <set num="KUT4" rarity="token">tokens</set>
+ <set num="KUT4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Totem 00KUT</name>
@@ -1136,7 +1138,7 @@ Equip {2}</text>
  <reverse-related>Carrion Totem_KUT</reverse-related>
  <reverse-related>Burning Dawn_PRO_KUT</reverse-related>
  <reverse-related>Sunscale Totem_PRO_KUT</reverse-related>
- <set num="KUT1" rarity="token">tokens</set>
+ <set num="KUT1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Ox 22KUT</name>
@@ -1153,7 +1155,7 @@ Equip {2}</text>
  <reverse-related>Primal Genesis_KUT</reverse-related>
  <reverse-related>Genesis Totem_KUT</reverse-related>
  <reverse-related>Waystone Herder_KUT</reverse-related>
- <set num="KUT7" rarity="token">tokens</set>
+ <set num="KUT7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Bear Spirit KUT</name>
@@ -1164,7 +1166,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Caller of the Great Bears_KUT</reverse-related>
- <set num="KUT6" rarity="token">tokens</set>
+ <set num="KUT6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Spirit 11KUT</name>
@@ -1176,7 +1178,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Dawnchime, Lhosei's Staff_KUT</reverse-related>
  <reverse-related>Lhosei the Determined_KUT</reverse-related>
- <set num="KUT3" rarity="token">tokens</set>
+ <set num="KUT3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Monk 01KUT</name>
@@ -1191,7 +1193,7 @@ Equip {2}</text>
  <reverse-related>Monastery Ibex_KUT</reverse-related>
  <reverse-related>Overseer of Forms_KUT</reverse-related>
  <reverse-related count="3">Suntouched Ascension_KUT</reverse-related>
- <set num="KUT2" rarity="token">tokens</set>
+ <set num="KUT2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and green Elemental 31KUT</name>
@@ -1202,7 +1204,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Heartsong Invoker_KUT</reverse-related>
- <set num="KUT9" rarity="token">tokens</set>
+ <set num="KUT9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Shaman 11KUT</name>
@@ -1218,7 +1220,7 @@ Equip {2}</text>
  <reverse-related>Auroric Totem_KUT</reverse-related>
  <reverse-related>Peaceful Journey_KUT</reverse-related>
  <reverse-related>Auroric Totem_KUT</reverse-related>
- <set num="KUT8" rarity="token">tokens</set>
+ <set num="KUT8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dragon 44KUT</name>
@@ -1229,7 +1231,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>One with the Storm_KUT</reverse-related>
- <set num="KUT5" rarity="token">tokens</set>
+ <set num="KUT5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KUT5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Horror 11GQC</name>
@@ -1245,7 +1247,7 @@ Equip {2}</text>
  <reverse-related count="4">Harrowing Revivalist_GQC</reverse-related>
  <reverse-related>Portent of the Blighted_GQC</reverse-related>
  <reverse-related>Sanguine Proselyte_GQC</reverse-related>
- <set num="GQC6" rarity="token">tokens</set>
+ <set num="GQC6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Eldrazi 32GQC</name>
@@ -1256,7 +1258,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="3">Ashen Progenitor_GQC</reverse-related>
- <set num="GQC1" rarity="token">tokens</set>
+ <set num="GQC1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Wall 03GQC</name>
@@ -1268,7 +1270,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Empyrean Bastion_GQC</reverse-related>
  <reverse-related>Perimeter Warden_GQC</reverse-related>
- <set num="GQC8" rarity="token">tokens</set>
+ <set num="GQC8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Angel 33GQC</name>
@@ -1282,7 +1284,7 @@ Equip {2}</text>
  <reverse-related>His Holiness Jorah_GQC</reverse-related>
  <reverse-related>Rivha, Heiress of Pinions_GQC</reverse-related>
  <reverse-related>Jorah Emblem GQC</reverse-related>
- <set num="GQC3" rarity="token">tokens</set>
+ <set num="GQC3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Jorah Emblem GQC</name>
@@ -1292,7 +1294,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>His Holiness Jorah_GQC</reverse-related>
- <set num="GQC9" rarity="token">tokens</set>
+ <set num="GQC9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Idol</name>
@@ -1302,7 +1304,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Oko, Trickster of the Trade_GQC</reverse-related>
- <set num="GQC7" rarity="token">tokens</set>
+ <set num="GQC7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/GQC7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Copy SVG</name>
@@ -1315,7 +1317,7 @@ Equip {2}</text>
  <reverse-related>Ascendant Peak_SVG</reverse-related>
  <reverse-related>Multiplying Ring_SVG</reverse-related>
  <reverse-related>Wizened Sage_SVG</reverse-related>
- <set num="SVG1" rarity="token">tokens</set>
+ <set num="SVG1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Warrior 11SVG</name>
@@ -1333,7 +1335,7 @@ Equip {2}</text>
  <reverse-related count="2">Overwhelmed Sentry_SVG</reverse-related>
  <reverse-related count="4">Spill Forth_SVG</reverse-related>
  <reverse-related count="2">Warband Reinforcements_SVG</reverse-related>
- <set num="SVG2" rarity="token">tokens</set>
+ <set num="SVG2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Far-Off Lands SVG</name>
@@ -1343,7 +1345,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>0</tablerow>
  <reverse-related>Banish to the Ice_SVG</reverse-related>
- <set num="SVG8" rarity="token">tokens</set>
+ <set num="SVG8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure SVG</name>
@@ -1353,7 +1355,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Bloodprice_SVG</reverse-related>
- <set num="SVG7" rarity="token">tokens</set>
+ <set num="SVG7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Spirit Warrior 00SVG</name>
@@ -1364,7 +1366,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Cedric, Battle-Skald_SVG</reverse-related>
- <set num="SVG4" rarity="token">tokens</set>
+ <set num="SVG4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22SVG</name>
@@ -1375,7 +1377,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Rise of the Draugr_SVG</reverse-related>
- <set num="SVG3" rarity="token">tokens</set>
+ <set num="SVG3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Nightmare 11VRD</name>
@@ -1393,7 +1395,7 @@ Equip {2}</text>
  <reverse-related>Jodanist Bishop_VRD</reverse-related>
  <reverse-related>Jodanist Bishop_VRD</reverse-related>
  <reverse-related>Elder Mathias Jodan_PRO_VRD</reverse-related>
- <set num="VRD7" rarity="token">tokens</set>
+ <set num="VRD7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Gold</name>
@@ -1412,7 +1414,7 @@ Equip {2}</text>
  <reverse-related>Right Where I Want You_VRD</reverse-related>
  <reverse-related>Taranka's Posse_VRD</reverse-related>
  <reverse-related>Zap Toady_VRD</reverse-related>
- <set num="VRD17" rarity="token">tokens</set>
+ <set num="VRD17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11VRD</name>
@@ -1424,7 +1426,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Codename: High Life_VRD</reverse-related>
  <reverse-related>Justiciar Headquarters_VRD</reverse-related>
- <set num="VRD4" rarity="token">tokens</set>
+ <set num="VRD4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Minion 11VRD</name>
@@ -1436,7 +1438,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Crooked Politician_VRD</reverse-related>
  <reverse-related count="3">Goon Squad_VRD</reverse-related>
- <set num="VRD6" rarity="token">tokens</set>
+ <set num="VRD6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Cleric 11VRD</name>
@@ -1448,7 +1450,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Elder Mathias Jodan_VRD</reverse-related>
  <reverse-related>Elder Mathias Jodan_PRO_VRD</reverse-related>
- <set num="VRD3" rarity="token">tokens</set>
+ <set num="VRD3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Nightmare Sliver 11VRD</name>
@@ -1459,7 +1461,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Enigmatic Progenitor_VRD</reverse-related>
- <set num="VRD10" rarity="token">tokens</set>
+ <set num="VRD10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Simone Birch VRD</name>
@@ -1470,7 +1472,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hugo Darkhand, the Mastermind_VRD</reverse-related>
- <set num="VRD8" rarity="token">tokens</set>
+ <set num="VRD8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Jamesson Stet VRD</name>
@@ -1481,7 +1483,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hugo Darkhand, the Mastermind_VRD</reverse-related>
- <set num="VRD5" rarity="token">tokens</set>
+ <set num="VRD5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Ninja 22VRD</name>
@@ -1493,7 +1495,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Iroshi, Blade of the Old Ways_VRD</reverse-related>
  <reverse-related>Iroshi, Blade of the Old Ways_PRO_VRD</reverse-related>
- <set num="VRD11" rarity="token">tokens</set>
+ <set num="VRD11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Minion 11VRD</name>
@@ -1504,7 +1506,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Perspicacity_VRD</reverse-related>
- <set num="VRD22" rarity="token">tokens</set>
+ <set num="VRD22" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD22.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Shark VRD</name>
@@ -1515,7 +1517,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Pit of Sharks_VRD</reverse-related>
- <set num="VRD9" rarity="token">tokens</set>
+ <set num="VRD9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure KRS</name>
@@ -1571,7 +1573,7 @@ Equip {2}</text>
  <reverse-related>Umberdeep Shade_KRS</reverse-related>
  <reverse-related>Voidform Stonekin_KRS</reverse-related>
  <reverse-related>Scourge of the Spine_PRO_KRS</reverse-related>
- <set num="KRS17" rarity="token">tokens</set>
+ <set num="KRS17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Angel 33KRS</name>
@@ -1582,7 +1584,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Angelic Aperture_KRS</reverse-related>
- <set num="KRS4" rarity="token">tokens</set>
+ <set num="KRS4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Bat 11KRS</name>
@@ -1594,7 +1596,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Bat Master_KRS</reverse-related>
  <reverse-related>Bat Master_KRS</reverse-related>
- <set num="KRS7" rarity="token">tokens</set>
+ <set num="KRS7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Elemental 11KRS</name>
@@ -1610,7 +1612,7 @@ Equip {2}</text>
  <reverse-related count="3">Rites of Ignea_KRS</reverse-related>
  <reverse-related count="2">Roiling Rift_KRS</reverse-related>
  <reverse-related>Speaker for the Dead_KRS</reverse-related>
- <set num="KRS10" rarity="token">tokens</set>
+ <set num="KRS10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Reflection 11KRS</name>
@@ -1624,7 +1626,7 @@ Equip {2}</text>
  <reverse-related>Emgara, the Brilliant City_KRS</reverse-related>
  <reverse-related>Emgara, Caster of Shadows_KRS</reverse-related>
  <reverse-related>Rift Seeker_KRS</reverse-related>
- <set num="KRS2" rarity="token">tokens</set>
+ <set num="KRS2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue and black Zombie 22KRS</name>
@@ -1635,7 +1637,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Curse of the Failing Throne_KRS</reverse-related>
- <set num="KRS14" rarity="token">tokens</set>
+ <set num="KRS14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dragon 44KRS</name>
@@ -1648,7 +1650,7 @@ Equip {2}</text>
  <reverse-related>Dragon's Favor_KRS</reverse-related>
  <reverse-related>Greed of Dragons_KRS</reverse-related>
  <reverse-related>Primal Egg_KRS</reverse-related>
- <set num="KRS9" rarity="token">tokens</set>
+ <set num="KRS9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Spirit 11KRS</name>
@@ -1660,7 +1662,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Eerie Entrance_KRS</reverse-related>
  <reverse-related>Elseworld Explorer_KRS</reverse-related>
- <set num="KRS6" rarity="token">tokens</set>
+ <set num="KRS6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Snowball KRS</name>
@@ -1671,7 +1673,7 @@ Equip {2}</text>
  <tablerow>1</tablerow>
  <reverse-related>Elseworld Cryptid_KRS</reverse-related>
  <reverse-related>Elseworld Cryptid_PRO_KRS</reverse-related>
- <set num="KRS16" rarity="token">tokens</set>
+ <set num="KRS16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Hyena KRS</name>
@@ -1682,7 +1684,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Gozani, Dreadlaugh Hunter_KRS</reverse-related>
- <set num="KRS8" rarity="token">tokens</set>
+ <set num="KRS8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Gozani Emblem KRS</name>
@@ -1692,7 +1694,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Gozani, Dreadlaugh Hunter_KRS</reverse-related>
- <set num="KRS18" rarity="token">tokens</set>
+ <set num="KRS18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Wolf 22KRS</name>
@@ -1705,7 +1707,7 @@ Equip {2}</text>
  <reverse-related>Keeper of the Pack_KRS</reverse-related>
  <reverse-related>Selfless Protector_KRS</reverse-related>
  <reverse-related>Savage Hermit_KRS</reverse-related>
- <set num="KRS13" rarity="token">tokens</set>
+ <set num="KRS13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Egg 01KRS</name>
@@ -1717,7 +1719,7 @@ When this creature dies, reveal cards from the top of your library until you rev
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Nesting Hellkite_KRS</reverse-related>
- <set num="KRS11" rarity="token">tokens</set>
+ <set num="KRS11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Karsi's Chosen KRS</name>
@@ -1728,7 +1730,7 @@ When this creature dies, reveal cards from the top of your library until you rev
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Proving Path_KRS</reverse-related>
- <set num="KRS12" rarity="token">tokens</set>
+ <set num="KRS12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Witness 01KRS</name>
@@ -1739,7 +1741,7 @@ When this creature dies, reveal cards from the top of your library until you rev
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Sinifus the Strange_KRS</reverse-related>
- <set num="KRS3" rarity="token">tokens</set>
+ <set num="KRS3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Centaur 33KSV</name>
@@ -1750,7 +1752,7 @@ When this creature dies, reveal cards from the top of your library until you rev
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">Amberhoof Warband_KSV</reverse-related>
- <set num="KSV12" rarity="token">tokens</set>
+ <set num="KSV12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11KSV</name>
@@ -1772,7 +1774,7 @@ When this creature dies, reveal cards from the top of your library until you rev
  <reverse-related>Trench Medic_KSV</reverse-related>
  <reverse-related count="2">As'Ahai, the Warsong_PRO_KSV</reverse-related>
  <reverse-related count="2">March on Atterdal_PRO_KSV</reverse-related>
- <set num="KSV4" rarity="token">tokens</set>
+ <set num="KSV4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>The Tunnels KSV</name>
@@ -1804,7 +1806,7 @@ At the beginning of each player's combat, if the tunnels are empty, that player 
  <reverse-related>Voidsilver Mesmer_KSV</reverse-related>
  <reverse-related>Furycall Hellion_PRO_KSV</reverse-related>
  <reverse-related>Skinstealer_PRO_KSV</reverse-related>
- <set num="KSV2" rarity="token">tokens</set>
+ <set num="KSV2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Tunnel Divider KSV</name>
@@ -1833,7 +1835,7 @@ At the beginning of each player's combat, if the tunnels are empty, that player 
  <reverse-related>Voidsilver Mesmer_KSV</reverse-related>
  <reverse-related>Furycall Hellion_PRO_KSV</reverse-related>
  <reverse-related>Skinstealer_PRO_KSV</reverse-related>
- <set num="KSV1" rarity="token">tokens</set>
+ <set num="KSV1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Weapon KSV</name>
@@ -1853,7 +1855,7 @@ Equip {2}</text>
  <reverse-related>Strip Forge_KSV</reverse-related>
  <reverse-related>To War_KSV</reverse-related>
  <reverse-related>Vengeful Manslayer_KSV</reverse-related>
- <set num="KSV15" rarity="token">tokens</set>
+ <set num="KSV15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Knight 22KSV</name>
@@ -1867,7 +1869,7 @@ Equip {2}</text>
  <reverse-related>Defense of Silver Glade_KSV</reverse-related>
  <reverse-related>Gallant Cavalry_KSV</reverse-related>
  <reverse-related>Pentar Proclaimers_KSV</reverse-related>
- <set num="KSV3" rarity="token">tokens</set>
+ <set num="KSV3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22KSV</name>
@@ -1880,7 +1882,7 @@ Equip {2}</text>
  <reverse-related count="3">Battle of Broken Fields_KSV</reverse-related>
  <reverse-related>Fleshmaker's Harvest_KSV</reverse-related>
  <reverse-related>Unliving Barricade_KSV</reverse-related>
- <set num="KSV8" rarity="token">tokens</set>
+ <set num="KSV8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Horror 55KSV</name>
@@ -1893,7 +1895,7 @@ Equip {2}</text>
  <reverse-related>Defile the Silver Court_KSV</reverse-related>
  <reverse-related>Defiled Warden_KSV</reverse-related>
  <reverse-related>Give Gifts // Seize Souls_KSV</reverse-related>
- <set num="KSV6" rarity="token">tokens</set>
+ <set num="KSV6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Goblin 11KSV</name>
@@ -1908,7 +1910,7 @@ Equip {2}</text>
  <reverse-related>Relentless Marauder_KSV</reverse-related>
  <reverse-related count="2">Risen Horde_KSV</reverse-related>
  <reverse-related count="x">Towering Ironbreaker_KSV</reverse-related>
- <set num="KSV10" rarity="token">tokens</set>
+ <set num="KSV10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure KSV</name>
@@ -1920,7 +1922,7 @@ Equip {2}</text>
  <reverse-related>Fall of Iron Hill_KSV</reverse-related>
  <reverse-related>Maraud // Pilfer_KSV</reverse-related>
  <reverse-related count="2">Raise the Iron Banner_KSV</reverse-related>
- <set num="KSV14" rarity="token">tokens</set>
+ <set num="KSV14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Ogre 55KSV</name>
@@ -1931,7 +1933,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Flatlands Siegebreaker_KSV</reverse-related>
- <set num="KSV11" rarity="token">tokens</set>
+ <set num="KSV11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elemental 44KSV</name>
@@ -1945,7 +1947,7 @@ Equip {2}</text>
  <reverse-related>Rootwalker_KSV</reverse-related>
  <reverse-related>Sow Life // Reap Vengeance_KSV</reverse-related>
  <reverse-related>Tanglecall Warden_KSV</reverse-related>
- <set num="KSV13" rarity="token">tokens</set>
+ <set num="KSV13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Elemental 31KSV</name>
@@ -1956,7 +1958,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">Shaper of Vengeance_KSV</reverse-related>
- <set num="KSV9" rarity="token">tokens</set>
+ <set num="KSV9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Soldier 11BLR</name>
@@ -1974,7 +1976,7 @@ Equip {2}</text>
  <reverse-related>Sparring Partner_BLR</reverse-related>
  <reverse-related count="2">Vanguard Commander_BLR</reverse-related>
  <reverse-related count="2">Assemble the Mob_PRO_BLR</reverse-related>
- <set num="BLR9" rarity="token">tokens</set>
+ <set num="BLR9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Spirit 11MSEMAR</name>
@@ -1997,7 +1999,7 @@ Equip {2}</text>
  <reverse-related count="2">Waking Boneyard_BLR</reverse-related>
  <reverse-related count="2">Flesh Offered to the Dead_PRO_BLR</reverse-related>
  <reverse-related>Memorial BLR</reverse-related>
- <set num="BLR3" rarity="token">tokens</set>
+ <set num="BLR3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure BLR</name>
@@ -2009,7 +2011,7 @@ Equip {2}</text>
  <reverse-related>Dabbling Dangerously_BLR</reverse-related>
  <reverse-related>Gilded Reaper_BLR</reverse-related>
  <reverse-related>Temporal Assassination_BLR</reverse-related>
- <set num="BLR13" rarity="token">tokens</set>
+ <set num="BLR13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Wizard 11BLR</name>
@@ -2021,7 +2023,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Ella, Rose Court Queen_BLR</reverse-related>
  <reverse-related count="x">Enigmatic Mentor_BLR</reverse-related>
- <set num="BLR6" rarity="token">tokens</set>
+ <set num="BLR6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elf 11BLR</name>
@@ -2034,7 +2036,7 @@ Equip {2}</text>
  <reverse-related count="x">Ethereal Grace_BLR</reverse-related>
  <reverse-related>Familial Roots_BLR</reverse-related>
  <reverse-related>Tugae Rallier_BLR</reverse-related>
- <set num="BLR11" rarity="token">tokens</set>
+ <set num="BLR11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22BLR</name>
@@ -2047,7 +2049,7 @@ Equip {2}</text>
  <reverse-related>Fervent Necromancer_BLR</reverse-related>
  <reverse-related>Reapers Called to Harvest_BLR</reverse-related>
  <reverse-related>Zombie Plague_BLR</reverse-related>
- <set num="BLR8" rarity="token">tokens</set>
+ <set num="BLR8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Demon 55BLR</name>
@@ -2059,7 +2061,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Hieronymus Scratch_BLR</reverse-related>
  <reverse-related>Reapers Called to Harvest_BLR</reverse-related>
- <set num="BLR7" rarity="token">tokens</set>
+ <set num="BLR7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11BLR</name>
@@ -2071,7 +2073,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Ikel, Revered Lichlord_BLR</reverse-related>
  <reverse-related count="2">Ikel's Legacy_BLR</reverse-related>
- <set num="BLR2" rarity="token">tokens</set>
+ <set num="BLR2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Drake 33BLR</name>
@@ -2083,7 +2085,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Kywon, Nostalgic Visionary_BLR</reverse-related>
  <reverse-related>Kywon, Nostalgic Visionary_PRO_BLR</reverse-related>
- <set num="BLR5" rarity="token">tokens</set>
+ <set num="BLR5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Drake BLR</name>
@@ -2094,7 +2096,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Kywon's Progeny_BLR</reverse-related>
- <set num="BLR4" rarity="token">tokens</set>
+ <set num="BLR4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elemental 44BLR</name>
@@ -2105,7 +2107,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Natural Majesty_BLR</reverse-related>
- <set num="BLR10" rarity="token">tokens</set>
+ <set num="BLR10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Spider 12BLR</name>
@@ -2116,7 +2118,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Tugae Deathspinner_BLR</reverse-related>
- <set num="BLR12" rarity="token">tokens</set>
+ <set num="BLR12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Memorial BLR</name>
@@ -2126,7 +2128,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Vengeful Whisper_BLR</reverse-related>
- <set num="BLR1" rarity="token">tokens</set>
+ <set num="BLR1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/BLR1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Spirit 00DOV</name>
@@ -2137,7 +2139,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>A Scent to Die For_DOV</reverse-related>
- <set num="DOV10" rarity="token">tokens</set>
+ <set num="DOV10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Cleric Noble 11DOV</name>
@@ -2148,7 +2150,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Anointed Escort_DOV</reverse-related>
- <set num="DOV2" rarity="token">tokens</set>
+ <set num="DOV2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11DOV</name>
@@ -2160,7 +2162,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Anointed Escort_DOV</reverse-related>
  <reverse-related>Truffletusk_DOV</reverse-related>
- <set num="DOV3" rarity="token">tokens</set>
+ <set num="DOV3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure DOV</name>
@@ -2174,7 +2176,7 @@ Equip {2}</text>
  <reverse-related>Patron of the Sciences_DOV</reverse-related>
  <reverse-related>Treasury Pilferer_DOV</reverse-related>
  <reverse-related>Wandering Hedge-Mage_DOV</reverse-related>
- <set num="DOV25" rarity="token">tokens</set>
+ <set num="DOV25" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV25.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Food</name>
@@ -2199,7 +2201,7 @@ Equip {2}</text>
  <reverse-related>Undercroft Poisoner_DOV</reverse-related>
  <reverse-related>Wanton Decadence_DOV</reverse-related>
  <reverse-related>Let Them Eat Cake_PRO_DOV</reverse-related>
- <set num="DOV22" rarity="token">tokens</set>
+ <set num="DOV22" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV22.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Warrior 11DOV</name>
@@ -2215,7 +2217,7 @@ Equip {2}</text>
  <reverse-related>Unburnt Maiden_DOV</reverse-related>
  <reverse-related count="2">Spirited Protest_PRO_DOV</reverse-related>
  <reverse-related count="2">Siege Tower DOV</reverse-related>
- <set num="DOV4" rarity="token">tokens</set>
+ <set num="DOV4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Cathette Emblem DOV</name>
@@ -2225,7 +2227,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Cathette, Righteous Princess_DOV</reverse-related>
- <set num="DOV27" rarity="token">tokens</set>
+ <set num="DOV27" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV27.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Angel 44DOV</name>
@@ -2237,7 +2239,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Divine Rule_DOV</reverse-related>
  <reverse-related>Tyrus's Transformation_DOV</reverse-related>
- <set num="DOV1" rarity="token">tokens</set>
+ <set num="DOV1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Menhir DOV</name>
@@ -2248,7 +2250,7 @@ Equip {2}</text>
  <tablerow>1</tablerow>
  <reverse-related>Enduring Jentil_DOV</reverse-related>
  <reverse-related>Enduring Jentil (Obelix the Gaul)_DOV</reverse-related>
- <set num="DOV23" rarity="token">tokens</set>
+ <set num="DOV23" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV23.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Rogue 21DOV</name>
@@ -2259,7 +2261,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Feast of Whispered Knives_DOV</reverse-related>
- <set num="DOV9" rarity="token">tokens</set>
+ <set num="DOV9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie Horror DOV</name>
@@ -2270,7 +2272,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Field Test_DOV</reverse-related>
- <set num="DOV12" rarity="token">tokens</set>
+ <set num="DOV12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Tyrus Emblem DOV</name>
@@ -2280,7 +2282,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Gift-Giver Tyrus_DOV</reverse-related>
- <set num="DOV28" rarity="token">tokens</set>
+ <set num="DOV28" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV28.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Imp 21DOV</name>
@@ -2292,7 +2294,7 @@ This creature can't block.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Glauna, Decadent Demon_DOV</reverse-related>
- <set num="DOV7" rarity="token">tokens</set>
+ <set num="DOV7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Windmill DOV</name>
@@ -2302,7 +2304,7 @@ This creature can't block.</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Impetuous Knight_DOV</reverse-related>
- <set num="DOV26" rarity="token">tokens</set>
+ <set num="DOV26" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV26.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Siege Tower DOV</name>
@@ -2313,7 +2315,7 @@ This creature can't block.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">Siege at the Bastion d'Orlet_DOV</reverse-related>
- <set num="DOV24" rarity="token">tokens</set>
+ <set num="DOV24" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV24.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and white Peasant 11DOV</name>
@@ -2326,7 +2328,7 @@ This creature attacks each combat if able.</text>
  <tablerow>2</tablerow>
  <reverse-related>Storming the Palace_DOV</reverse-related>
  <reverse-related>Storming the Palace_PRO_DOV</reverse-related>
- <set num="DOV18" rarity="token">tokens</set>
+ <set num="DOV18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Elemental DOV</name>
@@ -2337,7 +2339,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Truthflame Absolution_DOV</reverse-related>
- <set num="DOV14" rarity="token">tokens</set>
+ <set num="DOV14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Rat 11DOV</name>
@@ -2348,7 +2350,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Undercroft Poisoner_DOV</reverse-related>
- <set num="DOV8" rarity="token">tokens</set>
+ <set num="DOV8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Goat Spirit 11DOV</name>
@@ -2359,7 +2361,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Warden of Herds_DOV</reverse-related>
- <set num="DOV16" rarity="token">tokens</set>
+ <set num="DOV16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Elemental 10DOV</name>
@@ -2370,7 +2372,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Waterglass Duelist_DOV</reverse-related>
- <set num="DOV5" rarity="token">tokens</set>
+ <set num="DOV5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22DOV</name>
@@ -2381,7 +2383,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Wretched Sackman_DOV</reverse-related>
- <set num="DOV11" rarity="token">tokens</set>
+ <set num="DOV11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elemental Spirit 33POP</name>
@@ -2393,7 +2395,7 @@ This creature attacks each combat if able.</text>
  <tablerow>2</tablerow>
  <reverse-related>Alluring Queenpin_POP</reverse-related>
  <reverse-related count="3">Release the Unchained Melody_POP</reverse-related>
- <set num="POP6" rarity="token">tokens</set>
+ <set num="POP6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Construct 00POP</name>
@@ -2404,7 +2406,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Attuned District_POP</reverse-related>
- <set num="POP9" rarity="token">tokens</set>
+ <set num="POP9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Servo 11POP</name>
@@ -2417,7 +2419,7 @@ This creature attacks each combat if able.</text>
  <reverse-related>Beatweaver_POP</reverse-related>
  <reverse-related>Censor's Sanction_POP</reverse-related>
  <reverse-related count="2">Sonic Surveillance_POP</reverse-related>
- <set num="POP10" rarity="token">tokens</set>
+ <set num="POP10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure POP</name>
@@ -2430,7 +2432,7 @@ This creature attacks each combat if able.</text>
  <reverse-related>Chamille, AAA-Lister_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive_POP</reverse-related>
  <reverse-related>Tozzenia, Chief Executive (A.G. Cook)_POP</reverse-related>
- <set num="POP11" rarity="token">tokens</set>
+ <set num="POP11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Elemental Bird 11POP</name>
@@ -2443,7 +2445,7 @@ This creature attacks each combat if able.</text>
  <reverse-related>Confetti Cannons_POP</reverse-related>
  <reverse-related count="3">Glitch, Chaos Redeemed_POP</reverse-related>
  <reverse-related count="x">Interplanar Jam Session_POP</reverse-related>
- <set num="POP2" rarity="token">tokens</set>
+ <set num="POP2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Zombie 21POP</name>
@@ -2455,7 +2457,7 @@ This creature attacks each combat if able.</text>
  <tablerow>2</tablerow>
  <reverse-related>Enter the Moshpit_POP</reverse-related>
  <reverse-related>Worshipped Diva_POP</reverse-related>
- <set num="POP4" rarity="token">tokens</set>
+ <set num="POP4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elemental Beast 44POP</name>
@@ -2466,7 +2468,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hardlight Channeler_POP</reverse-related>
- <set num="POP5" rarity="token">tokens</set>
+ <set num="POP5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and green Elemental 11POP</name>
@@ -2481,7 +2483,7 @@ This creature attacks each combat if able.</text>
  <reverse-related>Photonic Cobra_POP</reverse-related>
  <reverse-related>Resonator Firehoof_POP</reverse-related>
  <reverse-related count="x">Spectral Reclamation_POP</reverse-related>
- <set num="POP8" rarity="token">tokens</set>
+ <set num="POP8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Spider 12POP</name>
@@ -2492,7 +2494,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Kaleidoscopic Web_POP</reverse-related>
- <set num="POP7" rarity="token">tokens</set>
+ <set num="POP7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Nekaru Emblem POP</name>
@@ -2502,7 +2504,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Nekaru the Showstealer_POP</reverse-related>
- <set num="POP12" rarity="token">tokens</set>
+ <set num="POP12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Bard 23POP</name>
@@ -2513,7 +2515,7 @@ This creature attacks each combat if able.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Player Band_POP</reverse-related>
- <set num="POP1" rarity="token">tokens</set>
+ <set num="POP1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Fan 11POP</name>
@@ -2525,7 +2527,7 @@ This creature attacks each combat if able.</text>
  <tablerow>2</tablerow>
  <reverse-related>Underground Sensation_POP</reverse-related>
  <reverse-related>Underground Sensation_POP</reverse-related>
- <set num="POP3" rarity="token">tokens</set>
+ <set num="POP3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/POP3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Army 00TRX</name>
@@ -2543,7 +2545,7 @@ This creature attacks each combat if able.</text>
  <reverse-related>Omen of Victory_TRX</reverse-related>
  <reverse-related count="x">The Army of Trax_TRX</reverse-related>
  <reverse-related>Traxian General_TRX</reverse-related>
- <set num="TRX2" rarity="token">tokens</set>
+ <set num="TRX2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Weapon TRX</name>
@@ -2555,7 +2557,7 @@ Equip {2}</text>
  <tablerow>1</tablerow>
  <reverse-related>Anvilwrought Crane_TRX</reverse-related>
  <reverse-related>Arena Champion_TRX</reverse-related>
- <set num="TRX20" rarity="token">tokens</set>
+ <set num="TRX20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure TRX</name>
@@ -2575,7 +2577,7 @@ Equip {2}</text>
  <reverse-related>Pidae Raider_TRX</reverse-related>
  <reverse-related>Raksolcs Ravage-Soul_TRX</reverse-related>
  <reverse-related>Skophos Raid-Veteran_TRX</reverse-related>
- <set num="TRX19" rarity="token">tokens</set>
+ <set num="TRX19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Pegasus 22TRX</name>
@@ -2587,7 +2589,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Charging Brightmare_TRX</reverse-related>
  <reverse-related>Blessings of the Flock_TRX</reverse-related>
- <set num="TRX4" rarity="token">tokens</set>
+ <set num="TRX4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Human 11TRX</name>
@@ -2607,7 +2609,7 @@ Equip {2}</text>
  <reverse-related>Skola Nyxweaver_TRX</reverse-related>
  <reverse-related count="2">The Fall of Trax_TRX</reverse-related>
  <reverse-related>The Founding of the Twelve_TRX</reverse-related>
- <set num="TRX3" rarity="token">tokens</set>
+ <set num="TRX3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Soldier 21TRX</name>
@@ -2620,7 +2622,7 @@ Equip {2}</text>
  <reverse-related>Eidolon of Empty Thoughts_TRX</reverse-related>
  <reverse-related>Karda's Legacy_TRX</reverse-related>
  <reverse-related count="2">Rally the Hoplites_TRX</reverse-related>
- <set num="TRX13" rarity="token">tokens</set>
+ <set num="TRX13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22TRX</name>
@@ -2633,7 +2635,7 @@ Equip {2}</text>
  <reverse-related>Kakomanties Circle_TRX</reverse-related>
  <reverse-related>New Recruit_TRX</reverse-related>
  <reverse-related>Rite of Venom_TRX</reverse-related>
- <set num="TRX11" rarity="token">tokens</set>
+ <set num="TRX11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Unmarked Shrine TRX</name>
@@ -2643,7 +2645,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related count="x">Lost to Memory_TRX</reverse-related>
- <set num="TRX8" rarity="token">tokens</set>
+ <set num="TRX8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Wizard 11TRX</name>
@@ -2655,7 +2657,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="2">Meeting of the Minds_TRX</reverse-related>
  <reverse-related count="2">Ella, Rose Court Queen_REV</reverse-related>
- <set num="TRX9" rarity="token">tokens</set>
+ <set num="TRX9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Sculpture 01TRX</name>
@@ -2666,7 +2668,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Patron of Ephara's Glory_TRX</reverse-related>
- <set num="TRX18" rarity="token">tokens</set>
+ <set num="TRX18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Snake 11TRX</name>
@@ -2677,7 +2679,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Pharika, Snake-Twined_TRX</reverse-related>
- <set num="TRX15" rarity="token">tokens</set>
+ <set num="TRX15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Snake 11TRX</name>
@@ -2689,7 +2691,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Pharika, Snake-Twined_TRX</reverse-related>
  <reverse-related>Pharika's Judgment_TRX</reverse-related>
- <set num="TRX10" rarity="token">tokens</set>
+ <set num="TRX10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Tentacle 11TRX</name>
@@ -2700,7 +2702,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="x">Terror of Olantin_TRX</reverse-related>
- <set num="TRX6" rarity="token">tokens</set>
+ <set num="TRX6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dragon 55TRX</name>
@@ -2711,7 +2713,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Thraxes, Sire of Dragons_TRX</reverse-related>
- <set num="TRX12" rarity="token">tokens</set>
+ <set num="TRX12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Kraken 88TRX</name>
@@ -2722,7 +2724,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Tide's Ire_TRX</reverse-related>
- <set num="TRX5" rarity="token">tokens</set>
+ <set num="TRX5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Tromokratis TRX</name>
@@ -2733,7 +2735,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Tide's Ire_TRX</reverse-related>
- <set num="TRX7" rarity="token">tokens</set>
+ <set num="TRX7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Centaur 33TRX</name>
@@ -2744,7 +2746,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">Traxian Calvary_TRX</reverse-related>
- <set num="TRX14" rarity="token">tokens</set>
+ <set num="TRX14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Wolf 22TRX</name>
@@ -2756,7 +2758,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="3">Wolf-Whistle Satyr_TRX</reverse-related>
  <reverse-related count="3">Fable of Tooth and Fur_TRX</reverse-related>
- <set num="TRX16" rarity="token">tokens</set>
+ <set num="TRX16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Human 11OLD</name>
@@ -2780,7 +2782,7 @@ Equip {2}</text>
  <reverse-related>Valley Caravan</reverse-related>
  <reverse-related>Zenith Marshal</reverse-related>
  <reverse-related>Renowned Roughrider_PRO_OLD</reverse-related>
- <set num="OLD4" rarity="token">tokens</set>
+ <set num="OLD4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure OLD</name>
@@ -2794,7 +2796,7 @@ Equip {2}</text>
  <reverse-related count="3">Forgemaster Dreadnought</reverse-related>
  <reverse-related count="2">Reduce to Ore</reverse-related>
  <reverse-related>Audacious Roughrider_PRO_OLD</reverse-related>
- <set num="OLD15" rarity="token">tokens</set>
+ <set num="OLD15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Human Warrior 21OLD</name>
@@ -2805,7 +2807,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Aspirants as One</reverse-related>
- <set num="OLD8" rarity="token">tokens</set>
+ <set num="OLD8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elemental 1010OLD</name>
@@ -2816,7 +2818,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Awakening in Oldun</reverse-related>
- <set num="OLD10" rarity="token">tokens</set>
+ <set num="OLD10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Bird 11OLD</name>
@@ -2829,7 +2831,7 @@ Equip {2}</text>
  <reverse-related>Cassia the Carefree</reverse-related>
  <reverse-related>Opal-Eye Allseer</reverse-related>
  <reverse-related count="2">Rugged Endurance</reverse-related>
- <set num="OLD2" rarity="token">tokens</set>
+ <set num="OLD2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Cat 22MSEMAR</name>
@@ -2841,7 +2843,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Cassia the Carefree</reverse-related>
  <reverse-related>Cassia the Carefree</reverse-related>
- <set num="OLD7" rarity="token">tokens</set>
+ <set num="OLD7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Saproling 11OLD</name>
@@ -2855,7 +2857,7 @@ Equip {2}</text>
  <reverse-related count="2">Fumebloom</reverse-related>
  <reverse-related>Spore Spawning</reverse-related>
  <reverse-related>Thornlasher Mortis</reverse-related>
- <set num="OLD11" rarity="token">tokens</set>
+ <set num="OLD11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue and black Fish OLD</name>
@@ -2869,7 +2871,7 @@ Equip {2}</text>
  <reverse-related>Swelling Terror</reverse-related>
  <reverse-related>Raboorah's Appetite_PRO_OLD</reverse-related>
  <reverse-related>Swelling Terror_PRO_OLD</reverse-related>
- <set num="OLD14" rarity="token">tokens</set>
+ <set num="OLD14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Wolf 22OLD</name>
@@ -2880,7 +2882,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Rathomar Harrier</reverse-related>
- <set num="OLD12" rarity="token">tokens</set>
+ <set num="OLD12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Spirit 00OLD</name>
@@ -2891,7 +2893,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Shaman of Rime's Fury</reverse-related>
- <set num="OLD1" rarity="token">tokens</set>
+ <set num="OLD1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Bear 22OLD</name>
@@ -2902,7 +2904,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Ursine Advocate</reverse-related>
- <set num="OLD9" rarity="token">tokens</set>
+ <set num="OLD9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Insect 11OLD</name>
@@ -2913,7 +2915,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="x">Whitewing Migration</reverse-related>
- <set num="OLD5" rarity="token">tokens</set>
+ <set num="OLD5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Cyborg 11CYB</name>
@@ -2940,7 +2942,7 @@ Equip {2}</text>
  <reverse-related>Reborn Herald</reverse-related>
  <reverse-related>Extraction Ritual_PRO_CYB</reverse-related>
  <reverse-related>Offerings to Sky Gods_PRO_CYB</reverse-related>
- <set num="CYB16" rarity="token">tokens</set>
+ <set num="CYB16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Soldier 11CYB</name>
@@ -2953,7 +2955,7 @@ Equip {2}</text>
  <reverse-related>Ardor, Forefront of Freedom</reverse-related>
  <reverse-related>Edgeland Pledge</reverse-related>
  <reverse-related>Ardor, Forefront of Freedom_PRO_CYB</reverse-related>
- <set num="CYB11" rarity="token">tokens</set>
+ <set num="CYB11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Solidarity</name>
@@ -2977,7 +2979,7 @@ Equip {2}</text>
  <reverse-related>Sharesh, Leader of the Lost</reverse-related>
  <reverse-related>Vanguard Recruit</reverse-related>
  <reverse-related>Vukoroq Defector</reverse-related>
- <set num="CYB2" rarity="token">tokens</set>
+ <set num="CYB2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Construct 11CYB</name>
@@ -2994,7 +2996,7 @@ Equip {2}</text>
  <reverse-related>Cogwork Harvester_REV</reverse-related>
  <reverse-related>Savvy Smith_REV</reverse-related>
  <reverse-related>Gift of Inspiration_PRO_CYB</reverse-related>
- <set num="CYB15" rarity="token">tokens</set>
+ <set num="CYB15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Thopter 11CYB</name>
@@ -3007,7 +3009,7 @@ Equip {2}</text>
  <reverse-related count="2">Drone Swarm</reverse-related>
  <reverse-related>Minoan Engineer</reverse-related>
  <reverse-related>Survey the Area</reverse-related>
- <set num="CYB20" rarity="token">tokens</set>
+ <set num="CYB20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Goat 01CYB</name>
@@ -3018,7 +3020,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Edgeland Market</reverse-related>
- <set num="CYB5" rarity="token">tokens</set>
+ <set num="CYB5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22CYB</name>
@@ -3030,7 +3032,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Festered Effluvium</reverse-related>
  <reverse-related>Tithe to the Machine</reverse-related>
- <set num="CYB8" rarity="token">tokens</set>
+ <set num="CYB8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Cyborg Knight 33CYB</name>
@@ -3041,7 +3043,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>General Diadem, Usurper</reverse-related>
- <set num="CYB7" rarity="token">tokens</set>
+ <set num="CYB7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Knight 31CYB</name>
@@ -3052,7 +3054,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Illustrious Sheng Fa</reverse-related>
- <set num="CYB6" rarity="token">tokens</set>
+ <set num="CYB6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Citizen 11CYB</name>
@@ -3065,7 +3067,7 @@ Equip {2}</text>
  <reverse-related>Inspired Denizen</reverse-related>
  <reverse-related>Rebuilding of Londel</reverse-related>
  <reverse-related>Rebuilding of Londel_PRO_CYB</reverse-related>
- <set num="CYB12" rarity="token">tokens</set>
+ <set num="CYB12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Avatar CYB</name>
@@ -3076,7 +3078,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Leystone of Being</reverse-related>
- <set num="CYB4" rarity="token">tokens</set>
+ <set num="CYB4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Cyborg Soldier 31CYB</name>
@@ -3088,7 +3090,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related count="x">Lost Resistor</reverse-related>
  <reverse-related count="x">Splintered Soul</reverse-related>
- <set num="CYB17" rarity="token">tokens</set>
+ <set num="CYB17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Dinosaur 31CYB</name>
@@ -3100,7 +3102,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Ozanite Pledge</reverse-related>
  <reverse-related>Wildfang Cavalier</reverse-related>
- <set num="CYB9" rarity="token">tokens</set>
+ <set num="CYB9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Advisor 22CYB</name>
@@ -3111,7 +3113,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Prime Consuls</reverse-related>
- <set num="CYB3" rarity="token">tokens</set>
+ <set num="CYB3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Green Ragtag CYB</name>
@@ -3122,7 +3124,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Ragtag Squad</reverse-related>
- <set num="CYB14" rarity="token">tokens</set>
+ <set num="CYB14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Leyshard CYB</name>
@@ -3132,7 +3134,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Ruin, the First Shard</reverse-related>
- <set num="CYB18" rarity="token">tokens</set>
+ <set num="CYB18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Elf 11CYB</name>
@@ -3143,7 +3145,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">Stand Strong</reverse-related>
- <set num="CYB13" rarity="token">tokens</set>
+ <set num="CYB13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Potion CYB</name>
@@ -3154,7 +3156,7 @@ Equip {2}</text>
  <tablerow>1</tablerow>
  <reverse-related>Vasilisa, Helping Hand</reverse-related>
  <reverse-related>Vasilisa, Waging War</reverse-related>
- <set num="CYB19" rarity="token">tokens</set>
+ <set num="CYB19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Penrath Insurgency CNY</name>
@@ -3185,7 +3187,7 @@ Pledge — {4}: Up to one target creature gets +2/+2 until end of turn. Activate
  <reverse-related>Open Air Boardwalk</reverse-related>
  <reverse-related>Urban Sunscape</reverse-related>
  <reverse-related>Incumbency_PRO_CNY</reverse-related>
- <set num="CNY7" rarity="token">tokens</set>
+ <set num="CNY7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Vishanki Inc. CNY</name>
@@ -3214,7 +3216,7 @@ Pledge — {4}: Create a Treasure token. Activate only as a sorcery unless you'r
  <reverse-related>Neglected Slums</reverse-related>
  <reverse-related>Open Air Boardwalk</reverse-related>
  <reverse-related>Urban Sunscape</reverse-related>
- <set num="CNY10" rarity="token">tokens</set>
+ <set num="CNY10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Hazakh Arsenal CNY</name>
@@ -3244,7 +3246,7 @@ Pledge — {4}: Create a 2/2 colorless Minion creature token with decayed. Activ
  <reverse-related>Looming Skyscrapers</reverse-related>
  <reverse-related>Neglected Slums</reverse-related>
  <reverse-related>Urban Sunscape</reverse-related>
- <set num="CNY6" rarity="token">tokens</set>
+ <set num="CNY6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Tiril Bureau CNY</name>
@@ -3277,7 +3279,7 @@ Pledge — {4}: Surveil 2. Activate only as a sorcery unless you're making a ple
  <reverse-related>Open Air Boardwalk</reverse-related>
  <reverse-related>Urban Sunscape</reverse-related>
  <reverse-related>Incumbency_PRO_CNY</reverse-related>
- <set num="CNY9" rarity="token">tokens</set>
+ <set num="CNY9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Sillaman Laboratories CNY</name>
@@ -3308,7 +3310,7 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Open Air Boardwalk</reverse-related>
  <reverse-related>Urban Sunscape</reverse-related>
  <reverse-related>Incumbency_PRO_CNY</reverse-related>
- <set num="CNY8" rarity="token">tokens</set>
+ <set num="CNY8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure CNY</name>
@@ -3323,7 +3325,6 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Deadly Dispute</reverse-related>
  <reverse-related>Debt Collectors</reverse-related>
  <reverse-related count="x">Dhante's Inferno</reverse-related>
- <reverse-related>Freightyard Scrappers</reverse-related>
  <reverse-related>Gubernatorial Fundraiser</reverse-related>
  <reverse-related>Invest</reverse-related>
  <reverse-related>Liquidate</reverse-related>
@@ -3336,10 +3337,11 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Sustainable Investments</reverse-related>
  <reverse-related count="2">Vishanki Agenda</reverse-related>
  <reverse-related>Work Safety Violation</reverse-related>
+ <reverse-related>Deadly Dispute_PRO_CNY</reverse-related>
  <reverse-related>Liquidate_PRO_CNY</reverse-related>
  <reverse-related>Work Safety Violation_PRO_CNY</reverse-related>
  <reverse-related>Vishanki Inc. CNY</reverse-related>
- <set num="CNY14" rarity="token">tokens</set>
+ <set num="CNY15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Soldier 11CNY</name>
@@ -3353,7 +3355,6 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related count="x">Empowered Revisionary</reverse-related>
  <reverse-related>Enforcer's Baton</reverse-related>
  <reverse-related count="2">Flags on High</reverse-related>
- <reverse-related count="x">High Senator Talpa</reverse-related>
  <reverse-related>Mondo, Outcast Maverick</reverse-related>
  <reverse-related count="x">Prismatic Propagandist</reverse-related>
  <reverse-related>Sparks of a Revolution</reverse-related>
@@ -3366,7 +3367,7 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Freedom_PRO_CNY</reverse-related>
  <reverse-related>Sparks of a Revolution_PRO_CNY</reverse-related>
  <reverse-related>Freedom_PRO_CNY</reverse-related>
- <set num="CNY3" rarity="token">tokens</set>
+ <set num="CNY3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Robot 00CNY</name>
@@ -3382,9 +3383,8 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Severin, Sparkmind</reverse-related>
  <reverse-related>Social Engineering</reverse-related>
  <reverse-related>Subsidized Market</reverse-related>
- <reverse-related>Venture Capitalist</reverse-related>
  <reverse-related>Severin, Sparkmind_REV</reverse-related>
- <set num="CNY12" rarity="token">tokens</set>
+ <set num="CNY13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Minion 22CNY</name>
@@ -3400,7 +3400,29 @@ Pledge — {4}: Tap up to one target untapped creature. You may put a +1/+1 coun
  <reverse-related>Merciless Headsman</reverse-related>
  <reverse-related count="2">The First Battalion</reverse-related>
  <reverse-related>Hazakh Arsenal CNY</reverse-related>
- <set num="CNY2" rarity="token">tokens</set>
+ <set num="CNY2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY2.jpg?v=0" rarity="token">tokens</set>
+</card>
+<card>
+ <name>The Codex CNY</name>
+ <text>{T}: Mill a card.
+{T}, Sacrifice this token: Search your library for a card, put it into your graveyard, then shuffle.</text>
+ <colors></colors>
+ <type>Token Legendary Artifact</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Old Times Ruminator</reverse-related>
+ <set num="CNY11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY11.jpg?v=0" rarity="token">tokens</set>
+</card>
+<card>
+ <name>Additional Library MSEMAR</name>
+ <text></text>
+ <colors>GW</colors>
+ <type>Reminder</type>
+ <token>1</token>
+ <tablerow>1</tablerow>
+ <reverse-related>Old Times Ruminator</reverse-related>
+ <reverse-related>Crownfall Archive</reverse-related>
+ <set num="MSEMAR15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Berserker 22CNY</name>
@@ -3412,7 +3434,7 @@ This creature can't block.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Penrath Agenda</reverse-related>
- <set num="CNY4" rarity="token">tokens</set>
+ <set num="CNY4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Equipment CNY</name>
@@ -3423,7 +3445,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Penrath Firearm</reverse-related>
- <set num="CNY11" rarity="token">tokens</set>
+ <set num="CNY12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Chaneryx, Perfect Lifeform CNY</name>
@@ -3435,7 +3457,7 @@ Equip {2}</text>
  <tablerow>2</tablerow>
  <reverse-related>Severin's Masterwork</reverse-related>
  <reverse-related>Severin's Masterwork_PRO_CNY</reverse-related>
- <set num="CNY5" rarity="token">tokens</set>
+ <set num="CNY5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Sentry of the New World CNY</name>
@@ -3446,7 +3468,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>The Quindral Accords</reverse-related>
- <set num="CNY13" rarity="token">tokens</set>
+ <set num="CNY14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CNY14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Human Pirate 21CCR</name>
@@ -3457,7 +3479,7 @@ Equip {2}</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Aqua Crew Flagship</reverse-related>
- <set num="CCR6" rarity="token">tokens</set>
+ <set num="CCR6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Berry</name>
@@ -3506,7 +3528,7 @@ Equip {1}</text>
  <reverse-related>Territory Dispute</reverse-related>
  <reverse-related>The Berry Master</reverse-related>
  <reverse-related count="x">The Berry Master</reverse-related>
- <set num="CCR17" rarity="token">tokens</set>
+ <set num="CCR17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Plant 11CCR</name>
@@ -3523,7 +3545,7 @@ Equip {1}</text>
  <reverse-related>Pollen Warning</reverse-related>
  <reverse-related count="2">Prickly Dunes</reverse-related>
  <reverse-related>Simul, Genetic Artisan</reverse-related>
- <set num="CCR8" rarity="token">tokens</set>
+ <set num="CCR8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Looks Like Rain CCR</name>
@@ -3536,7 +3558,7 @@ Whenever you attack, you gain 1 life.</text>
  <reverse-related>Carefree Kappa</reverse-related>
  <reverse-related>Carefree Kappa ★</reverse-related>
  <reverse-related>Carefree Kappa_PRO_CCR</reverse-related>
- <set num="CCR9" rarity="token">tokens</set>
+ <set num="CCR9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Golem 11CCR</name>
@@ -3554,7 +3576,7 @@ Whenever you attack, you gain 1 life.</text>
  <reverse-related>Unflinching Titan</reverse-related>
  <reverse-related>Unspeaking Titan</reverse-related>
  <reverse-related>Unyielding Titan</reverse-related>
- <set num="CCR1" rarity="token">tokens</set>
+ <set num="CCR1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure CCR</name>
@@ -3566,7 +3588,7 @@ Whenever you attack, you gain 1 life.</text>
  <reverse-related>Gold Berry</reverse-related>
  <reverse-related count="2">Iviana, Dragon Tamer</reverse-related>
  <reverse-related>Scruffy Rascal</reverse-related>
- <set num="CCR19" rarity="token">tokens</set>
+ <set num="CCR19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>multicolor Dragon 33CCR</name>
@@ -3577,7 +3599,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Higana, Dragonscribe</reverse-related>
- <set num="CCR14" rarity="token">tokens</set>
+ <set num="CCR14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>multicolor Dragon 33CCR 2</name>
@@ -3588,7 +3610,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Higana, Dragonscribe</reverse-related>
- <set num="CCR13" rarity="token">tokens</set>
+ <set num="CCR13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>multicolor Dragon 33CCR 3</name>
@@ -3599,7 +3621,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Higana, Dragonscribe</reverse-related>
- <set num="CCR15" rarity="token">tokens</set>
+ <set num="CCR15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>multicolor Dragon 33CCR 4</name>
@@ -3610,7 +3632,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Higana, Dragonscribe</reverse-related>
- <set num="CCR16" rarity="token">tokens</set>
+ <set num="CCR16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Shigana CCR</name>
@@ -3621,7 +3643,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Higana, Dragonscribe</reverse-related>
- <set num="CCR3" rarity="token">tokens</set>
+ <set num="CCR3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Bird Warrior 24CCR</name>
@@ -3632,7 +3654,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hoenn Champion</reverse-related>
- <set num="CCR7" rarity="token">tokens</set>
+ <set num="CCR7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white and black Bird 33CCR</name>
@@ -3643,7 +3665,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hoenn Champion</reverse-related>
- <set num="CCR12" rarity="token">tokens</set>
+ <set num="CCR12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Bird Warrior ★</name>
@@ -3654,7 +3676,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hoenn Champion ★</reverse-related>
- <set num="CCR20" rarity="token">tokens</set>
+ <set num="CCR20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Bird ★</name>
@@ -3665,7 +3687,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Hoenn Champion ★</reverse-related>
- <set num="CCR21" rarity="token">tokens</set>
+ <set num="CCR21" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR21.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Fish 11CCR</name>
@@ -3677,7 +3699,7 @@ Whenever you attack, you gain 1 life.</text>
  <tablerow>2</tablerow>
  <reverse-related>Prolific Fisher</reverse-related>
  <reverse-related>Prolific Fisher ★</reverse-related>
- <set num="CCR5" rarity="token">tokens</set>
+ <set num="CCR5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white and blue Seal Orb 22CCR</name>
@@ -3688,7 +3710,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Seal Shoals</reverse-related>
- <set num="CCR10" rarity="token">tokens</set>
+ <set num="CCR10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Seal Orb ★</name>
@@ -3699,7 +3721,7 @@ Whenever you attack, you gain 1 life.</text>
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Seal Shoals ★</reverse-related>
- <set num="CCR11" rarity="token">tokens</set>
+ <set num="CCR11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Aura CCR</name>
@@ -3710,7 +3732,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Simul, Genetic Artisan</reverse-related>
- <set num="CCR4" rarity="token">tokens</set>
+ <set num="CCR4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Toy 22CCR</name>
@@ -3724,7 +3746,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Stitches, Orphaned</reverse-related>
  <reverse-related>Stitches, Adopted ★</reverse-related>
  <reverse-related>Stitches, Orphaned ★</reverse-related>
- <set num="CCR18" rarity="token">tokens</set>
+ <set num="CCR18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Golem ★</name>
@@ -3737,7 +3759,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Unflinching Titan ★</reverse-related>
  <reverse-related>Unspeaking Titan ★</reverse-related>
  <reverse-related>Unyielding Titan ★</reverse-related>
- <set num="CCR2" rarity="token">tokens</set>
+ <set num="CCR2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CCR2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure ERR</name>
@@ -3751,7 +3773,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related count="x">Coherence_Inversion</reverse-related>
  <reverse-related>Go for Gold</reverse-related>
  <reverse-related>Xeia, Record Chaser</reverse-related>
- <set num="ERR25" rarity="token">tokens</set>
+ <set num="ERR25" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR25.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Memory ERR</name>
@@ -3791,7 +3813,7 @@ When enchanted permanent dies, you draw two cards.</text>
  <reverse-related>Futurist Ideal_PRO_ERR</reverse-related>
  <reverse-related>Task Triage_PRO_ERR</reverse-related>
  <reverse-related>Task Triage_PRO_ERR</reverse-related>
- <set num="ERR2" rarity="token">tokens</set>
+ <set num="ERR2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Program A ERR</name>
@@ -3837,7 +3859,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>READ() ERR</reverse-related>
  <reverse-related>SAVE() ERR</reverse-related>
  <reverse-related>TICK() ERR</reverse-related>
- <set num="ERR3" rarity="token">tokens</set>
+ <set num="ERR3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Program B ERR</name>
@@ -3882,7 +3904,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>READ() ERR</reverse-related>
  <reverse-related>SAVE() ERR</reverse-related>
  <reverse-related>TICK() ERR</reverse-related>
- <set num="ERR4" rarity="token">tokens</set>
+ <set num="ERR4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Program C ERR</name>
@@ -3927,7 +3949,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>READ() ERR</reverse-related>
  <reverse-related>SAVE() ERR</reverse-related>
  <reverse-related>TICK() ERR</reverse-related>
- <set num="ERR5" rarity="token">tokens</set>
+ <set num="ERR5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Subroutines ERR</name>
@@ -3973,7 +3995,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>READ() ERR</reverse-related>
  <reverse-related>SAVE() ERR</reverse-related>
  <reverse-related>TICK() ERR</reverse-related>
- <set num="ERR6" rarity="token">tokens</set>
+ <set num="ERR6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Jellyfish 11ERR</name>
@@ -3984,7 +4006,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="2">BORROW()</reverse-related>
- <set num="ERR13" rarity="token">tokens</set>
+ <set num="ERR13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Citizen 11ERR</name>
@@ -4008,7 +4030,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related count="2">UNDO()</reverse-related>
  <reverse-related count="x">Complementarity_PRO_ERR</reverse-related>
  <reverse-related>ALARM() ERR</reverse-related>
- <set num="ERR8" rarity="token">tokens</set>
+ <set num="ERR8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Copy ERR</name>
@@ -4022,7 +4044,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Piroia, Perennial Sacrifice</reverse-related>
  <reverse-related>Regrowing Outlands</reverse-related>
  <reverse-related>Undefined_Behavior</reverse-related>
- <set num="ERR1" rarity="token">tokens</set>
+ <set num="ERR1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>TICK() ERR</name>
@@ -4033,7 +4055,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Catabolist</reverse-related>
  <reverse-related>Hovering Delinquent</reverse-related>
- <set num="ERR14" rarity="token">tokens</set>
+ <set num="ERR14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Bird 22ERR</name>
@@ -4045,7 +4067,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Daemonmage</reverse-related>
  <reverse-related>FLOCK()</reverse-related>
- <set num="ERR11" rarity="token">tokens</set>
+ <set num="ERR11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Stratagem ERR</name>
@@ -4055,7 +4077,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Darisha, Stack Exec</reverse-related>
- <set num="ERR10" rarity="token">tokens</set>
+ <set num="ERR10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>ALARM() ERR</name>
@@ -4066,7 +4088,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Download Courier</reverse-related>
  <reverse-related>Weave Dispatcher</reverse-related>
- <set num="ERR7" rarity="token">tokens</set>
+ <set num="ERR7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Construct ERR</name>
@@ -4082,7 +4104,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>RECURSE()</reverse-related>
  <reverse-related>Virtualized Onomastic</reverse-related>
  <reverse-related>RECURSE()_PRO_ERR</reverse-related>
- <set num="ERR23" rarity="token">tokens</set>
+ <set num="ERR23" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR23.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Warrior 22ERR</name>
@@ -4093,7 +4115,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Eviviva, Grip Exec</reverse-related>
- <set num="ERR18" rarity="token">tokens</set>
+ <set num="ERR18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>The Puzzlebox REV</name>
@@ -4104,7 +4126,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Fabricated Anomaly</reverse-related>
  <reverse-related>Fabricated Anomaly_REV</reverse-related>
- <set num="REV12" rarity="token">tokens</set>
+ <set num="REV12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>BOOST() ERR</name>
@@ -4115,7 +4137,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Groove Surfer</reverse-related>
  <reverse-related>Thrilljammer</reverse-related>
- <set num="ERR15" rarity="token">tokens</set>
+ <set num="ERR15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Noop ERR</name>
@@ -4126,7 +4148,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>ITERATE()</reverse-related>
- <set num="ERR24" rarity="token">tokens</set>
+ <set num="ERR24" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR24.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Root Node ERR</name>
@@ -4136,7 +4158,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>0</tablerow>
  <reverse-related count="x">Lavis, Root Exec</reverse-related>
- <set num="ERR26" rarity="token">tokens</set>
+ <set num="ERR26" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR26.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>MOUNT() ERR</name>
@@ -4147,7 +4169,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related count="x">Megafauna Knight</reverse-related>
  <reverse-related>Skywatch Jockey</reverse-related>
- <set num="ERR19" rarity="token">tokens</set>
+ <set num="ERR19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>READ() ERR</name>
@@ -4158,7 +4180,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Mnemologist</reverse-related>
  <reverse-related>Reclusive Percipient</reverse-related>
- <set num="ERR12" rarity="token">tokens</set>
+ <set num="ERR12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Error 89ERR</name>
@@ -4169,7 +4191,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Placeholder_Asset</reverse-related>
- <set num="ERR9" rarity="token">tokens</set>
+ <set num="ERR9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>SAVE() ERR</name>
@@ -4180,7 +4202,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>The Weftheart</reverse-related>
  <reverse-related>The Weftheart_REV</reverse-related>
- <set num="ERR22" rarity="token">tokens</set>
+ <set num="ERR22" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR22.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Bird 11KDT</name>
@@ -4198,7 +4220,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Sky's Flourishing</reverse-related>
  <reverse-related>Ukina, Aethersong Basker</reverse-related>
  <reverse-related>Equanimity_PRO_KDT</reverse-related>
- <set num="KDT6" rarity="token">tokens</set>
+ <set num="KDT6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Ninja 11KDT</name>
@@ -4210,7 +4232,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Akihiko, Wayfinder</reverse-related>
  <reverse-related>Shigane Clan Head</reverse-related>
- <set num="KDT8" rarity="token">tokens</set>
+ <set num="KDT8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>On an Adventure MSEMAR</name>
@@ -4237,7 +4259,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Uiki Cloudchaser</reverse-related>
  <reverse-related>Vengeful Artificer</reverse-related>
  <reverse-related>Emperor Tzuhan_REV</reverse-related>
- <set num="MSEMAR17" rarity="token">tokens</set>
+ <set num="MSEMAR17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Hardsuit KDT</name>
@@ -4249,7 +4271,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>1</tablerow>
  <reverse-related>Attuned Acolyte</reverse-related>
  <reverse-related>Attuned Acolyte_PRO_KDT</reverse-related>
- <set num="KDT17" rarity="token">tokens</set>
+ <set num="KDT17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure KDT</name>
@@ -4269,7 +4291,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Spiteful Banditry</reverse-related>
  <reverse-related>Spiteful Liberation</reverse-related>
  <reverse-related count="x">Vengeful Artificer</reverse-related>
- <set num="KDT18" rarity="token">tokens</set>
+ <set num="KDT18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Time Bubble KDT</name>
@@ -4279,7 +4301,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Confronting Time's Jailer</reverse-related>
- <set num="KDT9" rarity="token">tokens</set>
+ <set num="KDT9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Demon KDT</name>
@@ -4292,7 +4314,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Demon of Dire Storms</reverse-related>
  <reverse-related>Kage's Mercenary</reverse-related>
  <reverse-related>The Inferno Gate Opens</reverse-related>
- <set num="KDT10" rarity="token">tokens</set>
+ <set num="KDT10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Demon Insect 11KDT</name>
@@ -4303,7 +4325,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="x">Koraja's Centipede</reverse-related>
- <set num="KDT11" rarity="token">tokens</set>
+ <set num="KDT11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and green Spirit Beast 43KDT</name>
@@ -4315,7 +4337,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Majesty</reverse-related>
  <reverse-related>Majesty_PRO_KDT</reverse-related>
- <set num="KDT15" rarity="token">tokens</set>
+ <set num="KDT15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Spirit 11KDT</name>
@@ -4328,7 +4350,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Menreiki, the Resplendent</reverse-related>
  <reverse-related>Portal to the Spirit Realm</reverse-related>
  <reverse-related>Wandering Thrumhorn</reverse-related>
- <set num="KDT13" rarity="token">tokens</set>
+ <set num="KDT13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Samurai 22KDT</name>
@@ -4340,7 +4362,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Midnight Duo</reverse-related>
  <reverse-related>Sacrificial Mentor</reverse-related>
- <set num="KDT5" rarity="token">tokens</set>
+ <set num="KDT5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Monk 11KDT</name>
@@ -4354,7 +4376,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Nerve-Strike Disciple</reverse-related>
  <reverse-related>Ofuda Mistress</reverse-related>
  <reverse-related count="2">Teshima, Living Balance</reverse-related>
- <set num="KDT3" rarity="token">tokens</set>
+ <set num="KDT3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Kraken 88KDT</name>
@@ -4365,7 +4387,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Ominous Seas</reverse-related>
- <set num="KDT7" rarity="token">tokens</set>
+ <set num="KDT7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Fox Shapeshifter 11KDT</name>
@@ -4376,7 +4398,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Protean Boughs</reverse-related>
- <set num="KDT1" rarity="token">tokens</set>
+ <set num="KDT1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Serpent 66KDT</name>
@@ -4387,7 +4409,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Realm Violator</reverse-related>
- <set num="KDT12" rarity="token">tokens</set>
+ <set num="KDT12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Golem 00KDT</name>
@@ -4398,7 +4420,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Sculptor's Replica</reverse-related>
- <set num="KDT16" rarity="token">tokens</set>
+ <set num="KDT16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Monkey 11KDT</name>
@@ -4409,7 +4431,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related count="x">Simian Pupil</reverse-related>
- <set num="KDT4" rarity="token">tokens</set>
+ <set num="KDT4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Soldier 11TWI</name>
@@ -4431,7 +4453,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Fort Ravellan</reverse-related>
  <reverse-related>Redeemer of Hollowed Flesh</reverse-related>
  <reverse-related>Resolute Reinforcements</reverse-related>
- <set num="TWI3" rarity="token">tokens</set>
+ <set num="TWI3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Zombie 22TWI</name>
@@ -4450,7 +4472,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Guardian of Ashen Oaths</reverse-related>
  <reverse-related>Scour the Crownlands</reverse-related>
  <reverse-related count="2">Stride Once More</reverse-related>
- <set num="TWI11" rarity="token">tokens</set>
+ <set num="TWI11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Berserker 11TWI</name>
@@ -4472,7 +4494,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related count="3">Siphoned Allegiance</reverse-related>
  <reverse-related count="2">Thronehall of Reckoning</reverse-related>
  <reverse-related>Divinity_PRO_TWI</reverse-related>
- <set num="TWI12" rarity="token">tokens</set>
+ <set num="TWI12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure TWI</name>
@@ -4484,7 +4506,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Binder of Greed and Merit</reverse-related>
  <reverse-related>Gleaming Barrier</reverse-related>
  <reverse-related>Redeemer of Hollowed Flesh</reverse-related>
- <set num="TWI14" rarity="token">tokens</set>
+ <set num="TWI14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Angel 44TWI</name>
@@ -4498,7 +4520,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Sylvia, the Rewoven Oath</reverse-related>
  <reverse-related>Thorn and Trial</reverse-related>
  <reverse-related>Choir Ascendant_PRO_TWI</reverse-related>
- <set num="TWI1" rarity="token">tokens</set>
+ <set num="TWI1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Warlock 11TWI</name>
@@ -4512,7 +4534,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Echoed Chant</reverse-related>
  <reverse-related count="2">Shared in Shadow</reverse-related>
  <reverse-related>Witch of the First Echoes</reverse-related>
- <set num="TWI4" rarity="token">tokens</set>
+ <set num="TWI4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Faerie 11TWI</name>
@@ -4523,17 +4545,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Clash at Scorchroot Bluff</reverse-related>
- <set num="TWI13" rarity="token">tokens</set>
-</card>
-<card>
- <name>Additional Library MSEMAR</name>
- <text></text>
- <colors>GW</colors>
- <type>Reminder</type>
- <token>1</token>
- <tablerow>1</tablerow>
- <reverse-related>Crownfall Archive</reverse-related>
- <set num="MSEMAR15" rarity="token">tokens</set>
+ <set num="TWI13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Spirit 11TWI</name>
@@ -4545,7 +4557,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Cruxborn Tyrant</reverse-related>
  <reverse-related>Grasp of the Drowned</reverse-related>
- <set num="TWI6" rarity="token">tokens</set>
+ <set num="TWI6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Knight 22TWI</name>
@@ -4559,7 +4571,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related count="2">Sentinel of Dawnbloom Grove</reverse-related>
  <reverse-related>Sentinel of Dawnbloom Grove</reverse-related>
  <reverse-related>Shaper of Luminous Will</reverse-related>
- <set num="TWI2" rarity="token">tokens</set>
+ <set num="TWI2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Everywhere</name>
@@ -4572,7 +4584,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Groveborn Envoy</reverse-related>
  <reverse-related>Sanctified Cartography</reverse-related>
  <reverse-related>Scour the Crownlands</reverse-related>
- <set num="TWI15" rarity="token">tokens</set>
+ <set num="TWI15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Shrivel Warlock</name>
@@ -4583,7 +4595,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Steep the Pactwen</reverse-related>
- <set num="TWI10" rarity="token">tokens</set>
+ <set num="TWI10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Discard Warlock</name>
@@ -4594,7 +4606,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Steep the Pactwen</reverse-related>
- <set num="TWI7" rarity="token">tokens</set>
+ <set num="TWI7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Life Warlock</name>
@@ -4605,7 +4617,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Steep the Pactwen</reverse-related>
- <set num="TWI8" rarity="token">tokens</set>
+ <set num="TWI8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Loss Warlock</name>
@@ -4616,7 +4628,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Steep the Pactwen</reverse-related>
- <set num="TWI9" rarity="token">tokens</set>
+ <set num="TWI9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>black Horror 44TWI</name>
@@ -4629,7 +4641,8 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Weaver of Brooding Threads</reverse-related>
  <reverse-related>Witch of the First Echoes</reverse-related>
  <reverse-related>Witchery</reverse-related>
- <set num="TWI5" rarity="token">tokens</set>
+ <reverse-related>Witchery_PRO_TWI</reverse-related>
+ <set num="TWI5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TWI5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red and white Cleric 11REV</name>
@@ -4640,7 +4653,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Ameret, Hope of Night_REV</reverse-related>
- <set num="REV2" rarity="token">tokens</set>
+ <set num="REV2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Totem 00REV</name>
@@ -4652,7 +4665,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <tablerow>2</tablerow>
  <reverse-related>Auroric Span_REV</reverse-related>
  <reverse-related>Worldspan Totem_REV</reverse-related>
- <set num="REV1" rarity="token">tokens</set>
+ <set num="REV1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Treasure REV</name>
@@ -4664,7 +4677,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <reverse-related>Emgaran Duelist_REV</reverse-related>
  <reverse-related>Shigane Manor Burns_REV</reverse-related>
  <reverse-related>Sustainable Investments_REV</reverse-related>
- <set num="REV9" rarity="token">tokens</set>
+ <set num="REV9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Warrior 11REV</name>
@@ -4675,7 +4688,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>2</tablerow>
  <reverse-related>Unburnt Maiden_REV</reverse-related>
- <set num="REV11" rarity="token">tokens</set>
+ <set num="REV11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Hardsuit KDT 2</name>
@@ -4686,7 +4699,7 @@ If you control a Subroutine, move to your next program as your first main phase 
  <token>1</token>
  <tablerow>1</tablerow>
  <reverse-related>Attuned Acolyte_PRO_KDT</reverse-related>
- <set num="KDT20" rarity="token">tokens</set>
+ <set num="KDT20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Aura PLANE 2</name>
@@ -4696,7 +4709,7 @@ Enchanted creature gets +2/+2.</text>
  <type>Token Enchantment — Aura</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="PLANE2" rarity="token">tokens</set>
+ <set num="PLANE2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Aura PLANE 3</name>
@@ -4706,7 +4719,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Token Enchantment — Aura</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="PLANE1" rarity="token">tokens</set>
+ <set num="PLANE1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Battering Ram DOV</name>
@@ -4716,7 +4729,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <pt>3/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="DOV19" rarity="token">tokens</set>
+ <set num="DOV19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Black Mana MSEMAR</name>
@@ -4725,7 +4738,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR4" rarity="token">tokens</set>
+ <set num="MSEMAR4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Blood PLANE</name>
@@ -4734,7 +4747,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Token Artifact — Blood</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="PLANE11" rarity="token">tokens</set>
+ <set num="PLANE11" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE11.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Blue Mana MSEMAR</name>
@@ -4743,7 +4756,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR3" rarity="token">tokens</set>
+ <set num="MSEMAR3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Bombard DOV</name>
@@ -4753,7 +4766,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <pt>1/3</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="DOV20" rarity="token">tokens</set>
+ <set num="DOV20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Clue SRC 2</name>
@@ -4762,7 +4775,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Token Artifact — Clue</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="SRC14" rarity="token">tokens</set>
+ <set num="SRC14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Clue SRC 3</name>
@@ -4771,7 +4784,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Token Artifact — Clue</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="SRC13" rarity="token">tokens</set>
+ <set num="SRC13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Clue SRC 4</name>
@@ -4780,7 +4793,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Token Artifact — Clue</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="SRC12" rarity="token">tokens</set>
+ <set num="SRC12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Colorless Mana MSEMAR</name>
@@ -4789,7 +4802,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR1" rarity="token">tokens</set>
+ <set num="MSEMAR1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Commander MSEMAR</name>
@@ -4798,7 +4811,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR8" rarity="token">tokens</set>
+ <set num="MSEMAR8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Commander Damage MSEMAR</name>
@@ -4807,7 +4820,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR9" rarity="token">tokens</set>
+ <set num="MSEMAR9" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR9.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Commander Tax MSEMAR</name>
@@ -4816,7 +4829,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR10" rarity="token">tokens</set>
+ <set num="MSEMAR10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Crocodile 13PLANE</name>
@@ -4826,7 +4839,7 @@ Enchanted creature gains all activated and triggered abilities of the exiled car
  <pt>1/3</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="PLANE4" rarity="token">tokens</set>
+ <set num="PLANE4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Deathtouch Gadget VRD</name>
@@ -4836,7 +4849,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD12" rarity="token">tokens</set>
+ <set num="VRD12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Double Strike Gadget VRD</name>
@@ -4846,7 +4859,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD13" rarity="token">tokens</set>
+ <set num="VRD13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Drake OLD</name>
@@ -4855,7 +4868,7 @@ Equip {2}</text>
  <type>Token Creature — Drake</type>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="OLD6" rarity="token">tokens</set>
+ <set num="OLD6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue and green Elf 11VST</name>
@@ -4865,7 +4878,7 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="VST5" rarity="token">tokens</set>
+ <set num="VST5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>As'Ahai Trample Emblem KSV</name>
@@ -4874,7 +4887,7 @@ Equip {2}</text>
  <type>Emblem — As'Ahai</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KSV18" rarity="token">tokens</set>
+ <set num="KSV18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>As'Ahai First Strike Emblem KSV</name>
@@ -4883,7 +4896,7 @@ Equip {2}</text>
  <type>Emblem — As'Ahai</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KSV16" rarity="token">tokens</set>
+ <set num="KSV16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>As'Ahai Flying Emblem KSV</name>
@@ -4892,7 +4905,7 @@ Equip {2}</text>
  <type>Emblem — As'Ahai</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KSV17" rarity="token">tokens</set>
+ <set num="KSV17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Emblem KDT</name>
@@ -4901,7 +4914,7 @@ Equip {2}</text>
  <type>Emblem</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KDT19" rarity="token">tokens</set>
+ <set num="KDT19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Enchantment KSV</name>
@@ -4910,7 +4923,7 @@ Equip {2}</text>
  <type>Token Enchantment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KSV5" rarity="token">tokens</set>
+ <set num="KSV5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KSV5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Endgame VRD</name>
@@ -4919,7 +4932,7 @@ Equip {2}</text>
  <type>Token — Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD1" rarity="token">tokens</set>
+ <set num="VRD1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Error red</name>
@@ -4929,7 +4942,7 @@ Equip {2}</text>
  <pt>4/4</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="ERR16" rarity="token">tokens</set>
+ <set num="ERR16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Evil Plan VRD</name>
@@ -4938,7 +4951,7 @@ Equip {2}</text>
  <type>Token — Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD2" rarity="token">tokens</set>
+ <set num="VRD2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>First Strike Gadget REV</name>
@@ -4948,7 +4961,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV4" rarity="token">tokens</set>
+ <set num="REV4" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV4.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>First Strike Gadget VRD</name>
@@ -4958,7 +4971,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD14" rarity="token">tokens</set>
+ <set num="VRD14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Flying Gadget VRD</name>
@@ -4968,7 +4981,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD15" rarity="token">tokens</set>
+ <set num="VRD15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>blue Gargoyle 11DOV</name>
@@ -4978,7 +4991,7 @@ Equip {2}</text>
  <pt>1/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="DOV6" rarity="token">tokens</set>
+ <set num="DOV6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/DOV6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Glyph REV</name>
@@ -4987,7 +5000,7 @@ Equip {2}</text>
  <type>Token Artifact — Glyph</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV3" rarity="token">tokens</set>
+ <set num="REV3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Glyph SVG</name>
@@ -4996,7 +5009,7 @@ Equip {2}</text>
  <type>Token Artifact — Glyph</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="SVG5" rarity="token">tokens</set>
+ <set num="SVG5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white Goat 01OLD</name>
@@ -5006,7 +5019,7 @@ Equip {2}</text>
  <pt>0/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="OLD3" rarity="token">tokens</set>
+ <set num="OLD3" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD3.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Green Mana MSEMAR</name>
@@ -5015,7 +5028,7 @@ Equip {2}</text>
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR6" rarity="token">tokens</set>
+ <set num="MSEMAR6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Haste Gadget REV</name>
@@ -5025,7 +5038,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV5" rarity="token">tokens</set>
+ <set num="REV5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Haste Gadget VRD</name>
@@ -5035,7 +5048,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD18" rarity="token">tokens</set>
+ <set num="VRD18" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD18.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Lifelink Gadget REV</name>
@@ -5045,7 +5058,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV6" rarity="token">tokens</set>
+ <set num="REV6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Lifelink Gadget VRD</name>
@@ -5055,7 +5068,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD19" rarity="token">tokens</set>
+ <set num="VRD19" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD19.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Map KRS</name>
@@ -5064,7 +5077,7 @@ Equip {2}</text>
  <type>Token Artifact</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KRS15" rarity="token">tokens</set>
+ <set num="KRS15" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS15.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Melee Gadget VRD</name>
@@ -5074,7 +5087,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD20" rarity="token">tokens</set>
+ <set num="VRD20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Menace Gadget VRD</name>
@@ -5084,7 +5097,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD21" rarity="token">tokens</set>
+ <set num="VRD21" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD21.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Multiplying Ring SVG</name>
@@ -5095,7 +5108,7 @@ Equip {2}</text>
  <token>1</token>
  <cipt>1</cipt>
  <tablerow>1</tablerow>
- <set num="SVG6" rarity="token">tokens</set>
+ <set num="SVG6" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SVG6.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>white, blue, and black Noble 22PLANE</name>
@@ -5105,7 +5118,7 @@ Equip {2}</text>
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="PLANE10" rarity="token">tokens</set>
+ <set num="PLANE10" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE10.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>OVERFLOW() ERR</name>
@@ -5114,7 +5127,7 @@ Equip {2}</text>
  <type>Token Enchantment — Subroutine</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="ERR20" rarity="token">tokens</set>
+ <set num="ERR20" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR20.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>OVERFLOW() REV</name>
@@ -5123,7 +5136,7 @@ Equip {2}</text>
  <type>Token Enchantment — Subroutine</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV13" rarity="token">tokens</set>
+ <set num="REV13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>On An Adventure KDT</name>
@@ -5132,7 +5145,7 @@ Equip {2}</text>
  <type>Token Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KDT14" rarity="token">tokens</set>
+ <set num="KDT14" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT14.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Prowess Gadget VRD</name>
@@ -5142,7 +5155,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD23" rarity="token">tokens</set>
+ <set num="VRD23" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD23.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Reach Gadget REV</name>
@@ -5152,7 +5165,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV7" rarity="token">tokens</set>
+ <set num="REV7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Reach Gadget VRD</name>
@@ -5162,7 +5175,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD24" rarity="token">tokens</set>
+ <set num="VRD24" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD24.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Red Hot ERR</name>
@@ -5171,7 +5184,7 @@ Equip {2}</text>
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="ERR17" rarity="token">tokens</set>
+ <set num="ERR17" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR17.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Red Mana MSEMAR</name>
@@ -5180,7 +5193,7 @@ Equip {2}</text>
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR5" rarity="token">tokens</set>
+ <set num="MSEMAR5" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR5.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Reflected Lands KRS</name>
@@ -5189,7 +5202,7 @@ Equip {2}</text>
  <type>Token — Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KRS1" rarity="token">tokens</set>
+ <set num="KRS1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KRS1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Reminder CYB</name>
@@ -5199,7 +5212,7 @@ This is a reminder. Please do not pick this card until it is the last card.</tex
  <type></type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="CYB1" rarity="bonus">tokens</set>
+ <set num="CYB1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/CYB1.jpg?v=0" rarity="bonus">tokens</set>
 </card>
 <card>
  <name>Research Counter MSEMAR</name>
@@ -5208,7 +5221,7 @@ This is a reminder. Please do not pick this card until it is the last card.</tex
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR12" rarity="token">tokens</set>
+ <set num="MSEMAR12" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR12.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>colorless Saga KDT</name>
@@ -5220,7 +5233,7 @@ III — You may cast a copy of the exiled card without paying its mana cost.</te
  <type>Token Enchantment — Saga</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="KDT2" rarity="token">tokens</set>
+ <set num="KDT2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/KDT2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Stolen ERR</name>
@@ -5229,7 +5242,7 @@ III — You may cast a copy of the exiled card without paying its mana cost.</te
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="ERR21" rarity="token">tokens</set>
+ <set num="ERR21" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/ERR21.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Storm Count MSEMAR</name>
@@ -5238,7 +5251,7 @@ III — You may cast a copy of the exiled card without paying its mana cost.</te
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR13" rarity="token">tokens</set>
+ <set num="MSEMAR13" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR13.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>The Champion TRX</name>
@@ -5247,7 +5260,7 @@ III — You may cast a copy of the exiled card without paying its mana cost.</te
  <type>Token Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="TRX1" rarity="token">tokens</set>
+ <set num="TRX1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/TRX1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>The Monarch MSEMAR</name>
@@ -5257,7 +5270,7 @@ Whenever a creature deals combat damage to you, its controller becomes the monar
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR16" rarity="token">tokens</set>
+ <set num="MSEMAR16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR16.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Trample Gadget REV</name>
@@ -5267,7 +5280,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="REV8" rarity="token">tokens</set>
+ <set num="REV8" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/REV8.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Trample Gadget VRD</name>
@@ -5277,7 +5290,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD25" rarity="token">tokens</set>
+ <set num="VRD25" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD25.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Undercover SRC</name>
@@ -5288,7 +5301,7 @@ If a creature cast undercover would die, exile it face down without revealing it
  <pt>2/2</pt>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="SRC1" rarity="token">tokens</set>
+ <set num="SRC1" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/SRC1.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Vigilance Gadget VRD</name>
@@ -5298,7 +5311,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD26" rarity="token">tokens</set>
+ <set num="VRD26" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD26.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Ward Gadget VRD</name>
@@ -5308,7 +5321,7 @@ Equip {2}</text>
  <type>Token Artifact — Equipment</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="VRD27" rarity="token">tokens</set>
+ <set num="VRD27" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VRD27.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>Wastes Overlay VST</name>
@@ -5318,7 +5331,7 @@ Wastes have “{T}: Add {C}” and lose other names, types, supertypes, and abil
  <type>Basic Land</type>
  <token>1</token>
  <tablerow>0</tablerow>
- <set num="VST7" rarity="token">tokens</set>
+ <set num="VST7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/VST7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>red Weasel 21PLANE</name>
@@ -5328,7 +5341,7 @@ Wastes have “{T}: Add {C}” and lose other names, types, supertypes, and abil
  <pt>2/1</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="PLANE7" rarity="token">tokens</set>
+ <set num="PLANE7" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/PLANE7.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>White Mana MSEMAR</name>
@@ -5337,7 +5350,7 @@ Wastes have “{T}: Add {C}” and lose other names, types, supertypes, and abil
  <type>Reminder</type>
  <token>1</token>
  <tablerow>1</tablerow>
- <set num="MSEMAR2" rarity="token">tokens</set>
+ <set num="MSEMAR2" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/MSEMAR2.jpg?v=0" rarity="token">tokens</set>
 </card>
 <card>
  <name>green Yeti 33OLD 2</name>
@@ -5347,7 +5360,7 @@ Wastes have “{T}: Add {C}” and lose other names, types, supertypes, and abil
  <pt>3/3</pt>
  <token>1</token>
  <tablerow>2</tablerow>
- <set num="OLD16" rarity="token">tokens</set>
+ <set num="OLD16" muid="0" picURL="https://raw.githubusercontent.com/cajunwritescode/Revolution/refs/heads/main/img/tokens/OLD16.jpg?v=0" rarity="token">tokens</set>
 </card>
 </cards>
 </cockatrice_carddatabase>
